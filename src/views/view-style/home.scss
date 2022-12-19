@@ -1,10 +1,15 @@
 @import "../../assets/scss/common/fonts";
 @import "../../assets/scss/common/colors";
 
+.nav-btn-holders {
+  text-decoration: none;
+  color: white;
+}
+
 .home {
   width: 100%;
   background-color: $main-color-dark_blue;
-  height: 120vh;
+  height: 105vh;
 
 
   .bg-img {
@@ -56,6 +61,7 @@
 
     .glass-card-holder {
       margin-top: 2rem;
+
       .glass-card {
         margin-top: 3rem;
         color: white;
@@ -89,6 +95,124 @@
         }
       }
     }
+  }
+
+}
+
+.about_us {
+  background: rgb(13, 18, 34);
+  background: linear-gradient(180deg, rgba(13, 18, 34, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(13, 18, 34, 1) 100%);
+  padding: 10rem 0;
+  margin-top: -10px;
+
+  .rightSide-pattern {
+
+  }
+
+  .leftSide-pattern {
+    left: -180px;
+    position: absolute;
+    opacity: 0.5;
+
+
+    animation-name: slide-bottom;
+    animation-duration: 10.2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+  }
+
+
+  .rightSide-pattern {
+    position: absolute;
+    right: -180px;
+    top: 1300px !important;
+    opacity: 0.5;
+
+    animation-name: slide-bottom;
+    animation-duration: 10.2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+
+  }
+
+  @keyframes slide-bottom {
+
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-200px);
+    }
+  }
+
+  .about-logo {
+    width: 450px;
+  }
+
+  .txt-content {
+    color: white;
+
+    h1 {
+      font-family: Roboto;
+      font-size: 150px;
+      color: white;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-family: "Roboto Light" !important;
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    a {
+      font-size: 22px;
+      font-weight: 600;
+      text-decoration: underline !important;
+      background-image: linear-gradient(
+                      to right,
+                      #e4e3e3,
+                      #2017e6 50%,
+                      #ffffff 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      display: inline-block;
+      padding: 10px 0;
+      position: relative;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.3s ease-in-out;
+    }
+
+    a:before {
+      content: '';
+      background: #f6f5f5;
+      display: block;
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 3px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+      letter-spacing: 3px;
+      transition: 0.2s ease-in-out;
+      background-position: 0;
+    }
+
+    a:hover::before {
+      width: 100%;
+    }
+
   }
 
 }

@@ -1,19 +1,19 @@
 import React from "react"
 import './view-style/home.scss'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import {Carousel} from 'react-responsive-carousel'
 import FooterComponent from '../@core/layouts/components/footer';
 import 'antd/dist/antd.css';
 import './view-style/overWriteStyle.scss';
-import {handleCharityFilter} from "../redux/actions/charity-filter";
 import {handleLoader} from "../redux/actions/spriner";
 import {connect} from "react-redux";
 import {handleRefreshNavBar} from "../redux/actions/navbar";
 import bg_black from '../assets/images/background/bg-black-pattern.png'
+import bg_color_pattern from '../assets/images/background/bg-pattern.svg'
+import tokelize_light from '../assets/images/logo/tokelize-light.png'
 import dialog_box from '../assets/images/background/dialog box -hero.svg'
 import eternel_logo from '../assets/images/logo/Eternal Koalas logo.png'
 import {Col, Row} from "reactstrap";
-
+import BgPattern from '../component/bg-pattern/bgPattern'
 
 class Home extends React.Component {
 
@@ -60,11 +60,13 @@ class Home extends React.Component {
                                         <img src={eternel_logo} className={'eternel_logo'} alt=""/>
                                     </Col>
                                     <Col sm={12} md={12} lg={10} xl={10}>
-                                        <p className={'eternel_desc'} >
-                                            Lorem Ipsum is simply dummy text of Lorem Ipsum iLorem Ipsum is simply dummy text of Lorem Ipsum is simply!Ipsum is simply dummy text of Lorem Ipsum is simply!
+                                        <p className={'eternel_desc'}>
+                                            Lorem Ipsum is simply dummy text of Lorem Ipsum iLorem Ipsum is simply dummy
+                                            text of Lorem Ipsum is simply!Ipsum is simply dummy text of Lorem Ipsum is
+                                            simply!
                                         </p>
 
-                                        <a className={'btn_eternel_contact_us'}  href="/"> Contact Us ></a>
+                                        <a className={'btn_eternel_contact_us'} href="/"> Contact Us ></a>
                                     </Col>
 
                                 </div>
@@ -74,7 +76,31 @@ class Home extends React.Component {
 
                 </div>
 
+                <div className="about_us">
+                    <span className="leftSide-pattern">  <BgPattern className='rightSide-pattern' bgColor='#fff'
+                                                                    width={'450px'} opacity={0.1}/> </span>
+                    <span className="rightSide-pattern">     <BgPattern className='leftSide-pattern' bgColor='#fff'
+                                                                        width={'450px'} opacity={0.1}/> </span>
 
+                    <div className="container">
+                        <div className="row">
+                            <Col sm={12} md={6} lg={4} xl={4}>
+                                <img className='about-logo' src={tokelize_light} alt=""/>
+                            </Col>
+                            <Col sm={0} md={0} lg={1} xl={1}> </Col>
+                            <Col className="txt-content" sm={12} md={6} lg={7} xl={7}>
+                                <h1>TOKELIZE</h1>
+                                <p>Tokelize was founded in 2022 and incorporated in the city of Dubai in the United Arab
+                                    Emirates. With the mission of creating NFT projects that have a significant positive
+                                    impact on our environment and society, Tokelize started with its first NFT
+                                    collection called Eternal Koalas.</p>
+
+
+                                <a className='nav-btn-holders' href="/">About Us</a>
+                            </Col>
+                        </div>
+                    </div>
+                </div>
                 <FooterComponent/>
             </div>
         )
