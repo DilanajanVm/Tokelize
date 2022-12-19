@@ -1,0 +1,94 @@
+@import "../../assets/scss/common/fonts";
+@import "../../assets/scss/common/colors";
+
+.home {
+  width: 100%;
+  background-color: $main-color-dark_blue;
+  height: 120vh;
+
+
+  .bg-img {
+    img {
+      width: 1400px !important;
+      opacity: 0.4;
+      position: absolute;
+      right: -380px;
+      top: -200px;
+    }
+  }
+
+  .details-area {
+    padding-top: 17rem;
+
+    .txt-mission {
+      position: absolute;
+      z-index: 99999 !important;
+      font-weight: 800;
+      font-size: 68px;
+      color: white;
+    }
+
+    .dialog-box-view {
+      z-index: 1;
+      position: absolute;
+      width: 430px;
+      left: 5px;
+      top: -3rem;
+      transform: rotate(-3deg);
+    }
+
+    .special-text {
+      z-index: 99999 !important;
+      font-weight: 800;
+      color: $main-color-dark_blue;
+    }
+
+    .vision-desc-holder {
+      margin-top: 21rem;
+
+      .vision {
+        font-size: 18px;
+        font-weight: 100 !important;
+        color: white;
+        font-family: "Roboto Light";
+      }
+    }
+
+    .glass-card-holder {
+      margin-top: 2rem;
+      .glass-card {
+        margin-top: 3rem;
+        color: white;
+        padding: 1.5rem;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(12.5px);
+        -webkit-backdrop-filter: blur(12.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+
+        .eternel_logo {
+          width: 100px;
+        }
+
+        .btn_eternel_contact_us {
+          padding: 10px 0 0 0;
+
+          font-size: 20px;
+          font-weight: 600 !important;
+          color: white;
+
+        }
+
+        .eternel_desc {
+          margin: 5px 0 5px 0;
+          font-size: 16px;
+          font-weight: 100 !important;
+          color: white;
+          font-family: "Roboto Light";
+        }
+      }
+    }
+  }
+
+}

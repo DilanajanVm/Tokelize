@@ -1,0 +1,396 @@
+@import "../../../assets/scss/common/colors";
+@import "../../../assets/scss/common/fonts";
+.radio-btn-title{
+  font-family: $font-regular !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+}
+
+.btn-secondary{
+  background-color: $main-color-purple !important;
+}
+
+.bg-soft-pink{
+  background-color: $soft-pink!important;
+}
+//modal backdrop
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 10000px!important;
+  height: 10000px!important;
+  background-color: #22292f; }
+
+//.CircularProgressbar{
+//  .CircularProgressbar-text {
+//    //color: red!important;
+//    //font-size: 28px !important;
+//  }
+//}
+
+.image-cover{
+  object-fit: cover!important;
+  width: 100% !important;
+  height: 100%;
+}
+
+.image-contain{
+  object-fit: contain!important;
+  height: 100%;
+}
+.smallToImage{
+  width: 90% !important;
+}
+
+.mini-card-badge-position{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6) !important;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6) !important;
+  justify-content: center!important;
+  align-items: center!important;
+  text-align: center!important;
+  display: flex!important;
+  padding:1px 9px!important;
+  height: auto!important;
+  font-family: $font-bold;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.large-card-badge-position{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6) !important;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6) !important;
+  justify-content: center!important;
+  align-items: center!important;
+  text-align: center!important;
+  display: flex!important;
+  padding:1px 9px!important;
+  height: auto!important;
+  font-family: $font-bold;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+
+.verify-badge{
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.6) !important;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.6) !important;
+  justify-content: center!important;
+  align-items: center!important;
+  text-align: center!important;
+  display: flex!important;
+  padding:1px 6px 1px 6px!important;
+  height: auto!important;
+  font-family: $font-bold;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 14px!important;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/** sawl alert style **/
+.swal-cancel-button{
+  border: 1px solid $main-color-purple!important;
+  color: $main-color-purple!important;
+  font-family: $font-bold;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.swal-confirm-button{
+  font-family: $font-bold;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.swal-title{
+  font-size: 22px!important;
+}
+
+.swal2-styled.swal2-cancel {
+  background-color: white!important;
+}
+
+/** paragraph hover effect **/
+.para-details:hover{
+  color: $main-color-pink!important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/** mobile number input component **/
+.intl-tel-container{
+  height: 44.5px!important;
+}
+
+.toast-title{
+  font-family: $font-bold;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.toast-message{
+  font-family: $font-regular;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 6px;
+  font-weight: 400;
+}
+
+.payment-type-label{
+  background-color: $soft-light-pink;
+  padding: 2px 7px 2px 7px;
+  border-radius: 10px;
+  //text-align: left;
+  font-family: $font-bold;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: $main-color-pink;
+  text-align: center;
+}
+
+.modal-body-container{
+  span{
+    font-size: 14px!important;
+    text-align: left!important;
+  }
+}
+
+/* toastify styles */
+
+.Toastify__toast-container{
+  min-width: 450px!important;
+}
+
+.custom-font-toast{
+  font-family: $font-bold !important;
+  font-size: 1.4rem !important;
+  line-height: 1.5rem!important;
+}
+
+.custom-font-toast::first-letter {
+  text-transform:capitalize!important;
+}
+
+.toastify-body {
+  padding-left: 2.3rem;
+  font-size: 1.11rem !important;
+  line-height: 1.5rem!important;
+  font-family: $font-regular !important;
+}
+
+@media (max-width: 505px) {
+  .Toastify__toast-container{
+    min-width: 380px!important;
+    padding: initial!important;
+  }
+}
+
+@media (max-width: 320px){
+  .Toastify__toast-container{
+    left: 2rem!important;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px){
+  .Toastify__toast-container{
+    left: 4rem!important;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+  .Toastify__toast-container{
+    left: 5rem!important;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 505px){
+  .Toastify__toast-container{
+    left: 5.5rem!important;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 505px) {
+  .CircularProgressbar {
+    width: 100%;
+    height: 130px;
+    position: relative;
+    bottom: 8px;
+    left: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .recaptcha-container{
+    transform: scale(0.9, 0.9);
+    iframe{
+      left: -18px!important;
+      position: absolute!important;
+    }
+  }
+}
+
+@media (min-height: 768px) {
+  .fixed-footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width:766px){
+  .carousel{
+    .control-next.control-arrow{
+      top: 40% !important;
+    }
+    .control-prev.control-arrow{
+      top: 40% !important;
+    }
+  }
+}
+
+@media (min-width:767px){
+  .carousel{
+    .control-next.control-arrow{
+      top: 50% !important;
+    }
+    .control-prev.control-arrow{
+      top: 50% !important;
+    }
+  }
+}
+
+.carousel .slide img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-root {
+  //position: absolute;
+  z-index: 0;
+}
+
+.carousel .thumbs-wrapper {
+  display: none;
+}
+
+.carousel .control-next.control-arrow {
+  right: 2rem !important;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #FFFFFF !important;
+  //top: 50% !important;
+  border-radius: 100%;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid #fff;
+  margin-bottom: 6px !important;
+  margin-left: 6px !important;
+}
+
+.carousel .control-prev.control-arrow {
+  left: 2rem !important;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #FFFFFF !important;
+  //top: 50% !important;
+  border-radius: 100%;
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #fff;
+  margin-bottom: 6px !important;
+  margin-right: 8px !important;
+}
+
+.border-bottom-gray{
+  border-bottom-width: 1px;
+  border-bottom-color: $inout-ash;
+  border-bottom-style: solid;
+  width: 90%;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mobile-user-name{
+  font-family: $font-bold !important;
+  font-size: 16px  !important;
+  line-height: 24px  !important;
+  margin-left: 5px;
+  color: $black;
+}
+
+
+/** platform badge styles **/
+.badge-COMPLETED{
+  color: #0D6EFD !important;
+}
+
+.badge-ACTIVE{
+  color: #28C76F !important;
+}
+
+.badge-REJECTED{
+  color: #D63384 !important
+}
+
+.badge-TERMINATED{
+  color: #5E5873 !important;
+}
+
+.badge-BLOCK{
+  color: #EA5455;
+}
+
+.badge-PENDING{
+  color: #FD7E14 !important;
+}
+
+.badge-INACTIVE{
+  color: #FF9F43 !important;
+}
+
+.badge-EXPIRED{
+  color: #BB775A !important;
+}
+
+.badge-PENDING,
+.badge-PAUSED,
+.badge-INACTIVE,
+.badge-COMPLETED,
+.badge-APPROVED,
+.badge-ACTIVE,
+.badge-REJECTED,
+.badge-BLOCK,
+.badge-TERMINATED,
+.badge-EXPIRED{
+  font-size: 14px;
+  padding:0 10px;
+  border-radius: 10px;
+  background: white!important;
+
+}

@@ -1,0 +1,423 @@
+@import '../node_modules/prismjs/themes/prism-tomorrow';
+@import './assets/scss/common/colors';
+@import './assets/scss/common/fonts';
+
+//  Custom VueSax Checkbox
+$vs-checkbox-radio-border-width: 2px;
+$vs-checkbox-radio-border-color: #6c757d !default;
+$vs-checkbox-box: 20px;
+$vs-checkbox-box-sm: 15px;
+$vs-checkbox-box-lg: 24px;
+$vs-radio-box: 18px;
+$vs-radio-box-sm: 13px;
+$vs-radio-box-lg: 22px;
+$primary:    $main-color-purple;
+
+.toast{
+  opacity: 1 !important;
+.toast-container{
+  opacity: 1;
+}
+}
+
+
+p, h2  {
+  font-family: $font-regular!important;
+}
+.percentage-text, .contact-info > p {
+  font-family: $font-medium!important;
+}
+.fnt-medium {
+  font-family: $font-medium!important;
+}
+.fnt-regular {
+  font-family: $font-regular!important;
+}
+.pay-type-btn,
+.pay-type-select-btn {
+  font-family: $font-medium!important;
+  font-size: 17px!important;
+}
+.ant-notification-notice-message,
+.ant-notification-notice-description{
+  font-family: $font-medium!important;
+  font-size: 16px!important;
+}
+.ant-notification-notice {
+  width: 550px;
+}
+.middle-center {
+  display: flex!important;
+  align-items: center!important;
+}
+//html .content {
+//  height: 100%;
+//}
+iframe[style="position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; border: none; z-index: 2147483647;"] {
+  pointer-events: none!important;
+}
+a[href^="http://maps.google.com/maps"],
+a[href^="https://maps.google.com/maps"],
+a[href^="https://www.google.com/maps"] {
+  display: none !important;
+}
+.gm-bundled-control .gmnoprint {
+  display: none !important;
+}
+.gmnoprint:not(.gm-bundled-control) {
+  display: none !important;
+}
+.ver-center {
+  display: flex;
+  align-items: center;
+}
+.scroll-to-top {
+  div {
+    left: auto !important;
+    right: 5px!important;
+    bottom: 1% !important;
+  }
+}
+.map-cmn-container {
+  .modal-header {
+    display: none!important;
+  }
+}
+.top-sec {
+  .main-title {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .sub-title {
+    margin-top: 25px!important;
+    font-size: 14px;
+    color: #666666;
+  }
+  .current-location-wrapper {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    p {
+      font-size: 13px;
+      margin-left: 5px;
+      color: #AC3E7F;
+      border-bottom: 1px solid;
+      cursor: pointer;
+    }
+    img {
+      width: 15px;
+      object-fit: contain;
+      cursor: pointer;
+    }
+  }
+  .btn-search {
+    width: 100%;
+  }
+}
+.slick-track {
+  .card {
+    cursor: unset!important;
+  }
+}
+.card-img-common {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+.CircularProgressbar-text {
+  font-family: $font-regular;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  font-size: 26px !important;
+}
+.horiz-card {
+  .CircularProgressbar-text {
+    fill: black!important;
+  }
+}
+.vx-radio-con {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0.25rem 0;
+  input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 200;
+    cursor: pointer;
+    &:checked {
+      ~ .vx-radio {
+        transform: rotate(0deg);
+        outline: 0;
+        .vx-radio--circle {
+          background: rgba($primary, 1);
+          box-shadow: 0 3px 12px 0 rgba($primary, 0.4);
+          opacity: 1;
+          transform: scale(1);
+        }
+        .vx-radio--border {
+          opacity: 0;
+          transform: scale(0.3);
+        }
+      }
+    }
+    &:disabled {
+      cursor: default;
+      pointer-events: none;
+      + .vx-radio {
+        cursor: default;
+        opacity: 0.5;
+      }
+    }
+    &:active {
+      ~ .vx-radio {
+        transform: scale(1.1);
+      }
+    }
+  }
+  .vx-radio {
+    cursor: pointer;
+    position: relative;
+    width: $vs-radio-box;
+    height: $vs-radio-box;
+    transition: all 0.2s ease;
+    margin-right: 0.5rem;
+    &.vx-radio-sm {
+      width: $vs-radio-box-sm;
+      height: $vs-radio-box-sm;
+    }
+    &.vx-radio-lg {
+      width: $vs-radio-box-lg;
+      height: $vs-radio-box-lg;
+    }
+    .vx-radio--border,
+    .vx-radio--circle {
+      width: 18px!important;
+      height: 18px!important;
+      position: absolute;
+      left: 0;
+      transition: all 0.25s ease;
+      top: 0;
+      border-radius: 50%;
+    }
+    .vx-radio--border {
+      background: transparent;
+      border: $vs-checkbox-radio-border-width solid
+      $vs-checkbox-radio-border-color;
+    }
+    .vx-radio--circle {
+      opacity: 0;
+      transform: scale(0.1);
+    }
+  }
+}
+.radio-btn {
+  margin-right: 20px;
+}
+.cancel-btn {
+ border: 1px solid $main-color-purple!important;
+ color: $main-color-purple!important;
+  background: white!important;
+  &:hover,
+  &:focus{
+    background: white!important;
+  }
+}
+.done-btn {
+  border: 1px solid $main-color-purple!important;
+  background: $main-color-purple!important;
+  color: #ffffff!important;
+  &:hover,&:focus {
+    background: $main-color-purple!important;
+  }
+}
+.limit-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.limit-2 {
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.limit-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.limit-6 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+.recaptcha-container{
+  iframe {
+    zoom: 133%;
+  }
+}
+@media (max-width: 1980px) {
+  html{
+    zoom: 90%!important;
+  }
+  .recaptcha-container{
+    iframe {
+      zoom: 111%;
+    }
+  }
+}
+@media (max-width: 1440px) {
+  html{
+    zoom: 75%!important;
+  }
+  .recaptcha-container{
+    iframe {
+      zoom: 133%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .limit-2{
+    height: 50px;
+  }
+}
+.toast-container{
+  opacity: 1!important;
+}
+
+.modal-backdrop {
+  width: 100%!important;
+  height: 100% !important;
+}
+.map-only {
+  .modal-body {
+    padding: 0!important;
+  }
+  .containerElement {
+    height: 600px!important;
+  }
+}
+.pagination-wrapper {
+  float: right;
+}
+.ws-pre-wrap {
+  white-space: pre-wrap;
+}
+.swal2-height-auto {
+  height: 100%!important;
+}
+.swal-title,
+.swal-button {
+  font-family: $font-regular;
+}
+.swal-button {
+  padding: 13px 25px!important;
+  font-size: 16px!important;
+  margin-bottom: 10px!important;
+}
+.swal-footer {
+  //text-align: center!important;
+  .okay-btn {
+    background-color: $main-color-purple;
+    &:hover {
+      background-color: $hover-purple;
+    }
+  }
+}
+.d-flex-align-center {
+  display: flex!important;
+  align-items: center!important;
+}
+.verify-btn {
+  margin-right: 10px;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.PENDING{
+  font-size: 14px;
+  padding:0 10px;
+  border-radius: 10px;
+  //background: rgba(255, 159, 67, 0.12)!important;
+  background: white!important;
+  color: #FF9F43 !important;
+
+}
+.ACTIVE{
+  font-size: 14px;
+  padding:0 10px;
+  border-radius: 10px;
+  //background: rgba(40, 199, 111, 0.12)!important;
+  background: white!important;
+  color: #28C76F !important;
+}
+.see-more-cmn-btn {
+  padding: 10px 25px;
+  font-size: 15px;
+  border: 2px solid $main-color-purple;
+  color: $main-color-purple;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  font-family: $font-regular;
+  outline: none!important;
+  &:hover {
+    border: 2px solid $hover-purple;
+    color: $hover-purple;
+  }
+}
+.tooltip-left-style,
+.tooltip-1, .tooltip-2, .tooltip-3{
+  text-align: left!important;
+  margin-bottom:2px!important;
+}
+.tooltip-1, .tooltip-2, .tooltip-3{
+  font-size: 12px!important;
+}
+
+.note-text {
+  .note {
+    background-color: rgba(172, 62, 127, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+
+    h3 {
+      font-family: $font-regular;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 21px;
+      color: #AC3E7F;
+    }
+
+
+    p {
+      font-family: $font-light;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      color: $main-color-pink;
+    }
+  }
+}

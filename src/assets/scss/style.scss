@@ -1,0 +1,73 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.
+*/
+
+@import '../../assets/scss/common/colors';
+@import '../../assets/scss/common/fonts';
+.category-tag{
+  //position: relative;
+  //height: 30px;
+  border-radius: 30px;
+  background-color: #f5edf0 !important;
+  //margin: 5px;
+  //margin: -4px 5px;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  border: 1px $main-color-pink solid!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:after{
+    border-radius: 30px;
+    position: absolute;
+    top: -1px; bottom: -1px;
+    left: -1px; right: -1px;
+    //background: linear-gradient($main-color-pink, #7E57C2) !important;
+    content: '';
+    z-index: -1;
+  }
+  .category-text{
+    padding-left: 10px !important;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: $font-regular;
+    color: $black;
+  }
+}
+
+
+.trending-tag{
+  cursor: pointer;
+  position: relative;
+  height: 30px;
+  border-radius: 30px;
+  background-color:transparent;
+  color: white;
+  margin: 0px 5px;
+  &:after{
+    border-radius: 30px;
+    position: absolute;
+    top: -1px; bottom: -1px;
+    left: -1px; right: -1px;
+    //background: linear-gradient($main-color-pink, #7E57C2) !important;
+    content: '';
+    z-index: -1;
+  }
+  .trending-text{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: $font-regular;
+    color: $black;
+  }
+}

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Tokelize.iml" filepath="$PROJECT_DIR$/Tokelize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Tokelize.iml" filepath="$PROJECT_DIR$/.idea/Tokelize.iml" />
     </modules>
   </component>
 </project>

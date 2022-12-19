@@ -1,0 +1,357 @@
+@import "../../assets/scss/common/colors";
+@import "../../assets/scss/common/fonts";
+
+.custom-hr {
+  height: 1px;
+  background-color: #CFD3DE !important;
+  border: none;
+}
+//.empty-col {
+//  display: block;
+//}
+
+.footerCustome {
+  border-top: #CFD3DE;
+  border-top-width: 1px;
+  border-top-style: solid;
+
+  .footerMainDetails {
+
+    .navLink-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+    }
+
+    .navImageLink-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center !important;
+
+      }
+
+      a {
+        margin: 5px;
+      }
+
+      a:hover {
+        color: $main-color-purple !important;
+      }
+    }
+  }
+
+  .copyRightDetails {
+    padding: 2%;
+    font-family: $font-light;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: justify;
+    color: #111111;
+
+    p {
+      display: flex;
+      justify-content: space-evenly;
+
+      .empty-col {
+        display: block !important;
+      }
+
+      .dialog-btn {
+        text-align: center;
+      }
+
+      .ceyentra-btn {
+        text-align: right;
+        padding-right: 40px;
+      }
+    }
+  ;
+
+  }
+}
+
+@media (max-width: 505px) {
+  .footerCustome {
+    .footerMainDetails {
+      .footerLogo {
+        width: 50px;
+      }
+
+      .navLink-list {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        div {
+          text-align: center !important;
+          flex-direction: column !important;
+          display: flex !important;
+        }
+
+        a {
+          font-family: $font-regular;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          text-align: center;
+          letter-spacing: -0.01em;
+          font-feature-settings: 'calt' off;
+          text-decoration: none;
+          color: #667080;
+          margin-bottom: 5px;
+        }
+
+        a:hover {
+          color: $main-color-purple !important;
+        }
+
+      }
+    }
+
+    .copyRightDetails {
+      padding: 2%;
+      font-family: $font-light;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: justify;
+      color: #111111;
+
+      p {
+        display: flex;
+        justify-content: space-evenly;
+
+        .empty-col {
+          display: none;
+        }
+
+        .dialog-btn {
+          text-align: center;
+        }
+
+        .ceyentra-btn {
+          text-align: right;
+          padding-right: 40px;
+        }
+      }
+    ;
+
+    }
+  }
+
+}
+
+@media (min-width: 506px) {
+  .footerCustome {
+    .footerMainDetails {
+      .footerLogo {
+        object-fit: contain !important;
+        width: 50px;
+        height: 100%;
+      }
+
+      .navLink-list {
+
+        div {
+          text-align: center !important;
+        }
+
+        a {
+          font-family: $font-regular;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          text-align: center;
+          letter-spacing: -0.01em;
+          font-feature-settings: 'calt' off;
+          text-decoration: none;
+          color: #667080;
+          margin: 3%;
+        }
+
+        a:hover {
+          color: $main-color-purple !important;
+        }
+
+      }
+    }
+
+    .copyRightDetails {
+      padding: 2%;
+      font-family: $font-light;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: justify;
+      color: #111111;
+
+      p {
+        display: flex;
+        justify-content: space-evenly;
+
+
+
+        .dialog-btn {
+          text-align: center;
+        }
+
+        .ceyentra-btn {
+          text-align: right;
+          padding-right: 40px;
+        }
+      }
+    ;
+
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .footerCustome {
+    .copyRightDetails {
+      padding: 2%;
+      font-family: $font-light;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: justify;
+      color: #111111;
+
+      p {
+        display: flex;
+        justify-content: space-evenly;
+
+        .empty-col {
+          display: none !important;
+        }
+
+        .dialog-btn {
+          text-align: center;
+        }
+
+        .ceyentra-btn {
+          text-align: right;
+          padding-right: 40px;
+        }
+      }
+    ;
+
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .footerCustome {
+    .copyRightDetails {
+      padding: 2%;
+      font-family: $font-light;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: justify;
+      color: #111111;
+
+      p {
+        display: flex;
+        justify-content: space-evenly;
+
+        .empty-col {
+          display: none !important;
+        }
+
+        .dialog-btn {
+          text-align: center;
+        }
+
+        .ceyentra-btn {
+          text-align: right;
+          padding-right: 40px;
+        }
+      }
+    ;
+
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .footerCustome {
+    .copyRightDetails {
+      padding: 2%;
+      font-family: $font-light;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: justify;
+      color: #111111;
+
+      p {
+        display: flex;
+        justify-content: space-evenly;
+
+        .empty-col {
+          display: none;
+        }
+
+        .dialog-btn {
+          text-align: center;
+        }
+
+        .ceyentra-btn {
+          text-align: right;
+          padding-right: 40px;
+        }
+      }
+    ;
+
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .footerCustome {
+    .copyRightDetails {
+      padding: 2%;
+      font-family: $font-light;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: justify;
+      color: #111111;
+
+      p {
+        display: flex;
+        justify-content: space-evenly;
+
+        .empty-col {
+          display: none;
+        }
+
+        .dialog-btn {
+          text-align: center;
+        }
+
+        .ceyentra-btn {
+          text-align: right;
+          padding-right: 60px;
+        }
+      }
+    ;
+
+    }
+  }
+}
