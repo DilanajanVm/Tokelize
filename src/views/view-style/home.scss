@@ -1,14 +1,64 @@
 @import "../../assets/scss/common/fonts";
 @import "../../assets/scss/common/colors";
 
+
+a {
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: underline !important;
+  background-image: linear-gradient(
+                  to right,
+                  #e4e3e3,
+                  #08c164 50%,
+                  #ffffff 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 10px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+a:before {
+  content: '';
+  background: #f6f5f5;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  letter-spacing: 3px;
+  transition: 0.2s ease-in-out;
+  background-position: 0;
+}
+
+a:hover::before {
+  width: 100%;
+}
+
 .nav-btn-holders {
   text-decoration: none;
   color: white;
 }
 
+.topic-txt {
+  font-family: Roboto;
+  font-size: 150px;
+  color: white;
+  margin-bottom: 0;
+}
+
 .home {
   width: 100%;
-  background-color: $main-color-dark_blue;
+  background-color: #101010;
   height: 105vh;
 
 
@@ -67,11 +117,11 @@
         color: white;
         padding: 1.5rem;
         background: rgba(255, 255, 255, 0.2);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        box-shadow: 4px 4px 8px 0 rgba(8, 196, 100, 0.3);
         backdrop-filter: blur(12.5px);
         -webkit-backdrop-filter: blur(12.5px);
         border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
+        border: 1px solid rgba(255, 255, 255, 0.12);
 
         .eternel_logo {
           width: 100px;
@@ -100,14 +150,11 @@
 }
 
 .about_us {
-  background: rgb(13, 18, 34);
-  background: linear-gradient(180deg, rgba(13, 18, 34, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(13, 18, 34, 1) 100%);
+  background: rgb(16, 16, 16);
+  background: linear-gradient(180deg, rgba(16, 16, 16, 1) 0%, rgb(5, 28, 14) 50%, rgba(16, 16, 16, 1) 100%);
   padding: 10rem 0;
   margin-top: -10px;
 
-  .rightSide-pattern {
-
-  }
 
   .leftSide-pattern {
     left: -180px;
@@ -158,12 +205,6 @@
   .txt-content {
     color: white;
 
-    h1 {
-      font-family: Roboto;
-      font-size: 150px;
-      color: white;
-      margin-bottom: 0;
-    }
 
     p {
       font-family: "Roboto Light" !important;
@@ -171,48 +212,147 @@
       line-height: 28px;
     }
 
-    a {
-      font-size: 22px;
-      font-weight: 600;
-      text-decoration: underline !important;
-      background-image: linear-gradient(
-                      to right,
-                      #e4e3e3,
-                      #2017e6 50%,
-                      #ffffff 50%
-      );
-      background-size: 200% 100%;
-      background-position: -100%;
-      display: inline-block;
-      padding: 10px 0;
-      position: relative;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      transition: all 0.3s ease-in-out;
-    }
 
-    a:before {
-      content: '';
-      background: #f6f5f5;
-      display: block;
-      position: absolute;
-      bottom: -3px;
-      left: 0;
-      width: 0;
-      height: 3px;
-      transition: all 0.3s ease-in-out;
-    }
-
-    a:hover {
-      letter-spacing: 3px;
-      transition: 0.2s ease-in-out;
-      background-position: 0;
-    }
-
-    a:hover::before {
-      width: 100%;
-    }
 
   }
 
+}
+
+.latestProjects {
+  padding: 0 0 10rem 0;
+  background-color: $main-color-dark;
+  color: white;
+
+
+  h3 {
+    color: white;
+  }
+
+  .smallDesc {
+    font-family: "Roboto Light" !important;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+}
+
+.reFiSection {
+  padding: 10rem 0;
+  background-color: $main-color-dark;
+  position: relative;
+
+  .marquee-w {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 140px;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+
+  .marquee {
+    color: white;
+    position: absolute;
+    display: block;
+    margin: auto auto;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 100%;
+    height: 100%;
+  }
+
+  .marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    text-align: center;
+    white-space: nowrap;
+    min-width: 100%;
+    height: 100%;
+    line-height: 140px;
+    font-size: 150px;
+    animation: marquee 10s linear infinite;
+  }
+
+  .marquee2 span {
+    animation-delay: 5s;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translate(-100%, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+  .baseImage {
+    position: absolute;
+    right: -190px;
+    top: 0;
+    opacity: 0.5;
+  }
+
+  .front-img {
+    display: flex;
+    justify-content: end;
+    margin-right: -190px;
+    right: -180px;
+    margin-top: -280px;
+  }
+
+  .refi-desc {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    color: white;
+    font-family: "Roboto Light";
+    font-size: 18px;
+    line-height: 24px !important;
+    white-space: pre-wrap;
+  }
+
+  .border-side {
+    border-right: 1px solid white;
+  }
+
+}
+
+
+.aboutEternelCola{
+  background: rgb(16, 16, 16);
+  background: linear-gradient(180deg, rgba(16, 16, 16, 1) 0%, rgb(5, 28, 14) 50%, rgba(16, 16, 16, 1) 100%);
+  padding: 10rem 0;
+  margin-top: -10px;
+
+  .eternelKola-topic{
+    font-weight: 600;
+    color: white;
+    font-size: 100px;
+    line-height: 90px;
+  }
+
+  .eternelKola-desc {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    color: white;
+    font-family: "Roboto Light";
+    font-size: 18px;
+    line-height: 24px;
+    white-space: pre-wrap;
+  }
+
+  .enternelLogo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 350px;
+  }
+
+  .customeBorder{
+    margin-top: 5rem;
+    border-left: 1px solid white;
+    padding-bottom: 3rem;
+  }
 }

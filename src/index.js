@@ -30,7 +30,8 @@ import '@styles/react/libs/toastify/toastify.scss'
 
 // ** Sweetalert 2
 import 'sweetalert2/src/sweetalert2.scss'
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 // ** Core styles
 import './@core/assets/fonts/feather/iconfont.css'
 import './@core/scss/core.scss'
