@@ -1,8 +1,7 @@
 @import "../../assets/scss/common/fonts";
 @import "../../assets/scss/common/colors";
 
-
-a {
+.btn-nav-view {
   font-size: 22px;
   font-weight: 600;
   text-decoration: underline !important;
@@ -22,7 +21,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:before {
+.btn-nav-view:before {
   content: '';
   background: #f6f5f5;
   display: block;
@@ -34,15 +33,16 @@ a:before {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover {
+.btn-nav-view:hover {
   letter-spacing: 3px;
   transition: 0.2s ease-in-out;
   background-position: 0;
 }
 
-a:hover::before {
+.btn-nav-view:hover::before {
   width: 100%;
 }
+
 
 .nav-btn-holders {
   text-decoration: none;

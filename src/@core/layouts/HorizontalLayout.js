@@ -89,12 +89,7 @@ const HorizontalLayout = (props) => {
         setNavbarScrolled(false)
     };
     const routerCheck = (e) => {
-        if (e === "E_ORG_PORTAL") {
-            props.spinnerHandler(true);
-
-        } else {
             setActiveNav(e)
-        }
     };
 
     //** ComponentDidMount
@@ -169,7 +164,6 @@ const HorizontalLayout = (props) => {
     };
 
 
-
     const getProfileImage = (imageSize) => {
         return (
             user_profile_image === '' ?
@@ -207,7 +201,7 @@ const HorizontalLayout = (props) => {
                      style={{display: 'flex', flexDirection: 'row', width: '100%'}}>
 
                     <div style={{lineStyleType: 'none'}}>
-                        <Link to={'/'}  className='navbar-brand'>
+                        <Link to={'/'} className='navbar-brand'>
                             <div style={{display: 'flex', flexDirection: 'row'}}
                                  onClick={() => props.RefreshNavBard(true)}>
                   <span>
@@ -226,38 +220,36 @@ const HorizontalLayout = (props) => {
                                  onClick={() => {
                                      routerCheck(0)
                                  }}>
-                            <Link to={'/'}  className={`navbar-brand  ${languageType}-navElement`}>
+                            <Link to={'/'} className={`navbar-brand  ${languageType}-navElement`}>
                                 <h4
                                     className={` mr-1 nav-btn navigationElement  ${activeNav === 0 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}
                                 >
-                                    {languageType === LAN_SINHALA ? 'මුල් පිටුව' : languageType === LAN_TAMIL ? 'முதன்மை பக்கம் ' : 'Home'}
+                                    Home
                                 </h4>
                             </Link>
                         </NavItem>
 
                         <NavItem className='navElements' style={{padding: '0 150px', marginTop: '0px'}}>
-                            <Link to={'/'}  className={`navbar-brand `} data-replace="like This"
+                            <Link to={constant.ABOUT_US_PATH} className={`navbar-brand `} data-replace="like This"
                                   onClick={() => {
-                                      routerCheck(2)
+                                      routerCheck(1)
                                   }}>
                                 <h4 className={` mr-1 nav-btn navigationElement  ${activeNav === 1 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
-                                 About Us
+                                    About Us
                                 </h4>
                             </Link>
                         </NavItem>
 
                         <NavItem className='navElements' style={{paddingRight: '20px', marginTop: '0px'}}>
-                            <Link to={'/'}  className={`navbar-brand `} data-replace="like This"
+                            <Link to={'/'} className={`navbar-brand `} data-replace="like This"
                                   onClick={() => {
-                                      routerCheck(3)
+                                      routerCheck(2)
                                   }}>
-                                <h4 className={` mr-1 nav-btn navigationElement  ${activeNav === 1 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
-                              Contact Us
+                                <h4 className={` mr-1 nav-btn navigationElement  ${activeNav === 2 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
+                                    Contact Us
                                 </h4>
                             </Link>
                         </NavItem>
-
-
 
 
                     </div>

@@ -80,9 +80,8 @@ class Home extends React.Component {
                                             simply!
                                         </p>
 
-                                        <a className={'btn_eternel_contact_us'} href="/"> Contact Us  <Icon.ChevronsRight color={'white'} /></a>
+                                        <a className={'btn-nav-view btn_eternel_contact_us'} href="/"> Contact Us  <Icon.ChevronsRight color={'white'} /></a>
                                     </Col>
-
                                 </div>
                             </Col>
                         </Row>
@@ -230,7 +229,7 @@ class Home extends React.Component {
                                     hic necessitatibus provident.</p>
 
                                 <div className="nav-btn-grp d-flex justify-content-end">
-                                    <a href="/"> Contact Us  <Icon.ChevronsRight color={'white'} /> </a>
+                                    <a className='btn-nav-view' href="/"> Contact Us  <Icon.ChevronsRight color={'white'} /> </a>
                                 </div>
                             </Col>
 

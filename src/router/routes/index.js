@@ -10,6 +10,9 @@ const Routes = [
     {
         path: constant.HOME_PATH,
         component: lazy(() => import('../../views/index'))
+    }, {
+        path: constant.ABOUT_US_PATH,
+        component: lazy(() => import('../../views/aboutUs/aboutUs'))
     }
 ]
 
