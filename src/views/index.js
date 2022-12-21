@@ -20,6 +20,7 @@ import "slick-carousel/slick/slick-theme.css";
 import enternelKolaBrandLogo from '../assets/images/logo/eternel_logo_brand.png'
 import CustomSlider from "../component/Slider/CustomSlider";
 import * as Icon from 'react-feather';
+import Particle from "../component/particle/ParticleDetails";
 
 class Home extends React.Component {
 
@@ -236,7 +237,7 @@ class Home extends React.Component {
                         </Row>
                     </div>
                 </div>
-
+                <Particle/>
                 <FooterComponent/>
             </div>
         )

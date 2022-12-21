@@ -241,7 +241,7 @@ const HorizontalLayout = (props) => {
                         </NavItem>
 
                         <NavItem className='navElements' style={{paddingRight: '20px', marginTop: '0px'}}>
-                            <Link to={'/'} className={`navbar-brand `} data-replace="like This"
+                            <Link to={constant.CONTACT_US_PATH} className={`navbar-brand `} data-replace="like This"
                                   onClick={() => {
                                       routerCheck(2)
                                   }}>
