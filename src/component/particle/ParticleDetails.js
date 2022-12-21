@@ -61,8 +61,8 @@ const ParticleDetails = (props) => {
                             outModes: {
                                 default: "bounce",
                             },
-                            random: false,
-                            speed: 0.7,
+                            random: true,
+                            speed: 0.8,
                             straight: false,
                         },
                         number: {

@@ -237,8 +237,9 @@ class Home extends React.Component {
                         </Row>
                     </div>
                 </div>
-                <Particle/>
+
                 <FooterComponent/>
+                <Particle/>
             </div>
         )
     }

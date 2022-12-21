@@ -3,61 +3,67 @@ import React from 'react'
 import '../../../../assets/scss/footer.scss'
 import {Icon} from "@iconify/react";
 import * as constant from "../../../../router/RouteConstant";
-import LogoEng from '../../../../assets/images/logo/tokelize-dark.png'
+import LogoEng from '../../../../assets/images/logo/full logo white.png'
 import {connect} from "react-redux";
 import {withRouter} from "react-router-dom";
-import {Col} from "reactstrap";
+import {Col, FormGroup, Label, Row, Input, Button} from "reactstrap";
 import {language} from "../../../../const/language";
 
 class Footer extends React.Component {
     render() {
         let lan = this.props.languagePicker;
         return (
-            <div
-                className={this.props.notMargin !== undefined && this.props.notMargin ? "footerCustome w-100" : "footerCustome w-100 mt-0"}>
-                <div className=' mt-1 container'>
-                    <div className="row footerMainDetails mt-0 pb-0">
-                        <div className="col-md-2 col-lg-2 text-center">
-                            <img src={LogoEng
-                            } className='footerLogo' alt="logo"/>
-                        </div>
-                        <div className="col-md-7 col-lg-8 navLink-list">
-                            <div>
-                                <a target={"_blank"} href={'/'}>
-                                    {language[lan].PrivacyPolicy}
-                                </a>
-                                <a target={"_blank"} href={'/'}>
-                                    {language[lan].TermsConditions}
-                                </a>
-                                {/*<a href="/">*/}
-                                {/*    Cookie Policy*/}
-                                {/*</a>*/}
-                                <a href={'/'}>
-                                    {language[lan].ContactUsTopic}
-                                </a>
+            <div className="footerCustom w-100 mt-0">
+                <div className="container">
+                    <Row>
+                        <Col sm={12} md={5} lg={5} xl={5}>
+                            <img className='footerLogo' src={LogoEng} alt=""/>
+                            <p className='footer-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                                aliquam aliquid cum dicta
+                                distinctio earum est fuga id ipsa, magni nulla possimus quod sint tenetur totam ullam ut
+                                vitae voluptatibus?</p>
+                        </Col>
+                        <Col sm={12} md={2} lg={2} xl={2} className='linkGrp'>
+                            <span>Quick Links</span>
+                            <a href="/">Home</a>
+                            <a href="/">About Us</a>
+                            <a href="/">Contact Us</a>
+                        </Col>
+
+                        <Col sm={12} md={2} lg={2} xl={2} className='linkGrp'>
+                            <span>Follow Us</span>
+                            <a href="/">Linkedin</a>
+                            <a href="/">Twitter</a>
+                            <a href="/">Instagram</a>
+                        </Col>
+
+                        <Col sm={12} md={3} lg={3} xl={3} className='linkGrp'>
+                            <span>Contact Us</span>
+                            <a href="/">hello@tokelize.com</a>
+
+                            <div className="communityJoin">
+                                <FormGroup>
+                                    <Label>
+                                        Join with our community
+                                    </Label>
+                                    <div className='d-flex community-btn-grp'>
+                                        <Input
+                                        id="exampleEmail"
+                                        name="email"
+                                        placeholder="Email"
+                                        type="email"
+                                    />
+                                        <Button>
+                                            Submit
+                                        </Button>
+                                    </div>
+                                </FormGroup>
                             </div>
 
-                        </div>
-
-                    </div>
+                        </Col>
 
 
-                </div>
-                <div className="row mt-1 mb-1">
-                    <div className="col-md-12 pt-0 pb-1 mt-0 mb-0">
-                        <hr className="custom-hr pt-0 pb-0 mt-0 mb-0"/>
-                    </div>
-
-                    <div className="col-md-12 copyRightDetails pt-1 pb-1 mt-0">
-                        <p>
-
-                            <Col md={4} className='dialog-btn'> © Copyright 2022 <b> <a href="https://www.dialog.lk/"
-                                                                                         target="_blank"
-                                                                                         style={{color: '#111111'}}> </a> </b> </Col>
-                            </p>
-                    </div>
-
-
+                    </Row>
                 </div>
             </div>
         )

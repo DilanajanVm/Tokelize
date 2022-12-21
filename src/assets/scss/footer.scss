@@ -3,80 +3,84 @@
 
 .custom-hr {
   height: 1px;
-  background-color: #CFD3DE !important;
+  background-color: #272727 !important;
   border: none;
 }
+
 //.empty-col {
 //  display: block;
 //}
 
-.footerCustome {
-  border-top: #CFD3DE;
+.footerCustom {
+  height: 250px;
+  color: white !important;
+  position: relative;
+  padding-top: 3.5rem;
+  padding-bottom: 12px;
+  z-index: 999999;
+  background-color: $main-color-dark;
+  border-top: #101010;
   border-top-width: 1px;
   border-top-style: solid;
 
-  .footerMainDetails {
-
-    .navLink-list {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-    }
-
-    .navImageLink-list {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-      div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center !important;
-
-      }
-
-      a {
-        margin: 5px;
-      }
-
-      a:hover {
-        color: $main-color-purple !important;
-      }
-    }
+  .footerLogo {
+    width: 250px !important;
   }
 
-  .copyRightDetails {
-    padding: 2%;
-    font-family: $font-light;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
+  .footer-desc {
+    margin-top: 10px;
+    font-size: 18px;
     line-height: 22px;
-    text-align: justify;
-    color: #111111;
+    font-family: "Roboto Light" !important;
+  }
 
-    p {
-      display: flex;
-      justify-content: space-evenly;
 
-      .empty-col {
-        display: block !important;
+  .linkGrp {
+    display: flex;
+    flex-direction: column;
+
+    .communityJoin {
+      padding-top: 20px;
+
+      .community-btn-grp {
+
+        border-radius: 5px;
+
+        input {
+          height: 42px;
+          border-radius: 5px 0 0 5px !important;
+        }
+
+        button {
+          background-color:#08C164 !important;
+          height: 42px;;
+          border: none;
+          border-radius: 0 5px 5px 0 !important;
+        }
       }
 
-      .dialog-btn {
-        text-align: center;
-      }
-
-      .ceyentra-btn {
-        text-align: right;
-        padding-right: 40px;
+      label {
+        font-size: 18px;
+        color: white;
+        font-family: "Roboto Medium" !important;
       }
     }
-  ;
 
+    span {
+      font-size: 26px;
+      color: white;
+      font-weight: 600 !important;
+      font-family: "Roboto Medium" !important;
+    }
+
+    a {
+      padding-top: 15px;
+      font-size: 16px;
+      color: white;
+      font-family: "Roboto Thin" !important;
+    }
   }
+
 }
 
 @media (max-width: 505px) {
@@ -198,7 +202,6 @@
       p {
         display: flex;
         justify-content: space-evenly;
-
 
 
         .dialog-btn {
