@@ -12,6 +12,7 @@ export const RESOURCE_SERVER_URL = "https://mydonate-resources.ceyentra.lk";
 export const ROUTE_PATH = "";
 export const HOME_PATH = `${ROUTE_PATH}/home`;
 export const ABOUT_US_PATH = `${ROUTE_PATH}/about-us`;
+export const CONTACT_US_PATH = `${ROUTE_PATH}/contact-us`;
 
 export const LAN = "lang";
 
