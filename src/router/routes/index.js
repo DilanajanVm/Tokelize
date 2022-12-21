@@ -13,6 +13,9 @@ const Routes = [
     }, {
         path: constant.ABOUT_US_PATH,
         component: lazy(() => import('../../views/aboutUs/aboutUs'))
+    }, {
+        path: constant.CONTACT_US_PATH,
+        component: lazy(() => import('../../views/contactUs/contactUs'))
     }
 ]
 

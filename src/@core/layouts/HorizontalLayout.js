@@ -193,7 +193,7 @@ const HorizontalLayout = (props) => {
         >
             <Navbar
                 expand='lg'
-                className={classnames('header-navbar navBarCusStyle navbar-fixed align-items-center navbar-shadow navbar-brand-center', {
+                className={classnames(`header-navbar ${activeNav===1? 'lightMood-color':'darkMood-color'}  navBarCusStyle navbar-fixed align-items-center navbar-shadow navbar-brand-center`, {
                     'navbar-scrolled': navbarScrolled
                 })}
             >
@@ -264,7 +264,7 @@ const HorizontalLayout = (props) => {
                         expand='sm'
                         style={{backgroundColor: 'transparent'}}
 
-                        className={classnames(`header-navbar mobileNavBar navbar-horizontal navbar-shadow menu-border`, {
+                        className={classnames(`header-navbar ${activeNav===1? 'lightMood-color':'darkMood-color'} mobileNavBar navbar-horizontal navbar-shadow menu-border`, {
                             [navbarClasses[navbarType]]: navbarType !== 'static',
                             'floating-nav': (!navbarClasses[navbarType] && navbarType !== 'static') || navbarType === 'floating'
                         })}
