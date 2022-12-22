@@ -110,6 +110,37 @@
 
 }
 
+@media (max-width: 769px) {
+  .contact-us-main-view {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(16, 16, 16, 1) 0%, rgb(5, 28, 14) 50%, rgba(16, 16, 16, 1) 100%);
+    height: auto;
+    padding-top: 5rem;
+    .contact-us-txt-area {
+      margin-top: 18rem;
+
+      h1 {
+        font-size: 100px;
+        line-height: 100px !important;
+      }
+
+      h2 {
+        font-size: 30px !important;
+      }
+
+      p {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+    .contact-us-form {
+      padding: 30px;
+    }
+
+  }
+}
+
 @media (max-width: 426px) {
   .contact-us-main-view {
     padding-top: 0;
@@ -210,6 +241,7 @@
 
   }
 }
+
 @media (max-width: 321px) {
   .contact-us-main-view {
     padding-top: 0;
