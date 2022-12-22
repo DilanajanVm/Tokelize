@@ -49,6 +49,7 @@
     .social-media {
       color: #fff !important;
     }
+
     .social-media:hover {
       color: #0C7938 !important;
       box-shadow: rgba(8, 193, 100, 0.2) 0px 4px 15px 0px !important;
@@ -107,4 +108,194 @@
     }
   }
 
+}
+
+@media (max-width: 426px) {
+  .contact-us-main-view {
+    padding-top: 0;
+    .contact-us-txt-area {
+      margin-top: 10rem;
+
+      h1 {
+        text-align: center;
+        color: white;
+        font-size: 100px;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+        line-height: 120px !important;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 36px !important;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+      }
+
+      p {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
+
+    .contact-us-form {
+      margin-top: 0;
+      margin-bottom: 2rem;
+      padding: 50px;
+
+      .social-media {
+        color: #fff !important;
+      }
+
+      .social-media:hover {
+        color: #0C7938 !important;
+        box-shadow: rgba(8, 193, 100, 0.2) 0px 4px 15px 0px !important;
+      }
+
+      .contact-form {
+        padding: 20px;
+        background: linear-gradient(323.48deg, rgba(218, 218, 218, 0.16) -9.27%, rgba(255, 255, 255, 0) 107.44%);
+        backdrop-filter: blur(5px);
+        border-radius: 21px;
+
+        .field-wrapper {
+          padding-top: 1rem;
+
+
+          input {
+            height: 50px !important;
+            background-color: transparent !important;
+          }
+
+        }
+
+
+        .field-wrapper-checkbox {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+
+          input {
+            background-color: transparent !important;
+          }
+
+        }
+
+
+        textarea {
+          height: 150px;
+          background-color: transparent !important;
+        }
+
+        label {
+          font-size: 18px !important;
+          color: white !important;
+          padding-bottom: 5px !important;
+        }
+
+        .btn-contact-us {
+          margin: 1rem 0;
+          background-color: #0C7938 !important;
+          border: none;
+          height: 48px;
+        }
+
+        .btn-contact-us:hover {
+          box-shadow: rgba(8, 193, 100, 0.3) 0px 4px 15px 0px !important;
+        }
+      }
+    }
+
+  }
+}
+@media (max-width: 321px) {
+  .contact-us-main-view {
+    padding-top: 0;
+    .contact-us-txt-area {
+      margin-top: 10rem;
+
+      h1 {
+        color: white;
+        font-size: 80px;
+      }
+
+      h2 {
+        font-size: 26px !important;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+
+    .contact-us-form {
+      margin-top: 0;
+      margin-bottom: 2rem;
+      padding: 30px 50px 50px 50px ;
+
+      .social-media {
+        color: #fff !important;
+      }
+
+      .social-media:hover {
+        color: #0C7938 !important;
+        box-shadow: rgba(8, 193, 100, 0.2) 0px 4px 15px 0px !important;
+      }
+
+      .contact-form {
+        padding: 20px;
+        background: linear-gradient(323.48deg, rgba(218, 218, 218, 0.16) -9.27%, rgba(255, 255, 255, 0) 107.44%);
+        backdrop-filter: blur(5px);
+        border-radius: 21px;
+
+        .field-wrapper {
+          padding-top: 1rem;
+
+
+          input {
+            height: 50px !important;
+            background-color: transparent !important;
+          }
+
+        }
+
+
+        .field-wrapper-checkbox {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+
+          input {
+            background-color: transparent !important;
+          }
+
+        }
+
+
+        textarea {
+          height: 150px;
+          background-color: transparent !important;
+        }
+
+        label {
+          font-size: 18px !important;
+          color: white !important;
+          padding-bottom: 5px !important;
+        }
+
+        .btn-contact-us {
+          margin: 1rem 0;
+          background-color: #0C7938 !important;
+          border: none;
+          height: 48px;
+        }
+
+        .btn-contact-us:hover {
+          box-shadow: rgba(8, 193, 100, 0.3) 0px 4px 15px 0px !important;
+        }
+      }
+    }
+
+  }
 }
