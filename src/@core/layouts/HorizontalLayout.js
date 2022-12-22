@@ -66,7 +66,7 @@ const HorizontalLayout = (props) => {
     // ** States
     const [isMounted, setIsMounted] = useState(false);
     const [navbarScrolled, setNavbarScrolled] = useState(false);
-    const [activeNav, setActiveNav] = useState(0);
+    const [activeNav, setActiveNav] = useState(localStorage.getItem('location') ? localStorage.getItem('location') : 0);
     const [userName, setUserName] = useState('')
 
     // ** Store Vars
@@ -89,23 +89,16 @@ const HorizontalLayout = (props) => {
         setNavbarScrolled(false)
     };
     const routerCheck = (e) => {
-            setActiveNav(e)
+        localStorage.setItem('location', e);
+        setActiveNav(e)
     };
 
     //** ComponentDidMount
     useEffect(() => {
-        let userAccess = localStorage.getItem(constant.ACCESS_TOKEN);
-        let user_profile_image = localStorage.getItem('user_profile_image');
-        let lan = localStorage.getItem(LAN);
-        setUser(userAccess);
-        setLanguage(lan ? lan : LAN_ENGLISH);
-        if (!isEmpty(user_profile_image) && user_profile_image !== 'null') {
-            setProfileImage(user_profile_image);
-        } else {
-            setProfileImage('')
-        }
 
-        setActiveNav(getNavBarLinked());
+        let lan = localStorage.getItem(LAN);
+
+        setActiveNav(localStorage.getItem('location') ? localStorage.getItem('location') : 0);
 
         setIsMounted(true);
         window.addEventListener('scroll', function () {
@@ -142,46 +135,8 @@ const HorizontalLayout = (props) => {
         sticky: 'fixed-top'
     }
 
-    const bgColorCondition = navbarColor !== '' && navbarColor !== 'light' && navbarColor !== 'white'
 
-    if (!isMounted) {
-        return null
-    }
-    const routerCharity = () => {
-        props.spinnerHandler(true);
-    };
-    const routerCategories = () => {
-        props.spinnerHandler(true);
-    };
-
-
-    const selectLanguage = (lan) => {
-        props.spinnerHandler(true);
-        props.languagePicker(lan);
-        localStorage.setItem('lan', lan);
-        setLanguage(lan);
-        props.spinnerHandler(false);
-    };
-
-
-    const getProfileImage = (imageSize) => {
-        return (
-            user_profile_image === '' ?
-                <Icon icon="carbon:user-avatar-filled-alt" color="#50286D"
-                      height={imageSize}/>
-                :
-                <img style={{
-                    borderRadius: 1000,
-                    objectFit: 'cover',
-                    border: '2px solid rgba(54, 54, 54, 0.2)'
-                }}
-                     width={imageSize}
-                     height={imageSize}
-                     src={user_profile_image} alt=""/>
-
-        )
-    }
-
+    console.log(activeNav)
     return (
         <div
             className={classnames(
@@ -193,7 +148,7 @@ const HorizontalLayout = (props) => {
         >
             <Navbar
                 expand='lg'
-                className={classnames(`header-navbar ${activeNav===1? 'lightMood-color':'darkMood-color'}  navBarCusStyle navbar-fixed align-items-center navbar-shadow navbar-brand-center`, {
+                className={classnames(`header-navbar ${localStorage.getItem('location') === '1' ? 'lightMood-color' : 'darkMood-color'}  navBarCusStyle navbar-fixed align-items-center navbar-shadow navbar-brand-center`, {
                     'navbar-scrolled': navbarScrolled
                 })}
             >
@@ -222,6 +177,7 @@ const HorizontalLayout = (props) => {
                                  }}>
                             <Link to={'/'} className={`navbar-brand  ${languageType}-navElement`}>
                                 <h4
+                                    style={localStorage.getItem('location') === '1'? {backgroundImage: 'linear-gradient(to right, rgb(0 0 0), rgb(0 0 0) 100%, rgb(0 0 0 / 100%) 54%)'} : {}}
                                     className={` mr-1 nav-btn navigationElement  ${activeNav === 0 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}
                                 >
                                     Home
@@ -234,7 +190,8 @@ const HorizontalLayout = (props) => {
                                   onClick={() => {
                                       routerCheck(1)
                                   }}>
-                                <h4 className={` mr-1 nav-btn navigationElement  ${activeNav === 1 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
+                                <h4 style={localStorage.getItem('location') === '1'? {backgroundImage: 'linear-gradient(to right, rgb(0 0 0), rgb(0 0 0) 100%, rgb(0 0 0 / 100%) 54%)'} : {}}
+                                    className={` mr-1 nav-btn navigationElement  ${activeNav === 1 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
                                     About Us
                                 </h4>
                             </Link>
@@ -245,7 +202,9 @@ const HorizontalLayout = (props) => {
                                   onClick={() => {
                                       routerCheck(2)
                                   }}>
-                                <h4 className={` mr-1 nav-btn navigationElement  ${activeNav === 2 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
+                                <h4
+                                    style={localStorage.getItem('location') === '1'? {backgroundImage: 'linear-gradient(to right, rgb(0 0 0), rgb(0 0 0) 100%, rgb(0 0 0 / 100%) 54%)'} : {}}
+                                    className={` mr-1 nav-btn navigationElement  ${activeNav === 2 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
                                     Contact Us
                                 </h4>
                             </Link>
@@ -264,7 +223,7 @@ const HorizontalLayout = (props) => {
                         expand='sm'
                         style={{backgroundColor: 'transparent'}}
 
-                        className={classnames(`header-navbar ${activeNav===1? 'lightMood-color':'darkMood-color'} mobileNavBar navbar-horizontal navbar-shadow menu-border`, {
+                        className={classnames(`header-navbar ${activeNav === 1 ? 'lightMood-color' : 'darkMood-color'} mobileNavBar navbar-horizontal navbar-shadow menu-border`, {
                             [navbarClasses[navbarType]]: navbarType !== 'static',
                             'floating-nav': (!navbarClasses[navbarType] && navbarType !== 'static') || navbarType === 'floating'
                         })}

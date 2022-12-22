@@ -16,7 +16,7 @@ class Footer extends React.Component {
             <div className="footerCustom w-100 mt-0">
                 <div className="container">
                     <Row>
-                        <Col sm={12} md={5} lg={5} xl={5}>
+                        <Col className='companyDetails-wrapper' sm={12} md={5} lg={5} xl={5}>
                             <img className='footerLogo' src={LogoEng} alt=""/>
                             <p className='footer-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
                                 aliquam aliquid cum dicta

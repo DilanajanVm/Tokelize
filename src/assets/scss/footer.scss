@@ -23,17 +23,19 @@
   border-top-width: 1px;
   border-top-style: solid;
 
-  .footerLogo {
-    width: 250px !important;
-  }
+  .companyDetails-wrapper {
+    .footerLogo {
+      width: 250px !important;
+    }
 
-  .footer-desc {
-    margin-top: 10px;
-    font-size: 18px;
-    line-height: 22px;
-    font-family: "Roboto Light" !important;
-  }
+    .footer-desc {
+      margin-top: 10px;
+      font-size: 18px;
+      line-height: 22px;
+      font-family: "Roboto Light" !important;
+    }
 
+  }
 
   .linkGrp {
     display: flex;
@@ -52,7 +54,7 @@
         }
 
         button {
-          background-color:#08C164 !important;
+          background-color: #08C164 !important;
           height: 42px;;
           border: none;
           border-radius: 0 5px 5px 0 !important;
@@ -83,278 +85,264 @@
 
 }
 
-@media (max-width: 505px) {
-  .footerCustome {
-    .footerMainDetails {
-      .footerLogo {
-        width: 50px;
-      }
-
-      .navLink-list {
-        margin-top: 10px;
-        margin-bottom: 10px;
-
-        div {
-          text-align: center !important;
-          flex-direction: column !important;
-          display: flex !important;
-        }
-
-        a {
-          font-family: $font-regular;
-          font-style: normal;
-          font-weight: 400;
-          font-size: 14px;
-          text-align: center;
-          letter-spacing: -0.01em;
-          font-feature-settings: 'calt' off;
-          text-decoration: none;
-          color: #667080;
-          margin-bottom: 5px;
-        }
-
-        a:hover {
-          color: $main-color-purple !important;
-        }
-
-      }
-    }
-
-    .copyRightDetails {
-      padding: 2%;
-      font-family: $font-light;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 22px;
-      text-align: justify;
-      color: #111111;
-
-      p {
-        display: flex;
-        justify-content: space-evenly;
-
-        .empty-col {
-          display: none;
-        }
-
-        .dialog-btn {
-          text-align: center;
-        }
-
-        .ceyentra-btn {
-          text-align: right;
-          padding-right: 40px;
-        }
-      }
-    ;
-
-    }
-  }
-
-}
-
-@media (min-width: 506px) {
-  .footerCustome {
-    .footerMainDetails {
-      .footerLogo {
-        object-fit: contain !important;
-        width: 50px;
-        height: 100%;
-      }
-
-      .navLink-list {
-
-        div {
-          text-align: center !important;
-        }
-
-        a {
-          font-family: $font-regular;
-          font-style: normal;
-          font-weight: 400;
-          font-size: 14px;
-          text-align: center;
-          letter-spacing: -0.01em;
-          font-feature-settings: 'calt' off;
-          text-decoration: none;
-          color: #667080;
-          margin: 3%;
-        }
-
-        a:hover {
-          color: $main-color-purple !important;
-        }
-
-      }
-    }
-
-    .copyRightDetails {
-      padding: 2%;
-      font-family: $font-light;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 22px;
-      text-align: justify;
-      color: #111111;
-
-      p {
-        display: flex;
-        justify-content: space-evenly;
-
-
-        .dialog-btn {
-          text-align: center;
-        }
-
-        .ceyentra-btn {
-          text-align: right;
-          padding-right: 40px;
-        }
-      }
-    ;
-
-    }
-  }
-}
-
 @media (max-width: 426px) {
-  .footerCustome {
-    .copyRightDetails {
-      padding: 2%;
-      font-family: $font-light;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 22px;
-      text-align: justify;
-      color: #111111;
+  .footerCustom {
+    height: auto;
+    color: white !important;
+    position: relative;
+    padding-top: 3.5rem;
+    padding-bottom: 12px;
+    z-index: 999999;
+    background-color: $main-color-dark;
+    border-top: #101010;
+    border-top-width: 1px;
+    border-top-style: solid;
 
-      p {
-        display: flex;
-        justify-content: space-evenly;
+    .companyDetails-wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
 
-        .empty-col {
-          display: none !important;
+      .footerLogo {
+        margin: auto;
+      }
+
+      .footer-desc {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Roboto Light" !important;
+      }
+    }
+
+    .linkGrp {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 20px 0;
+
+      .communityJoin {
+        padding-top: 20px;
+
+        .community-btn-grp {
+          display: flex;
+          border-radius: 5px;
+          margin: auto;
+          justify-content: center;
+
+          input {
+
+            height: 42px;
+            width: 300px;
+            border-radius: 5px 0 0 5px !important;
+          }
+
+          button {
+            background-color: #08C164 !important;
+            height: 42px;;
+            border: none;
+            border-radius: 0 5px 5px 0 !important;
+          }
         }
 
-        .dialog-btn {
-          text-align: center;
-        }
-
-        .ceyentra-btn {
-          text-align: right;
-          padding-right: 40px;
+        label {
+          font-size: 18px;
+          color: white;
+          font-family: "Roboto Medium" !important;
         }
       }
-    ;
 
+      span {
+        font-size: 26px;
+        color: white;
+        font-weight: 600 !important;
+        font-family: "Roboto Medium" !important;
+      }
+
+      a {
+        padding-top: 15px;
+        font-size: 16px;
+        color: white;
+        font-family: "Roboto Thin" !important;
+      }
     }
+
   }
 }
 
-@media (max-width: 769px) {
-  .footerCustome {
-    .copyRightDetails {
-      padding: 2%;
-      font-family: $font-light;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 22px;
-      text-align: justify;
-      color: #111111;
+//
+//@media (max-width: 505px) {
+//  .footerCustome {
+//    .footerMainDetails {
+//      .footerLogo {
+//        width: 50px;
+//      }
+//
+//      .navLink-list {
+//        margin-top: 10px;
+//        margin-bottom: 10px;
+//
+//        div {
+//          text-align: center !important;
+//          flex-direction: column !important;
+//          display: flex !important;
+//        }
+//
+//        a {
+//          font-family: $font-regular;
+//          font-style: normal;
+//          font-weight: 400;
+//          font-size: 14px;
+//          text-align: center;
+//          letter-spacing: -0.01em;
+//          font-feature-settings: 'calt' off;
+//          text-decoration: none;
+//          color: #667080;
+//          margin-bottom: 5px;
+//        }
+//
+//        a:hover {
+//          color: $main-color-purple !important;
+//        }
+//
+//      }
+//    }
+//
+//    .copyRightDetails {
+//      padding: 2%;
+//      font-family: $font-light;
+//      font-style: normal;
+//      font-weight: 400;
+//      font-size: 15px;
+//      line-height: 22px;
+//      text-align: justify;
+//      color: #111111;
+//
+//      p {
+//        display: flex;
+//        justify-content: space-evenly;
+//
+//        .empty-col {
+//          display: none;
+//        }
+//
+//        .dialog-btn {
+//          text-align: center;
+//        }
+//
+//        .ceyentra-btn {
+//          text-align: right;
+//          padding-right: 40px;
+//        }
+//      }
+//    ;
+//
+//    }
+//  }
+//
+//}
+//
+//@media (min-width: 506px) {
+//  .footerCustome {
+//    .footerMainDetails {
+//      .footerLogo {
+//        object-fit: contain !important;
+//        width: 50px;
+//        height: 100%;
+//      }
+//
+//      .navLink-list {
+//
+//        div {
+//          text-align: center !important;
+//        }
+//
+//        a {
+//          font-family: $font-regular;
+//          font-style: normal;
+//          font-weight: 400;
+//          font-size: 14px;
+//          text-align: center;
+//          letter-spacing: -0.01em;
+//          font-feature-settings: 'calt' off;
+//          text-decoration: none;
+//          color: #667080;
+//          margin: 3%;
+//        }
+//
+//        a:hover {
+//          color: $main-color-purple !important;
+//        }
+//
+//      }
+//    }
+//
+//    .copyRightDetails {
+//      padding: 2%;
+//      font-family: $font-light;
+//      font-style: normal;
+//      font-weight: 400;
+//      font-size: 15px;
+//      line-height: 22px;
+//      text-align: justify;
+//      color: #111111;
+//
+//      p {
+//        display: flex;
+//        justify-content: space-evenly;
+//
+//
+//        .dialog-btn {
+//          text-align: center;
+//        }
+//
+//        .ceyentra-btn {
+//          text-align: right;
+//          padding-right: 40px;
+//        }
+//      }
+//    ;
+//
+//    }
+//  }
+//}
+//
+//
+//
+//@media (max-width: 769px) {
+//  .footerCustome {
+//    .copyRightDetails {
+//      padding: 2%;
+//      font-family: $font-light;
+//      font-style: normal;
+//      font-weight: 400;
+//      font-size: 15px;
+//      line-height: 22px;
+//      text-align: justify;
+//      color: #111111;
+//
+//      p {
+//        display: flex;
+//        justify-content: space-evenly;
+//
+//        .empty-col {
+//          display: none !important;
+//        }
+//
+//        .dialog-btn {
+//          text-align: center;
+//        }
+//
+//        .ceyentra-btn {
+//          text-align: right;
+//          padding-right: 40px;
+//        }
+//      }
+//    ;
+//
+//    }
+//  }
+//}
 
-      p {
-        display: flex;
-        justify-content: space-evenly;
-
-        .empty-col {
-          display: none !important;
-        }
-
-        .dialog-btn {
-          text-align: center;
-        }
-
-        .ceyentra-btn {
-          text-align: right;
-          padding-right: 40px;
-        }
-      }
-    ;
-
-    }
-  }
-}
-
-@media (max-width: 376px) {
-  .footerCustome {
-    .copyRightDetails {
-      padding: 2%;
-      font-family: $font-light;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 22px;
-      text-align: justify;
-      color: #111111;
-
-      p {
-        display: flex;
-        justify-content: space-evenly;
-
-        .empty-col {
-          display: none;
-        }
-
-        .dialog-btn {
-          text-align: center;
-        }
-
-        .ceyentra-btn {
-          text-align: right;
-          padding-right: 40px;
-        }
-      }
-    ;
-
-    }
-  }
-}
-
-@media (max-width: 320px) {
-  .footerCustome {
-    .copyRightDetails {
-      padding: 2%;
-      font-family: $font-light;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 22px;
-      text-align: justify;
-      color: #111111;
-
-      p {
-        display: flex;
-        justify-content: space-evenly;
-
-        .empty-col {
-          display: none;
-        }
-
-        .dialog-btn {
-          text-align: center;
-        }
-
-        .ceyentra-btn {
-          text-align: right;
-          padding-right: 60px;
-        }
-      }
-    ;
-
-    }
-  }
-}

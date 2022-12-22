@@ -213,7 +213,6 @@
     }
 
 
-
   }
 
 }
@@ -319,14 +318,13 @@
 
 }
 
-
-.aboutEternelCola{
+.aboutEternelCola {
   background: rgb(16, 16, 16);
   background: linear-gradient(180deg, rgba(16, 16, 16, 1) 0%, rgb(5, 28, 14) 50%, rgba(16, 16, 16, 1) 100%);
   padding: 10rem 0;
   margin-top: -10px;
 
-  .eternelKola-topic{
+  .eternelKola-topic {
     font-weight: 600;
     color: white;
     font-size: 100px;
@@ -343,16 +341,390 @@
     white-space: pre-wrap;
   }
 
-  .enternelLogo{
+  .enternelLogo {
     display: flex;
     justify-content: center;
     margin: auto;
     width: 350px;
   }
 
-  .customeBorder{
+  .customeBorder {
     margin-top: 5rem;
     border-left: 1px solid white;
     padding-bottom: 3rem;
   }
+}
+
+
+@media(max-width: 426px) {
+  .topic-txt {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 0;
+  }
+
+  .home {
+    width: 100%;
+    background-color: #101010;
+    height: 105vh;
+
+
+    .bg-img {
+      img {
+        width: 800px !important;
+        opacity: 0.4;
+        position: absolute;
+        right: -380px;
+        top: 100px;
+      }
+    }
+
+    .details-area {
+      padding: 10rem 2rem !important;
+
+      .txt-mission {
+        position: relative;
+        z-index: 99999 !important;
+        font-weight: 800;
+        font-size: 68px;
+        color: white;
+      }
+
+      .dialog-box-view {
+        z-index: 1;
+        position: absolute;
+        width: 430px;
+        left: 5px;
+        top: -3rem;
+        transform: rotate(-3deg);
+      }
+
+      .special-text {
+        z-index: 99999 !important;
+        font-weight: 800;
+        color: $main-color-dark;
+      }
+
+      .vision-desc-holder {
+        margin-top: 2rem;
+
+        .vision {
+          font-size: 18px;
+          font-weight: 100 !important;
+          color: white;
+          text-align: center !important;
+          font-family: "Roboto Light" !important;
+        }
+      }
+
+      .glass-card-holder {
+        margin-top: 0.5rem;
+
+        .glass-card {
+          margin-top: 2rem;
+          padding: 1rem;
+          box-shadow: rgba(8, 193, 100, 0.2) 0px 7px 29px 0px;
+
+          .img-wrapper {
+            display: flex !important;
+            justify-content: center !important;
+
+
+            .eternel_logo {
+              width: 150px;
+            }
+          }
+
+          .btn_eternel_contact_us {
+            padding: 10px 0 0 0;
+display: flex;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: 800 !important;
+            color: white;
+
+            svg{
+              height: 40px;
+              height: 35px;
+            }
+          }
+
+          .eternel_desc {
+            margin: 5px 0 5px 0;
+            font-size: 20px;
+            font-weight: 100 !important;
+            line-height: 28px;
+            text-align: center;
+            color: white;
+            font-family: "Roboto Light" !important;
+          }
+        }
+      }
+    }
+
+  }
+
+  .about_us {
+
+    background: rgb(16, 16, 16);
+    background: linear-gradient(180deg, rgba(16, 16, 16, 1) 0%, rgb(5, 28, 14) 50%, rgba(16, 16, 16, 1) 100%);
+    padding: 28rem 0 10rem 0;
+    margin-top: -10px;
+
+    .about-logo {
+      display: flex;
+      margin: auto;
+      width: 150px;
+    }
+
+    .txt-content {
+      color: white;
+
+
+      p {
+        font-family: "Roboto Light" !important;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+      }
+
+      .nav-btn-holders {
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+
+        svg {
+
+          height: 38px;
+          width: 36px;
+
+        }
+      }
+
+    }
+
+  }
+
+  .reFiSection {
+
+    .marquee span {
+      font-family: "Roboto" !important;
+    }
+
+
+    .refi-desc {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+      color: white;
+      font-family: "Roboto Light" !important;
+
+      white-space: pre-wrap;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 24px !important;
+      font-family: "Roboto Light" !important;
+      text-align: center;
+      padding: 2rem 0 2rem 0 !important;
+
+    }
+
+    .border-side {
+      border-right: none;
+      border-bottom: 1px solid white;
+    }
+
+  }
+
+  .aboutEternelCola {
+    padding: 2rem 0;
+
+    .eternelKola-topic {
+      font-weight: 600;
+      color: white;
+      font-size: 100px;
+      line-height: 90px;
+    }
+
+    .eternelKola-desc {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+      color: white;
+      font-family: "Roboto Light";
+      font-size: 18px;
+      line-height: 24px;
+      white-space: pre-wrap;
+    }
+
+    .enternelLogo {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      width: 350px;
+    }
+
+    .customeBorder {
+      margin: 5rem 1rem 0 2rem;
+      border-left: 1px solid white;
+      padding-bottom: 3rem;
+    }
+  }
+
+}
+
+@media(max-width: 376px) {
+  .about_us {
+    padding: 45rem 0 10rem 0;
+
+  }
+}
+
+@media(max-width: 321px) {
+  .topic-txt {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 0;
+  }
+
+  .home {
+    width: 100%;
+    background-color: #101010;
+    height: 105vh;
+
+    .details-area {
+      padding: 10rem 2rem !important;
+
+      .txt-mission {
+        position: relative;
+        z-index: 99999 !important;
+        font-weight: 800;
+        font-size: 58px !important;
+        line-height: 85px;
+        text-align: center !important;
+        color: white;
+      }
+
+      .dialog-box-view {
+        z-index: 1;
+        position: absolute;
+        width: 430px;
+        left: 5px;
+        top: -3rem;
+        transform: rotate(-3deg);
+      }
+
+      .special-text {
+        z-index: 99999 !important;
+        font-weight: 800;
+        color: $main-color-dark;
+      }
+
+      .vision-desc-holder {
+        margin-top: 2rem;
+
+        .vision {
+          font-size: 18px;
+          font-weight: 100 !important;
+          color: white;
+          line-height: 30px;
+          text-align: center !important;
+          font-family: "Roboto Light" !important;
+        }
+      }
+
+      .glass-card-holder {
+        margin-top: 0.5rem;
+
+        .glass-card {
+          margin-top: 2rem;
+          padding: 1rem;
+          box-shadow: rgba(8, 193, 100, 0.2) 0px 7px 29px 0px;
+
+          .img-wrapper {
+            display: flex !important;
+            justify-content: center !important;
+
+
+            .eternel_logo {
+              margin: auto;
+
+              width: 150px;
+            }
+          }
+
+          .btn_eternel_contact_us {
+            padding: 10px 0 0 0;
+
+            font-size: 20px;
+            font-weight: 600 !important;
+            color: white;
+
+          }
+
+          .eternel_desc {
+            margin: 5px 0 5px 0;
+            font-size: 16px;
+            font-weight: 100 !important;
+            color: white;
+            font-family: "Roboto Light" !important;
+          }
+        }
+      }
+    }
+
+  }
+
+  .about_us {
+    background: rgb(16, 16, 16);
+    background: linear-gradient(180deg, rgba(16, 16, 16, 1) 0%, rgb(5, 28, 14) 50%, rgba(16, 16, 16, 1) 100%);
+    padding: 50rem 0 8rem 0;
+    margin-top: -10px;
+
+    h1{
+      font-size: 80px!important;
+    }
+    .about-logo {
+      display: flex;
+      margin: auto;
+      width: 150px;
+    }
+
+    .txt-content {
+      color: white;
+
+
+      p {
+        font-family: "Roboto Light" !important;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+      }
+
+      .nav-btn-holders {
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+
+        svg {
+
+          height: 38px;
+          width: 36px;
+
+        }
+      }
+
+    }
+
+  }
+
+
 }
