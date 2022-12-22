@@ -190,7 +190,7 @@ const HorizontalLayout = (props) => {
                                   onClick={() => {
                                       routerCheck(1)
                                   }}>
-                                <h4 style={localStorage.getItem('location') === '1'? {backgroundImage: 'linear-gradient(to right, rgb(0 0 0), rgb(0 0 0) 100%, rgb(0 0 0 / 100%) 54%)'} : {}}
+                                <h4 style={{color:'black'}}
                                     className={` mr-1 nav-btn navigationElement  ${activeNav === 1 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
                                     About Us
                                 </h4>

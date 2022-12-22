@@ -136,9 +136,50 @@ const NavbarUser = props => {
                                   className='cus-nav-items nav-menu-main menu-toggle hidden-xs is-active'
                                   onClick={() => viewMenu(!menu)}>
                                 <h3
+                                    onClick={() => {
+                                        routerCheck(1)
+                                    }}
                                     className="cus-nav-items"
-                                    style={activeNav === 0 ? {color: '#50286D'} : null}>
+                                    style={localStorage.getItem('location') === '0' ? {color: '#101010'} : null}>
                                   Home
+                                </h3>
+                            </Link>
+                        </NavItem>
+                    </ul>
+
+                    <ul className='navbar-nav d-xl-none d-flex align-items-center'>
+                        <NavItem to={constant.ABOUT_US_PATH} onClick={() => {
+                            routerCheck(0)
+                        }} className='mobile-menu mr-auto'>
+                            <Link to={constant.ABOUT_US_PATH}
+                                  className='cus-nav-items nav-menu-main menu-toggle hidden-xs is-active'
+                                  onClick={() => viewMenu(!menu)}>
+                                <h3
+                                    onClick={() => {
+                                        routerCheck(1)
+                                    }}
+                                    className="cus-nav-items"
+                                    style={localStorage.getItem('location') === '1' ? {color: '#101010'} : null}>
+                                  About Us
+                                </h3>
+                            </Link>
+                        </NavItem>
+                    </ul>
+
+                    <ul className='navbar-nav d-xl-none d-flex align-items-center'>
+                        <NavItem onClick={() => {
+                            routerCheck(0)
+                        }} className='mobile-menu mr-auto'>
+                            <Link to={constant.CONTACT_US_PATH}
+                                  className='cus-nav-items nav-menu-main menu-toggle hidden-xs is-active'
+                                  onClick={() => viewMenu(!menu)}>
+                                <h3
+                                    onClick={() => {
+                                        routerCheck(1)
+                                    }}
+                                    className="cus-nav-items"
+                                    style={localStorage.getItem('location') === '2' ? {color: '#101010'} : null}>
+                                  Contact Us
                                 </h3>
                             </Link>
                         </NavItem>

@@ -7,10 +7,6 @@
   border: none;
 }
 
-//.empty-col {
-//  display: block;
-//}
-
 .footerCustom {
   height: 250px;
   color: white !important;
@@ -83,6 +79,76 @@
     }
   }
 
+}
+
+@media(max-width: 769px){
+  .footerCustom {
+    height: 275px;
+    color: white !important;
+    position: relative;
+    padding: 3.5rem 2rem 12rem 2rem;
+
+    .companyDetails-wrapper {
+      .footerLogo {
+        width: 250px !important;
+      }
+
+      .footer-desc {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: "Roboto Light" !important;
+      }
+
+    }
+
+    .linkGrp {
+      display: flex;
+      flex-direction: column;
+
+      .communityJoin {
+        padding-top: 20px;
+
+        .community-btn-grp {
+
+          border-radius: 5px;
+
+          input {
+            height: 42px;
+            border-radius: 5px 0 0 5px !important;
+          }
+
+          button {
+            background-color: #08C164 !important;
+            height: 42px;;
+            border: none;
+            border-radius: 0 5px 5px 0 !important;
+          }
+        }
+
+        label {
+          font-size: 18px;
+          color: white;
+          font-family: "Roboto Medium" !important;
+        }
+      }
+
+      span {
+        font-size: 22px;
+        color: white;
+        font-weight: 600 !important;
+        font-family: "Roboto Medium" !important;
+      }
+
+      a {
+        padding-top: 15px;
+        font-size: 16px;
+        color: white;
+        font-family: "Roboto Thin" !important;
+      }
+    }
+
+  }
 }
 
 @media (max-width: 426px) {
@@ -172,177 +238,4 @@
   }
 }
 
-//
-//@media (max-width: 505px) {
-//  .footerCustome {
-//    .footerMainDetails {
-//      .footerLogo {
-//        width: 50px;
-//      }
-//
-//      .navLink-list {
-//        margin-top: 10px;
-//        margin-bottom: 10px;
-//
-//        div {
-//          text-align: center !important;
-//          flex-direction: column !important;
-//          display: flex !important;
-//        }
-//
-//        a {
-//          font-family: $font-regular;
-//          font-style: normal;
-//          font-weight: 400;
-//          font-size: 14px;
-//          text-align: center;
-//          letter-spacing: -0.01em;
-//          font-feature-settings: 'calt' off;
-//          text-decoration: none;
-//          color: #667080;
-//          margin-bottom: 5px;
-//        }
-//
-//        a:hover {
-//          color: $main-color-purple !important;
-//        }
-//
-//      }
-//    }
-//
-//    .copyRightDetails {
-//      padding: 2%;
-//      font-family: $font-light;
-//      font-style: normal;
-//      font-weight: 400;
-//      font-size: 15px;
-//      line-height: 22px;
-//      text-align: justify;
-//      color: #111111;
-//
-//      p {
-//        display: flex;
-//        justify-content: space-evenly;
-//
-//        .empty-col {
-//          display: none;
-//        }
-//
-//        .dialog-btn {
-//          text-align: center;
-//        }
-//
-//        .ceyentra-btn {
-//          text-align: right;
-//          padding-right: 40px;
-//        }
-//      }
-//    ;
-//
-//    }
-//  }
-//
-//}
-//
-//@media (min-width: 506px) {
-//  .footerCustome {
-//    .footerMainDetails {
-//      .footerLogo {
-//        object-fit: contain !important;
-//        width: 50px;
-//        height: 100%;
-//      }
-//
-//      .navLink-list {
-//
-//        div {
-//          text-align: center !important;
-//        }
-//
-//        a {
-//          font-family: $font-regular;
-//          font-style: normal;
-//          font-weight: 400;
-//          font-size: 14px;
-//          text-align: center;
-//          letter-spacing: -0.01em;
-//          font-feature-settings: 'calt' off;
-//          text-decoration: none;
-//          color: #667080;
-//          margin: 3%;
-//        }
-//
-//        a:hover {
-//          color: $main-color-purple !important;
-//        }
-//
-//      }
-//    }
-//
-//    .copyRightDetails {
-//      padding: 2%;
-//      font-family: $font-light;
-//      font-style: normal;
-//      font-weight: 400;
-//      font-size: 15px;
-//      line-height: 22px;
-//      text-align: justify;
-//      color: #111111;
-//
-//      p {
-//        display: flex;
-//        justify-content: space-evenly;
-//
-//
-//        .dialog-btn {
-//          text-align: center;
-//        }
-//
-//        .ceyentra-btn {
-//          text-align: right;
-//          padding-right: 40px;
-//        }
-//      }
-//    ;
-//
-//    }
-//  }
-//}
-//
-//
-//
-//@media (max-width: 769px) {
-//  .footerCustome {
-//    .copyRightDetails {
-//      padding: 2%;
-//      font-family: $font-light;
-//      font-style: normal;
-//      font-weight: 400;
-//      font-size: 15px;
-//      line-height: 22px;
-//      text-align: justify;
-//      color: #111111;
-//
-//      p {
-//        display: flex;
-//        justify-content: space-evenly;
-//
-//        .empty-col {
-//          display: none !important;
-//        }
-//
-//        .dialog-btn {
-//          text-align: center;
-//        }
-//
-//        .ceyentra-btn {
-//          text-align: right;
-//          padding-right: 40px;
-//        }
-//      }
-//    ;
-//
-//    }
-//  }
-//}
 
