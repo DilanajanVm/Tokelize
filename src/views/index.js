@@ -83,11 +83,11 @@ const Home = () => {
 
                 <div className="container">
                     <div className="row">
-                        <Col sm={12} md={6} lg={4} xl={4}>
+                        <Col sm={12} md={12} lg={4} xl={4}>
                             <img className='about-logo' src={tokelize_light} alt=""/>
                         </Col>
                         <Col sm={0} md={0} lg={1} xl={1}> </Col>
-                        <Col className="txt-content" sm={12} md={6} lg={7} xl={7}>
+                        <Col className="txt-content" sm={12} md={12} lg={7} xl={7}>
                             <h1 className='topic-txt'>TOKELIZE</h1>
                             <p>Tokelize was founded in 2022 and incorporated in the city of Dubai in the United Arab
                                 Emirates. With the mission of creating NFT projects that have a significant positive
