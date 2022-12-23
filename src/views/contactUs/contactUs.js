@@ -151,7 +151,6 @@ class ContactUs extends React.Component {
                         </div>
                     </div>
                     <FooterComponent/>
-                    <Particle/>
                 </div>
 
             </div>

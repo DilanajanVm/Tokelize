@@ -43,7 +43,8 @@ import {getNavBarLinked, isEmpty} from "../../utility/commonFun";
 import {Row, Col} from "reactstrap";
 
 import {LAN_ENGLISH, LAN_SINHALA, LAN_TAMIL} from '../../router/RouteConstant.js'
-import LogoEng from '../../assets/images/logo/tokelize-dark.png'
+import LogoEng from '../../assets/images/logo/full logo white.png'
+import LogoEngBlack from '../../assets/images/logo/full logo white.png'
 import {StorageStrings} from "../../const/commonConst";
 import {LAN} from "../../router/RouteConstant";
 
@@ -156,13 +157,14 @@ const HorizontalLayout = (props) => {
                      style={{display: 'flex', flexDirection: 'row', width: '100%'}}>
 
                     <div style={{lineStyleType: 'none'}}>
-                        <Link to={'/'} className='navbar-brand'>
+                        <Link to={constant.HOME_PATH} className='navbar-brand'>
                             <div style={{display: 'flex', flexDirection: 'row'}}
                                  onClick={() => props.RefreshNavBard(true)}>
                   <span>
-                    <img className='brand-logoDetails' width='150px' style={{margin: '20px 10px 10px 30px'}}
-                         src={LogoEng}
-                         alt='logo'/>
+             {  localStorage.getItem('location') !== '1' ?     <img className='brand-logoDetails' width='200px' style={{margin: '20px 10px 10px 30px'}}
+                         src={LogoEng} alt='logo'/>  :
+                      <img className='brand-logoDetails' width='200px' style={{margin: '20px 10px 10px 30px'}}
+                         src={LogoEngBlack} alt='logo'/>}
                   </span>
                             </div>
                         </Link>

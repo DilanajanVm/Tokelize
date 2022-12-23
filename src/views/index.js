@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 import FooterComponent from '../@core/layouts/components/footer';
 import 'antd/dist/antd.css';
 import './view-style/overWriteStyle.scss';
-import bg_black from '../assets/images/background/bg-black-pattern.png'
+import bg_black from '../assets/images/background/bg-green-pattern.png'
 import tokelize_light from '../assets/images/logo/tokelize-light.png'
 import dialog_box from '../assets/images/background/dialog box -hero.svg'
 import eternel_logo from '../assets/images/logo/Eternal Koalas logo.png'
@@ -16,7 +16,9 @@ import "slick-carousel/slick/slick-theme.css";
 import enternelKolaBrandLogo from '../assets/images/logo/eternel_logo_brand.png'
 import CustomSlider from "../component/Slider/CustomSlider";
 import * as Icon from 'react-feather';
+import * as RouteConstant from '../router/RouteConstant'
 import Particle from "../component/particle/ParticleDetails";
+import {constants} from "react-horizontal-scrolling-menu";
 
 const Home = () => {
 
@@ -42,31 +44,29 @@ const Home = () => {
                     <Row className="vision-desc-holder">
                         <Col sm={12} md={12} lg={6} xl={6}>
                             <div>
-                                    <p className="vision">
-                                        Tokelize is a for-profit environmental impact NFT startup <br/> incorporated
-                                        with the
-                                        purpose of utilizing the power of NFTs to make real-world positive change.
-                                    </p>
+                                <p className="vision">
+                                    Tokelize is a for-profit environmental impact NFT startup <br/> incorporated
+                                    with the
+                                    purpose of utilizing the power of NFTs to make real-world positive change.
+                                </p>
                             </div>
                         </Col>
                     </Row>
 
 
                     <Row className="row glass-card-holder">
-                        <Col sm={12} md={12} lg={6} xl={6}>
+                        <Col sm={12} md={12} lg={5} xl={5}>
                             <div className="row glass-card">
-                                <Col className='mx-0 px-0 img-wrapper'  xs={12} sm={4} md={4} lg={2} xl={2}>
-                                    <img src={eternel_logo} className={'eternel_logo'} alt=""/>
-                                </Col>
-                                <Col xs={12} sm={8} md={8} lg={10} xl={10}>
+                                <Col xs={8} sm={8} md={8} lg={10} xl={10}>
                                     <p className={'eternel_desc'}>
-                                        Lorem Ipsum is simply dummy text of Lorem Ipsum iLorem Ipsum is simply dummy
-                                        text of Lorem Ipsum is simply!Ipsum is simply dummy text of Lorem Ipsum is
-                                        simply!
+                                        Explore Our 10K Unique NFT <br/>
+                                        <b> Collection </b>
+                                        <Icon.ChevronsRight color={'white'}/>
                                     </p>
+                                </Col>
 
-                                    <a className={'btn-nav-view btn_eternel_contact_us'} href="/"> Contact
-                                        Us <Icon.ChevronsRight color={'white'}/></a>
+                                <Col className='mx-0 px-0 img-wrapper' xs={4} sm={4} md={4} lg={2} xl={2}>
+                                    <img src={eternel_logo} className={'eternel_logo'} alt=""/>
                                 </Col>
                             </div>
                         </Col>
@@ -95,7 +95,8 @@ const Home = () => {
                                 collection called Eternal Koalas.</p>
 
 
-                            <a className='nav-btn-holders' href="/">About Us <Icon.ChevronsRight color={'white'}/></a>
+                            <a className='nav-btn-holders' href={RouteConstant.ABOUT_US_PATH}>About
+                                Us <Icon.ChevronsRight color={'white'}/></a>
                         </Col>
                     </div>
                 </div>
@@ -215,7 +216,8 @@ const Home = () => {
                                 hic necessitatibus provident.</p>
 
                             <div className="nav-btn-grp d-flex justify-content-end">
-                                <a className='btn-nav-view' href="/"> Contact Us <Icon.ChevronsRight color={'white'}/>
+                                <a className='btn-nav-view' href={RouteConstant.CONTACT_US_PATH}> Contact
+                                    Us <Icon.ChevronsRight color={'white'}/>
                                 </a>
                             </div>
                         </Col>
@@ -225,7 +227,7 @@ const Home = () => {
             </div>
 
             <FooterComponent/>
-            <Particle/>
+
         </div>
     )
 

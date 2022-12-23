@@ -3,7 +3,7 @@
 
 .btn-nav-view {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 800;
   text-decoration: underline !important;
   background-image: linear-gradient(
                   to right,
@@ -65,10 +65,10 @@
   .bg-img {
     img {
       width: 1400px !important;
-      opacity: 0.4;
+      opacity:1;
       position: absolute;
-      right: -380px;
-      top: -200px;
+      right: -420px;
+      top: -160px;
     }
   }
 
@@ -115,16 +115,16 @@
       .glass-card {
         margin-top: 3rem;
         color: white;
-        padding: 1.5rem;
+        padding: 1rem 1.5rem;
         background: rgba(255, 255, 255, 0.2);
         box-shadow: 4px 4px 8px 0 rgba(8, 196, 100, 0.3);
         backdrop-filter: blur(12.5px);
         -webkit-backdrop-filter: blur(12.5px);
-        border-radius: 10px;
+        border-radius: 25px;
         border: 1px solid rgba(255, 255, 255, 0.12);
 
         .eternel_logo {
-          width: 100px;
+          width: 75px;
         }
 
         .btn_eternel_contact_us {
@@ -138,10 +138,12 @@
 
         .eternel_desc {
           margin: 5px 0 5px 0;
-          font-size: 16px;
-          font-weight: 100 !important;
+          font-size: 22px;
+          line-height: 30px;
+          font-weight: 600 !important;
           color: white;
-          font-family: "Roboto Light";
+          font-family: "Roboto Light" !important;
+
         }
       }
     }
@@ -398,7 +400,7 @@
         .glass-card {
           margin-top: 3rem;
           color: white;
-          padding: 1.5rem;
+          padding: 1rem 1.5rem;
           background: rgba(255, 255, 255, 0.2);
           box-shadow: 4px 4px 8px 0 rgba(8, 196, 100, 0.3);
           backdrop-filter: blur(12.5px);
@@ -407,14 +409,13 @@
           border: 1px solid rgba(255, 255, 255, 0.12);
 
           .eternel_logo {
-            margin-top: 10px;
+            margin-top: 0;
             margin-right: -20px;
             width: 100%;
           }
 
           .btn_eternel_contact_us {
             padding: 10px 0 0 0;
-
             font-size: 20px;
             font-weight: 600 !important;
             color: white;
@@ -422,11 +423,13 @@
           }
 
           .eternel_desc {
-            margin: 5px 0 5px 0;
-            font-size: 16px;
-            font-weight: 100 !important;
+            margin: 10px 0 5px 0;
+            font-size: 22px;
+            line-height: 30px;
+            font-weight: 600 !important;
             color: white;
-            font-family: "Roboto Light";
+            font-family: "Roboto Light" !important;
+
           }
         }
       }
@@ -509,7 +512,7 @@
       line-height: 24px !important;
       font-family: "Roboto Light" !important;
       text-align: left;
-      padding: 2rem  !important;
+      padding: 2rem !important;
 
     }
 
@@ -532,7 +535,7 @@
 
     .eternelKola-desc {
       margin-top: 0 !important;
-      padding:2rem;
+      padding: 2rem;
       color: white;
       font-family: "Roboto Light";
       font-size: 18px;
@@ -545,7 +548,7 @@
       justify-content: center;
       margin: auto;
       width: 100%;
-      padding:2rem ;
+      padding: 2rem;
     }
 
     .customeBorder {
@@ -606,7 +609,7 @@
         .glass-card {
           margin-top: 3rem;
           color: white;
-          padding: 1.5rem;
+          padding:1rem 1.5rem;
           background: rgba(255, 255, 255, 0.2);
           box-shadow: 4px 4px 8px 0 rgba(8, 196, 100, 0.3);
           backdrop-filter: blur(12.5px);
@@ -615,8 +618,8 @@
           border: 1px solid rgba(255, 255, 255, 0.12);
 
           .eternel_logo {
-            margin: 5px -5px 0 0;
-            width: 150px;
+            margin: 0px -5px 0 0;
+            width: 100px;
           }
 
           .btn_eternel_contact_us {
@@ -629,11 +632,13 @@
           }
 
           .eternel_desc {
-            margin: 5px 0 5px 0;
-            font-size: 16px;
-            font-weight: 100 !important;
+            margin: 20px 0 0px 0;
+            font-size: 22px;
+            line-height: 30px;
+            font-weight: 600 !important;
             color: white;
-            font-family: "Roboto Light";
+            font-family: "Roboto Light" !important;
+
           }
         }
       }
@@ -666,10 +671,11 @@
       }
 
       .nav-btn-holders {
-        font-size: 22px;
         display: flex;
         justify-content: center;
         text-decoration: none;
+        font-size: 22px;
+        font-weight: 800 !important;
         color: white;
 
         svg {
@@ -691,7 +697,7 @@
       line-height: 24px !important;
       font-family: "Roboto Light" !important;
       text-align: left;
-      padding: 2rem  !important;
+      padding: 2rem !important;
 
     }
 
@@ -714,7 +720,7 @@
 
     .eternelKola-desc {
       margin-top: 0 !important;
-      padding:2rem;
+      padding: 2rem;
       color: white;
       font-family: "Roboto Light";
       font-size: 18px;
@@ -727,7 +733,7 @@
       justify-content: center;
       margin: auto;
       width: 100%;
-      padding:2rem ;
+      padding: 2rem;
     }
 
     .customeBorder {
@@ -756,7 +762,7 @@
     .bg-img {
       img {
         width: 800px !important;
-        opacity: 0.4;
+        opacity: 1;
         position: absolute;
         right: -380px;
         top: 100px;
@@ -802,45 +808,42 @@
       }
 
       .glass-card-holder {
-        margin-top: 0.5rem;
+        margin-top: 2rem;
+        padding: 0 0rem;
 
         .glass-card {
-          margin-top: 2rem;
-          padding: 1rem;
-          box-shadow: rgba(8, 193, 100, 0.2) 0px 7px 29px 0px;
+          margin-top: 3rem;
+          color: white;
+          padding:1rem 1.5rem;
+          background: rgba(255, 255, 255, 0.2);
+          box-shadow: 4px 4px 8px 0 rgba(8, 196, 100, 0.3);
+          backdrop-filter: blur(12.5px);
+          -webkit-backdrop-filter: blur(12.5px);
+          border-radius: 10px;
+          border: 1px solid rgba(255, 255, 255, 0.12);
 
-          .img-wrapper {
-            display: flex !important;
-            justify-content: center !important;
-
-
-            .eternel_logo {
-              width: 150px;
-            }
+          .eternel_logo {
+            margin: 0px -5px 0 0;
+            width: 100px;
           }
 
           .btn_eternel_contact_us {
             padding: 10px 0 0 0;
-display: flex;
-            justify-content: center;
-            font-size: 22px;
-            font-weight: 800 !important;
+
+            font-size: 20px;
+            font-weight: 600 !important;
             color: white;
 
-            svg{
-              height: 40px;
-              height: 35px;
-            }
           }
 
           .eternel_desc {
-            margin: 5px 0 5px 0;
-            font-size: 20px;
-            font-weight: 100 !important;
-            line-height: 28px;
-            text-align: center;
+            margin: 20px 0 0px 0;
+            font-size: 22px;
+            line-height: 30px;
+            font-weight: 600 !important;
             color: white;
             font-family: "Roboto Light" !important;
+
           }
         }
       }
@@ -852,7 +855,7 @@ display: flex;
 
     background: rgb(16, 16, 16);
     background: linear-gradient(180deg, rgba(16, 16, 16, 1) 0%, rgb(5, 28, 14) 50%, rgba(16, 16, 16, 1) 100%);
-    padding: 28rem 0 10rem 0;
+    padding: 24rem 0 10rem 0;
     margin-top: -10px;
 
     .about-logo {
@@ -960,9 +963,35 @@ display: flex;
 }
 
 @media(max-width: 376px) {
-  .about_us {
-    padding: 45rem 0 10rem 0;
+  .home {
+    .details-area {
+      .glass-card-holder {
+        margin-top: 2rem;
+        padding: 0 0rem;
 
+        .glass-card {
+
+          .eternel_logo {
+            margin:0px -2px 0px 28px;
+            width: 100px;
+          }
+
+          .eternel_desc {
+            margin: 20px 0 0px 0;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 600 !important;
+            color: white;
+            font-family: "Roboto Light" !important;
+
+          }
+        }
+      }
+    }
+
+  }
+  .about_us {
+    padding: 35rem 0 10rem 0;
   }
 }
 
@@ -1022,40 +1051,24 @@ display: flex;
       }
 
       .glass-card-holder {
-        margin-top: 0.5rem;
+        margin-top: 2rem;
+        padding: 0 0rem;
 
         .glass-card {
-          margin-top: 2rem;
-          padding: 1rem;
-          box-shadow: rgba(8, 193, 100, 0.2) 0px 7px 29px 0px;
 
-          .img-wrapper {
-            display: flex !important;
-            justify-content: center !important;
-
-
-            .eternel_logo {
-              margin: auto;
-
-              width: 150px;
-            }
-          }
-
-          .btn_eternel_contact_us {
-            padding: 10px 0 0 0;
-
-            font-size: 20px;
-            font-weight: 600 !important;
-            color: white;
-
+          .eternel_logo {
+            margin:0px -2px 0px 28px;
+            width: 100px;
           }
 
           .eternel_desc {
-            margin: 5px 0 5px 0;
+            margin: 20px 0 0px 0;
             font-size: 16px;
-            font-weight: 100 !important;
+            line-height: 30px;
+            font-weight: 600 !important;
             color: white;
             font-family: "Roboto Light" !important;
+
           }
         }
       }
@@ -1066,12 +1079,13 @@ display: flex;
   .about_us {
     background: rgb(16, 16, 16);
     background: linear-gradient(180deg, rgba(16, 16, 16, 1) 0%, rgb(5, 28, 14) 50%, rgba(16, 16, 16, 1) 100%);
-    padding: 50rem 0 8rem 0;
+    padding: 42rem 0 8rem 0;
     margin-top: -10px;
 
-    h1{
-      font-size: 80px!important;
+    h1 {
+      font-size: 80px !important;
     }
+
     .about-logo {
       display: flex;
       margin: auto;
