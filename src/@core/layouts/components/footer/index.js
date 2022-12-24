@@ -7,7 +7,7 @@ import LogoEng from '../../../../assets/images/logo/full logo white.png'
 import {connect} from "react-redux";
 import {withRouter} from "react-router-dom";
 import {Col, FormGroup, Label, Row, Input, Button} from "reactstrap";
-import {language} from "../../../../const/language";
+import * as RouterConstant from "../../../../router/RouteConstant";
 
 class Footer extends React.Component {
     render() {
@@ -25,9 +25,9 @@ class Footer extends React.Component {
                         </Col>
                         <Col sm={12} md={2} lg={2} xl={2} className='linkGrp'>
                             <span>Quick Links</span>
-                            <a href="/">Home</a>
-                            <a href="/">About Us</a>
-                            <a href="/">Contact Us</a>
+                            <a href={RouterConstant.HOME_PATH}>Home</a>
+                            <a href={RouterConstant.ABOUT_US_PATH}>About Us</a>
+                            <a href={RouterConstant.CONTACT_US_PATH}>Contact Us</a>
                         </Col>
 
                         <Col sm={12} md={2} lg={2} xl={2} className='linkGrp'>
