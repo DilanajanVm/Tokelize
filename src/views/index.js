@@ -95,7 +95,7 @@ const Home = () => {
                                 collection called Eternal Koalas.</p>
 
 
-                            <a className='nav-btn-holders' href={RouteConstant.ABOUT_US_PATH}>About
+                            <a className='btn-nav-view' href={RouteConstant.ABOUT_US_PATH}>About
                                 Us <Icon.ChevronsRight color={'white'}/></a>
                         </Col>
                     </div>

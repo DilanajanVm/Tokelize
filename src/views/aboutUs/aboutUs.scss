@@ -195,7 +195,43 @@
 
 @media (max-width: 1441px) {
   .aboutUs-main {
+    .btn-nav-view {
+      font-size: 22px;
+      font-weight: 600;
+      text-decoration: underline !important;
+      background-image: linear-gradient(
+                      to right,
+                      #e4e3e3,
+                      #08c164 50%,
+                      #ffffff 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      display: inline-block;
+      padding: 10px 0;
+      position: relative;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.3s ease-in-out;
+    }
 
+    .btn-nav-view:before {
+      content: '';
+      background: #f6f5f5;
+      display: block;
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 3px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .btn-nav-view:hover {
+      letter-spacing: 3px;
+      transition: 0.2s ease-in-out;
+      background-position: 0;
+    }
     .aboutUs-hero {
       position: relative;
       height: 100vh;
