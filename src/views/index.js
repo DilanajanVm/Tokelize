@@ -17,8 +17,8 @@ import enternelKolaBrandLogo from '../assets/images/logo/eternel_logo_brand.png'
 import CustomSlider from "../component/Slider/CustomSlider";
 import * as Icon from 'react-feather';
 import * as RouteConstant from '../router/RouteConstant'
-import Particle from "../component/particle/ParticleDetails";
-import {constants} from "react-horizontal-scrolling-menu";
+import gsap from "gsap";
+import AnimationTextLine from '../component/gsapAnimation/GsapAnimation'
 
 const Home = () => {
 
@@ -114,10 +114,10 @@ const Home = () => {
                         </Col>
                     </Row>
 
-
                 </div>
-
-                <CustomSlider/>
+                <div className="container position-relative">
+                 <CustomSlider/>
+                </div>
             </div>
 
 
