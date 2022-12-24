@@ -216,8 +216,8 @@ const Home = () => {
                                 hic necessitatibus provident.</p>
 
                             <div className="nav-btn-grp d-flex justify-content-end">
-                                <a className='btn-nav-view' href={RouteConstant.CONTACT_US_PATH}> Contact
-                                    Us <Icon.ChevronsRight color={'white'}/>
+                                <a className='btn-nav-view' href={RouteConstant.CONTACT_US_PATH}>
+                                    Contact Us <Icon.ChevronsRight color={'white'}/>
                                 </a>
                             </div>
                         </Col>
