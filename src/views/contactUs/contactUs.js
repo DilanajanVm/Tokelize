@@ -5,7 +5,7 @@ import {Col, Label, Row} from "reactstrap";
 import {Form, FormGroup, Input, Button} from "reactstrap";
 import IntlTelInput from "react-intl-tel-input";
 import * as Icon from "react-feather";
-import Particle from '../../component/particle/ParticleDetails'
+
 
 class ContactUs extends React.Component {
 

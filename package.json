@@ -16,6 +16,7 @@
     "@iconify/react": "^3.2.2",
     "@mobiscroll/cli": "^1.7.2",
     "@mui/material": "^5.11.0",
+    "@react-spring/web": "^9.6.1",
     "@uppy/react": "1.10.8",
     "@use-gesture/react": "^10.2.23",
     "animate.css": "4.1.1",
@@ -105,6 +106,7 @@
     "react-slick": "^0.29.0",
     "react-slidedown": "2.4.5",
     "react-sortablejs": "6.0.0",
+    "react-spring": "^9.6.1",
     "react-switch": "^7.0.0",
     "react-toastify": "7.0.3",
     "react-tsparticles": "^2.6.0",
@@ -134,7 +136,8 @@
     "wnumb": "1.2.0",
     "xlsx": "0.16.2",
     "yarn": "1.21.1",
-    "yup": "0.32.8"
+    "yup": "0.32.8",
+    "gsap-trial": "latest"
   },
   "scripts": {
     "start": "react-app-rewired start",
