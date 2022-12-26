@@ -18,6 +18,7 @@ import CustomSlider from "../component/Slider/CustomSlider";
 import * as Icon from 'react-feather';
 import * as RouteConstant from '../router/RouteConstant'
 
+
 import gsap from "gsap-trial";
 import {SplitText} from "gsap-trial/SplitText"
 import {ScrollTrigger} from "gsap-trial/ScrollTrigger"
