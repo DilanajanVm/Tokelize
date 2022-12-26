@@ -18,65 +18,7 @@ import CustomSlider from "../component/Slider/CustomSlider";
 import * as Icon from 'react-feather';
 import * as RouteConstant from '../router/RouteConstant'
 
-
-import gsap from "gsap-trial";
-import {SplitText} from "gsap-trial/SplitText"
-import {ScrollTrigger} from "gsap-trial/ScrollTrigger"
-
 class Home extends React.Component {
-
-    componentDidMount() {
-        gsap.registerPlugin(SplitText, ScrollTrigger);
-
-        const childSplit = new SplitText(".para-about-txt", {
-            type: "lines",
-            linesClass: "split-child"
-        });
-        const childSplit1 = new SplitText(".smallDesc", {
-            type: "lines",
-            linesClass: "split-child"
-        });
-        const childSplit2 = new SplitText(".test-refi", {
-            type: "lines",
-            linesClass: "split-child"
-        });
-
-        gsap.from(childSplit.lines, {
-            duration: 1.2,
-            yPercent: 140,
-            ease: "back.out",
-            stagger: 0.02,
-            scrollTrigger: {
-                trigger: '.para-about-txt',
-                screenX: 50
-            }
-        });
-
-
-        gsap.from(childSplit1.lines, {
-            duration: 1.2,
-            yPercent: 140,
-            ease: "back.out",
-            stagger: 0.02,
-            scrollTrigger: {
-                trigger: '.smallDesc',
-                screenX: 800
-            }
-        });
-
-        gsap.from(childSplit2.lines, {
-            duration: 1.2,
-            yPercent: 140,
-            ease: "back.out",
-            stagger: 0.02,
-            scrollTrigger: {
-                trigger: '.test-refi',
-                pin: true,
-                x: 50, // when the top of the trigger hits the top of the viewport
-                end: "+=100", // end after scrolling 500px beyond the start
-            }
-        });
-    }
 
     render() {
         return (
