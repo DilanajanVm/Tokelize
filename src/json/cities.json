@@ -1,0 +1,8112 @@
+[
+  {
+    "key": 1,
+    "districts": "Ampara",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Addalaichenai"
+      },
+      {
+        "key": 2,
+        "cityName": "Akkaraipattu"
+      },
+      {
+        "key": 3,
+        "cityName": "Ampara"
+      },
+      {
+        "key": 4,
+        "cityName": "Bakmitiyawa"
+      },
+      {
+        "key": 5,
+        "cityName": "Central Camp"
+      },
+      {
+        "key": 6,
+        "cityName": "Dadayamtalawa"
+      },
+      {
+        "key": 7,
+        "cityName": "Damana"
+      },
+      {
+        "key": 8,
+        "cityName": "Damanewela"
+      },
+      {
+        "key": 9,
+        "cityName": "Deegawapiya"
+      },
+      {
+        "key": 10,
+        "cityName": "Dehiattakandiya"
+      },
+      {
+        "key": 11,
+        "cityName": "Devalahinda"
+      },
+      {
+        "key": 12,
+        "cityName": "Digamadulla Weeragoda"
+      },
+      {
+        "key": 13,
+        "cityName": "Dorakumbura"
+      },
+      {
+        "key": 14,
+        "cityName": "Galapitagala"
+      },
+      {
+        "key": 15,
+        "cityName": "Gonagolla"
+      },
+      {
+        "key": 16,
+        "cityName": "Hingurana"
+      },
+      {
+        "key": 17,
+        "cityName": "Hulannuge"
+      },
+      {
+        "key": 18,
+        "cityName": "Kalmunai"
+      },
+      {
+        "key": 19,
+        "cityName": "Kannakipuram"
+      },
+      {
+        "key": 20,
+        "cityName": "Karativu"
+      },
+      {
+        "key": 21,
+        "cityName": "Kekirihena"
+      },
+      {
+        "key": 22,
+        "cityName": "Koknahara"
+      },
+      {
+        "key": 23,
+        "cityName": "Kolamanthalawa"
+      },
+      {
+        "key": 24,
+        "cityName": "Komari"
+      },
+      {
+        "key": 25,
+        "cityName": "Lahugala"
+      },
+      {
+        "key": 26,
+        "cityName": "lmkkamam"
+      },
+      {
+        "key": 27,
+        "cityName": "Madawalalanda"
+      },
+      {
+        "key": 28,
+        "cityName": "Mahanagapura"
+      },
+      {
+        "key": 29,
+        "cityName": "Mahaoya"
+      },
+      {
+        "key": 30,
+        "cityName": "Malwatta"
+      },
+      {
+        "key": 31,
+        "cityName": "Mangalagama"
+      },
+      {
+        "key": 32,
+        "cityName": "Marathamune"
+      },
+      {
+        "key": 33,
+        "cityName": "Mawanagama"
+      },
+      {
+        "key": 34,
+        "cityName": "Moragahapallama"
+      },
+      {
+        "key": 35,
+        "cityName": "Namaloya"
+      },
+      {
+        "key": 36,
+        "cityName": "Navithanveli"
+      },
+      {
+        "key": 37,
+        "cityName": "Nawamedagama"
+      },
+      {
+        "key": 38,
+        "cityName": "Nintavur"
+      },
+      {
+        "key": 39,
+        "cityName": "Oluvil"
+      },
+      {
+        "key": 40,
+        "cityName": "Padiyatalawa"
+      },
+      {
+        "key": 41,
+        "cityName": "Pahalalanda"
+      },
+      {
+        "key": 42,
+        "cityName": "Palamunai"
+      },
+      {
+        "key": 43,
+        "cityName": "Panama"
+      },
+      {
+        "key": 44,
+        "cityName": "Pannalagama"
+      },
+      {
+        "key": 45,
+        "cityName": "Paragahakele"
+      },
+      {
+        "key": 46,
+        "cityName": "Periyaneelavanai"
+      },
+      {
+        "key": 47,
+        "cityName": "Polwaga Janapadaya"
+      },
+      {
+        "key": 48,
+        "cityName": "Pottuvil"
+      },
+      {
+        "key": 49,
+        "cityName": "Rajagalatenna"
+      },
+      {
+        "key": 50,
+        "cityName": "Sainthamaruthu"
+      },
+      {
+        "key": 51,
+        "cityName": "Samanthurai"
+      },
+      {
+        "key": 52,
+        "cityName": "Serankada"
+      },
+      {
+        "key": 53,
+        "cityName": "Siripura"
+      },
+      {
+        "key": 54,
+        "cityName": "Siyambalawewa"
+      },
+      {
+        "key": 55,
+        "cityName": "Tempitiya"
+      },
+      {
+        "key": 56,
+        "cityName": "Thambiluvil"
+      },
+      {
+        "key": 57,
+        "cityName": "Tirukovil"
+      },
+      {
+        "key": 58,
+        "cityName": "Uhana"
+      },
+      {
+        "key": 59,
+        "cityName": "Wadinagala"
+      },
+      {
+        "key": 60,
+        "cityName": "Wanagamuwa"
+      },
+      {
+        "key": 61,
+        "cityName": "Werunketagoda"
+      }
+    ]
+  },
+  {
+    "key": 2,
+    "districts": "Anuradhapura",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Andiyagala"
+      },
+      {
+        "key": 2,
+        "cityName": "Angamuwa"
+      },
+      {
+        "key": 3,
+        "cityName": "Anuradhapura"
+      },
+      {
+        "key": 4,
+        "cityName": "Awukana"
+      },
+      {
+        "key": 5,
+        "cityName": "Bogahawewa"
+      },
+      {
+        "key": 6,
+        "cityName": "Dematawewa"
+      },
+      {
+        "key": 7,
+        "cityName": "Dunumadalawa"
+      },
+      {
+        "key": 8,
+        "cityName": "Dutuwewa"
+      },
+      {
+        "key": 9,
+        "cityName": "Elayapattuwa"
+      },
+      {
+        "key": 10,
+        "cityName": "Eppawala"
+      },
+      {
+        "key": 11,
+        "cityName": "Etawatunuwewa"
+      },
+      {
+        "key": 12,
+        "cityName": "Etaweeragollewa"
+      },
+      {
+        "key": 13,
+        "cityName": "Galadivulwewa"
+      },
+      {
+        "key": 14,
+        "cityName": "Galenbindunuwewa"
+      },
+      {
+        "key": 15,
+        "cityName": "Galkadawala"
+      },
+      {
+        "key": 16,
+        "cityName": "Galkiriyagama"
+      },
+      {
+        "key": 17,
+        "cityName": "Galkulama"
+      },
+      {
+        "key": 18,
+        "cityName": "Galnewa"
+      },
+      {
+        "key": 19,
+        "cityName": "Gambirigaswewa"
+      },
+      {
+        "key": 20,
+        "cityName": "Ganewalpola"
+      },
+      {
+        "key": 21,
+        "cityName": "Gemunupura"
+      },
+      {
+        "key": 22,
+        "cityName": "Getalawa"
+      },
+      {
+        "key": 23,
+        "cityName": "Gnanikulama"
+      },
+      {
+        "key": 24,
+        "cityName": "Gonahaddenawa"
+      },
+      {
+        "key": 25,
+        "cityName": "Habarana"
+      },
+      {
+        "key": 26,
+        "cityName": "Halmillawa Dambulla"
+      },
+      {
+        "key": 27,
+        "cityName": "Halmillawetiya"
+      },
+      {
+        "key": 28,
+        "cityName": "Hidogama"
+      },
+      {
+        "key": 29,
+        "cityName": "Horawpatana"
+      },
+      {
+        "key": 30,
+        "cityName": "Horiwila"
+      },
+      {
+        "key": 31,
+        "cityName": "Hurigaswewa"
+      },
+      {
+        "key": 32,
+        "cityName": "Hurulunikawewa"
+      },
+      {
+        "key": 33,
+        "cityName": "Kagama"
+      },
+      {
+        "key": 34,
+        "cityName": "Kahatagasdigiliya"
+      },
+      {
+        "key": 35,
+        "cityName": "Kahatagollewa"
+      },
+      {
+        "key": 36,
+        "cityName": "Kalakarambewa"
+      },
+      {
+        "key": 37,
+        "cityName": "Kalankuttiya"
+      },
+      {
+        "key": 38,
+        "cityName": "Kalaoya"
+      },
+      {
+        "key": 39,
+        "cityName": "Kalawedi Ulpotha"
+      },
+      {
+        "key": 40,
+        "cityName": "Kallanchiya"
+      },
+      {
+        "key": 41,
+        "cityName": "Kapugallawa"
+      },
+      {
+        "key": 42,
+        "cityName": "Karagahawewa"
+      },
+      {
+        "key": 43,
+        "cityName": "Katiyawa"
+      },
+      {
+        "key": 44,
+        "cityName": "Kebithigollewa"
+      },
+      {
+        "key": 45,
+        "cityName": "Kekirawa"
+      },
+      {
+        "key": 46,
+        "cityName": "Kendewa"
+      },
+      {
+        "key": 47,
+        "cityName": "Kiralogama"
+      },
+      {
+        "key": 48,
+        "cityName": "Kirigalwewa"
+      },
+      {
+        "key": 49,
+        "cityName": "Kitulhitiyawa"
+      },
+      {
+        "key": 50,
+        "cityName": "Kurundankulama"
+      },
+      {
+        "key": 51,
+        "cityName": "Labunoruwa"
+      },
+      {
+        "key": 52,
+        "cityName": "lhala Halmillewa"
+      },
+      {
+        "key": 53,
+        "cityName": "lhalagama"
+      },
+      {
+        "key": 54,
+        "cityName": "lpologama"
+      },
+      {
+        "key": 55,
+        "cityName": "Madatugama"
+      },
+      {
+        "key": 56,
+        "cityName": "Maha Elagamuwa"
+      },
+      {
+        "key": 57,
+        "cityName": "Mahabulankulama"
+      },
+      {
+        "key": 58,
+        "cityName": "Mahailluppallama"
+      },
+      {
+        "key": 59,
+        "cityName": "Mahakanadarawa"
+      },
+      {
+        "key": 60,
+        "cityName": "Mahapothana"
+      },
+      {
+        "key": 61,
+        "cityName": "Mahasenpura"
+      },
+      {
+        "key": 62,
+        "cityName": "Mahawilachchiya"
+      },
+      {
+        "key": 63,
+        "cityName": "Mailagaswewa"
+      },
+      {
+        "key": 64,
+        "cityName": "Malwanagama"
+      },
+      {
+        "key": 65,
+        "cityName": "Maneruwa"
+      },
+      {
+        "key": 66,
+        "cityName": "Maradankadawala"
+      },
+      {
+        "key": 67,
+        "cityName": "Maradankalla"
+      },
+      {
+        "key": 68,
+        "cityName": "Medawachchiya"
+      },
+      {
+        "key": 69,
+        "cityName": "Megodawewa"
+      },
+      {
+        "key": 70,
+        "cityName": "Mihintale"
+      },
+      {
+        "key": 71,
+        "cityName": "Morakewa"
+      },
+      {
+        "key": 72,
+        "cityName": "Mulkiriyawa"
+      },
+      {
+        "key": 73,
+        "cityName": "Muriyakadawala"
+      },
+      {
+        "key": 74,
+        "cityName": "Nachchaduwa"
+      },
+      {
+        "key": 75,
+        "cityName": "Namalpura"
+      },
+      {
+        "key": 76,
+        "cityName": "Negampaha"
+      },
+      {
+        "key": 77,
+        "cityName": "Nochchiyagama"
+      },
+      {
+        "key": 78,
+        "cityName": "Padavi Maithripura"
+      },
+      {
+        "key": 79,
+        "cityName": "Padavi Parakramapura"
+      },
+      {
+        "key": 80,
+        "cityName": "Padavi Sripura"
+      },
+      {
+        "key": 81,
+        "cityName": "Padavi Sritissapura"
+      },
+      {
+        "key": 82,
+        "cityName": "Padaviya"
+      },
+      {
+        "key": 83,
+        "cityName": "Padikaramaduwa"
+      },
+      {
+        "key": 84,
+        "cityName": "Pahala Halmillewa"
+      },
+      {
+        "key": 85,
+        "cityName": "Pahala Maragahawe"
+      },
+      {
+        "key": 86,
+        "cityName": "Pahalagama"
+      },
+      {
+        "key": 87,
+        "cityName": "Palagala"
+      },
+      {
+        "key": 88,
+        "cityName": "Palugaswewa"
+      },
+      {
+        "key": 89,
+        "cityName": "Pandukabayapura"
+      },
+      {
+        "key": 90,
+        "cityName": "Pandulagama"
+      },
+      {
+        "key": 91,
+        "cityName": "Parakumpura"
+      },
+      {
+        "key": 92,
+        "cityName": "Parangiyawadiya"
+      },
+      {
+        "key": 93,
+        "cityName": "Parasangahawewa"
+      },
+      {
+        "key": 94,
+        "cityName": "Pemaduwa"
+      },
+      {
+        "key": 95,
+        "cityName": "Perimiyankulama"
+      },
+      {
+        "key": 96,
+        "cityName": "Pihimbiyagolewa"
+      },
+      {
+        "key": 97,
+        "cityName": "Pubbogama"
+      },
+      {
+        "key": 98,
+        "cityName": "Pulmoddai"
+      },
+      {
+        "key": 99,
+        "cityName": "Punewa"
+      },
+      {
+        "key": 100,
+        "cityName": "Rajanganaya"
+      },
+      {
+        "key": 101,
+        "cityName": "Rambewa"
+      },
+      {
+        "key": 102,
+        "cityName": "Rampathwila"
+      },
+      {
+        "key": 103,
+        "cityName": "Ranorawa"
+      },
+      {
+        "key": 104,
+        "cityName": "Rathmalgahawewa"
+      },
+      {
+        "key": 105,
+        "cityName": "Saliyapura"
+      },
+      {
+        "key": 106,
+        "cityName": "Seeppukulama"
+      },
+      {
+        "key": 107,
+        "cityName": "Senapura"
+      },
+      {
+        "key": 108,
+        "cityName": "Sivalakulama"
+      },
+      {
+        "key": 109,
+        "cityName": "Siyambalewa"
+      },
+      {
+        "key": 110,
+        "cityName": "Sravasthipura"
+      },
+      {
+        "key": 111,
+        "cityName": "Talawa"
+      },
+      {
+        "key": 112,
+        "cityName": "Tambuttegama"
+      },
+      {
+        "key": 113,
+        "cityName": "Tammennawa"
+      },
+      {
+        "key": 114,
+        "cityName": "Tantirimale"
+      },
+      {
+        "key": 115,
+        "cityName": "Telhiriyawa"
+      },
+      {
+        "key": 116,
+        "cityName": "Tennamarawadiya"
+      },
+      {
+        "key": 117,
+        "cityName": "Tirappane"
+      },
+      {
+        "key": 118,
+        "cityName": "Tittagonewa"
+      },
+      {
+        "key": 119,
+        "cityName": "Udunuwara Colony"
+      },
+      {
+        "key": 120,
+        "cityName": "Upuldeniya"
+      },
+      {
+        "key": 121,
+        "cityName": "Uttimaduwa"
+      },
+      {
+        "key": 122,
+        "cityName": "Viharapalugama"
+      },
+      {
+        "key": 123,
+        "cityName": "Vijithapura"
+      },
+      {
+        "key": 124,
+        "cityName": "Wahalkada"
+      },
+      {
+        "key": 125,
+        "cityName": "Wahamalgollewa"
+      },
+      {
+        "key": 126,
+        "cityName": "Walagambahuwa"
+      },
+      {
+        "key": 127,
+        "cityName": "Walahaviddawewa"
+      },
+      {
+        "key": 128,
+        "cityName": "Welimuwapotana"
+      },
+      {
+        "key": 129,
+        "cityName": "Welioya Project"
+      }
+    ]
+  },
+  {
+    "key": 3,
+    "districts": "Badulla",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Akkarasiyaya"
+      },
+      {
+        "key": 2,
+        "cityName": "Aluketiyawa"
+      },
+      {
+        "key": 3,
+        "cityName": "Aluttaramma"
+      },
+      {
+        "key": 4,
+        "cityName": "Ambadandegama"
+      },
+      {
+        "key": 5,
+        "cityName": "Ambagahawatta"
+      },
+      {
+        "key": 6,
+        "cityName": "Ambagasdowa"
+      },
+      {
+        "key": 7,
+        "cityName": "Amunumulla"
+      },
+      {
+        "key": 8,
+        "cityName": "Arawa"
+      },
+      {
+        "key": 9,
+        "cityName": "Arawakumbura"
+      },
+      {
+        "key": 10,
+        "cityName": "Arawatta"
+      },
+      {
+        "key": 11,
+        "cityName": "Atakiriya"
+      },
+      {
+        "key": 12,
+        "cityName": "Badulla"
+      },
+      {
+        "key": 13,
+        "cityName": "Baduluoya"
+      },
+      {
+        "key": 14,
+        "cityName": "Ballaketuwa"
+      },
+      {
+        "key": 15,
+        "cityName": "Bambarapana"
+      },
+      {
+        "key": 16,
+        "cityName": "Bandarawela"
+      },
+      {
+        "key": 17,
+        "cityName": "Beramada"
+      },
+      {
+        "key": 18,
+        "cityName": "Bibilegama"
+      },
+      {
+        "key": 19,
+        "cityName": "Bogahakumbura"
+      },
+      {
+        "key": 20,
+        "cityName": "Boragas"
+      },
+      {
+        "key": 21,
+        "cityName": "Boralanda"
+      },
+      {
+        "key": 22,
+        "cityName": "Bowela"
+      },
+      {
+        "key": 23,
+        "cityName": "Dambana"
+      },
+      {
+        "key": 24,
+        "cityName": "Demodara"
+      },
+      {
+        "key": 25,
+        "cityName": "Diganatenna"
+      },
+      {
+        "key": 26,
+        "cityName": "Dikkapitiya"
+      },
+      {
+        "key": 27,
+        "cityName": "Dimbulana"
+      },
+      {
+        "key": 28,
+        "cityName": "Divulapelessa"
+      },
+      {
+        "key": 29,
+        "cityName": "Diyatalawa"
+      },
+      {
+        "key": 30,
+        "cityName": "Dulgolla"
+      },
+      {
+        "key": 31,
+        "cityName": "Egodawela"
+      },
+      {
+        "key": 32,
+        "cityName": "Ella"
+      },
+      {
+        "key": 33,
+        "cityName": "Ettampitiya"
+      },
+      {
+        "key": 34,
+        "cityName": "Galauda"
+      },
+      {
+        "key": 35,
+        "cityName": "Galedanda"
+      },
+      {
+        "key": 36,
+        "cityName": "Galporuyaya"
+      },
+      {
+        "key": 37,
+        "cityName": "Gamewela"
+      },
+      {
+        "key": 38,
+        "cityName": "Gawarawela"
+      },
+      {
+        "key": 39,
+        "cityName": "Girandurukotte"
+      },
+      {
+        "key": 40,
+        "cityName": "Godunna"
+      },
+      {
+        "key": 41,
+        "cityName": "Gurutalawa"
+      },
+      {
+        "key": 42,
+        "cityName": "Haldummulla"
+      },
+      {
+        "key": 43,
+        "cityName": "Hali Ela"
+      },
+      {
+        "key": 44,
+        "cityName": "Hangunnawa"
+      },
+      {
+        "key": 45,
+        "cityName": "Haputale"
+      },
+      {
+        "key": 46,
+        "cityName": "Hebarawa"
+      },
+      {
+        "key": 47,
+        "cityName": "Heeloya"
+      },
+      {
+        "key": 48,
+        "cityName": "Helahalpe"
+      },
+      {
+        "key": 49,
+        "cityName": "Helapupula"
+      },
+      {
+        "key": 50,
+        "cityName": "Hewanakumbura"
+      },
+      {
+        "key": 51,
+        "cityName": "Hingurukaduwa"
+      },
+      {
+        "key": 52,
+        "cityName": "Hopton"
+      },
+      {
+        "key": 53,
+        "cityName": "Idalgashinna"
+      },
+      {
+        "key": 54,
+        "cityName": "Jangulla"
+      },
+      {
+        "key": 55,
+        "cityName": "Kahataruppa"
+      },
+      {
+        "key": 56,
+        "cityName": "Kalubululanda"
+      },
+      {
+        "key": 57,
+        "cityName": "Kalugahakandura"
+      },
+      {
+        "key": 58,
+        "cityName": "Kalupahana"
+      },
+      {
+        "key": 59,
+        "cityName": "Kandaketya"
+      },
+      {
+        "key": 60,
+        "cityName": "Kandegedara"
+      },
+      {
+        "key": 61,
+        "cityName": "Kandepuhulpola"
+      },
+      {
+        "key": 62,
+        "cityName": "Kebillawela"
+      },
+      {
+        "key": 63,
+        "cityName": "Kendagolla"
+      },
+      {
+        "key": 64,
+        "cityName": "Keppetipola"
+      },
+      {
+        "key": 65,
+        "cityName": "Keselpotha"
+      },
+      {
+        "key": 66,
+        "cityName": "Ketawatta"
+      },
+      {
+        "key": 67,
+        "cityName": "Kiriwanagama"
+      },
+      {
+        "key": 68,
+        "cityName": "Koslanda"
+      },
+      {
+        "key": 69,
+        "cityName": "Kotamuduna"
+      },
+      {
+        "key": 70,
+        "cityName": "Kuruwitenna"
+      },
+      {
+        "key": 71,
+        "cityName": "Kuttiyagolla"
+      },
+      {
+        "key": 72,
+        "cityName": "Landewela"
+      },
+      {
+        "key": 73,
+        "cityName": "Liyangahawela"
+      },
+      {
+        "key": 74,
+        "cityName": "Lunugala"
+      },
+      {
+        "key": 75,
+        "cityName": "Lunuwatta"
+      },
+      {
+        "key": 76,
+        "cityName": "Madulsima"
+      },
+      {
+        "key": 77,
+        "cityName": "Mahiyanganaya"
+      },
+      {
+        "key": 78,
+        "cityName": "Makulella"
+      },
+      {
+        "key": 79,
+        "cityName": "Malgoda"
+      },
+      {
+        "key": 80,
+        "cityName": "Maliyadda"
+      },
+      {
+        "key": 81,
+        "cityName": "Mapakadawewa"
+      },
+      {
+        "key": 82,
+        "cityName": "Maspanna"
+      },
+      {
+        "key": 83,
+        "cityName": "Maussagolla"
+      },
+      {
+        "key": 84,
+        "cityName": "Medawela Udukinda"
+      },
+      {
+        "key": 85,
+        "cityName": "Medawelagama"
+      },
+      {
+        "key": 86,
+        "cityName": "Meegahakiula"
+      },
+      {
+        "key": 87,
+        "cityName": "Metigahatenna"
+      },
+      {
+        "key": 88,
+        "cityName": "Mirahawatta"
+      },
+      {
+        "key": 89,
+        "cityName": "Miriyabedda"
+      },
+      {
+        "key": 90,
+        "cityName": "Miyanakandura"
+      },
+      {
+        "key": 91,
+        "cityName": "Namunukula"
+      },
+      {
+        "key": 92,
+        "cityName": "Narangala"
+      },
+      {
+        "key": 93,
+        "cityName": "Nelumgama"
+      },
+      {
+        "key": 94,
+        "cityName": "Nikapotha"
+      },
+      {
+        "key": 95,
+        "cityName": "Nugatalawa"
+      },
+      {
+        "key": 96,
+        "cityName": "Ohiya"
+      },
+      {
+        "key": 97,
+        "cityName": "Pahalarathkinda"
+      },
+      {
+        "key": 98,
+        "cityName": "Pallekiruwa"
+      },
+      {
+        "key": 99,
+        "cityName": "Passara"
+      },
+      {
+        "key": 100,
+        "cityName": "Pathanewatta"
+      },
+      {
+        "key": 101,
+        "cityName": "Pattiyagedara"
+      },
+      {
+        "key": 102,
+        "cityName": "Pelagahatenna"
+      },
+      {
+        "key": 103,
+        "cityName": "Perawella"
+      },
+      {
+        "key": 104,
+        "cityName": "Pitamaruwa"
+      },
+      {
+        "key": 105,
+        "cityName": "Pitapola"
+      },
+      {
+        "key": 106,
+        "cityName": "Puhulpola"
+      },
+      {
+        "key": 107,
+        "cityName": "Ratkarawwa"
+      },
+      {
+        "key": 108,
+        "cityName": "Ridimaliyadda"
+      },
+      {
+        "key": 109,
+        "cityName": "Rilpola"
+      },
+      {
+        "key": 110,
+        "cityName": "Silmiyapura"
+      },
+      {
+        "key": 111,
+        "cityName": "Sirimalgoda"
+      },
+      {
+        "key": 112,
+        "cityName": "Sorabora Colony"
+      },
+      {
+        "key": 113,
+        "cityName": "Soragune"
+      },
+      {
+        "key": 114,
+        "cityName": "Soranatota"
+      },
+      {
+        "key": 115,
+        "cityName": "Spring Valley"
+      },
+      {
+        "key": 116,
+        "cityName": "Taldena"
+      },
+      {
+        "key": 117,
+        "cityName": "Tennepanguwa"
+      },
+      {
+        "key": 118,
+        "cityName": "Timbirigaspitiya"
+      },
+      {
+        "key": 119,
+        "cityName": "Uduhawara"
+      },
+      {
+        "key": 120,
+        "cityName": "Uraniya"
+      },
+      {
+        "key": 121,
+        "cityName": "Uva Deegalla"
+      },
+      {
+        "key": 122,
+        "cityName": "Uva Karandagolla"
+      },
+      {
+        "key": 123,
+        "cityName": "Uva Mawelagama"
+      },
+      {
+        "key": 124,
+        "cityName": "Uva Tenna"
+      },
+      {
+        "key": 125,
+        "cityName": "Uva Tissapura"
+      },
+      {
+        "key": 126,
+        "cityName": "Uva Uduwara"
+      },
+      {
+        "key": 127,
+        "cityName": "Uvaparanagama"
+      },
+      {
+        "key": 128,
+        "cityName": "Welimada"
+      },
+      {
+        "key": 129,
+        "cityName": "Wewatta"
+      },
+      {
+        "key": 130,
+        "cityName": "Wineethagama"
+      },
+      {
+        "key": 131,
+        "cityName": "Yalagamuwa"
+      },
+      {
+        "key": 132,
+        "cityName": "Yalwela"
+      }
+    ]
+  },
+  {
+    "key": 4,
+    "districts": "Batticaloa",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Ampilanthurai"
+      },
+      {
+        "key": 2,
+        "cityName": "Araipattai"
+      },
+      {
+        "key": 3,
+        "cityName": "Ayithiyamalai"
+      },
+      {
+        "key": 4,
+        "cityName": "Bakiella"
+      },
+      {
+        "key": 5,
+        "cityName": "Batticaloa"
+      },
+      {
+        "key": 6,
+        "cityName": "Cheddipalayam"
+      },
+      {
+        "key": 7,
+        "cityName": "Chenkaladi"
+      },
+      {
+        "key": 8,
+        "cityName": "Eravur"
+      },
+      {
+        "key": 9,
+        "cityName": "Kalkudah"
+      },
+      {
+        "key": 10,
+        "cityName": "Kallar"
+      },
+      {
+        "key": 11,
+        "cityName": "Kaluwanchikudi"
+      },
+      {
+        "key": 12,
+        "cityName": "Kaluwankemy"
+      },
+      {
+        "key": 13,
+        "cityName": "Kannankudah"
+      },
+      {
+        "key": 14,
+        "cityName": "Karadiyanaru"
+      },
+      {
+        "key": 15,
+        "cityName": "Kathiraveli"
+      },
+      {
+        "key": 16,
+        "cityName": "Kattankudi"
+      },
+      {
+        "key": 17,
+        "cityName": "Kiran"
+      },
+      {
+        "key": 18,
+        "cityName": "Kirankulam"
+      },
+      {
+        "key": 19,
+        "cityName": "Koddaikallar"
+      },
+      {
+        "key": 20,
+        "cityName": "Kokkaddichcholai"
+      },
+      {
+        "key": 21,
+        "cityName": "Kurukkalmadam"
+      },
+      {
+        "key": 22,
+        "cityName": "Mandur"
+      },
+      {
+        "key": 23,
+        "cityName": "Mankemi"
+      },
+      {
+        "key": 24,
+        "cityName": "Miravodai"
+      },
+      {
+        "key": 25,
+        "cityName": "Murakottanchanai"
+      },
+      {
+        "key": 26,
+        "cityName": "Navagirinagar"
+      },
+      {
+        "key": 27,
+        "cityName": "Navatkadu"
+      },
+      {
+        "key": 28,
+        "cityName": "Oddamavadi"
+      },
+      {
+        "key": 29,
+        "cityName": "Panichankemi"
+      },
+      {
+        "key": 30,
+        "cityName": "Pankudavely"
+      },
+      {
+        "key": 31,
+        "cityName": "Periyaporativu"
+      },
+      {
+        "key": 32,
+        "cityName": "Periyapullumalai"
+      },
+      {
+        "key": 33,
+        "cityName": "Pillaiyaradi"
+      },
+      {
+        "key": 34,
+        "cityName": "Punanai"
+      },
+      {
+        "key": 35,
+        "cityName": "Puthukudiyiruppu"
+      },
+      {
+        "key": 36,
+        "cityName": "Thannamunai"
+      },
+      {
+        "key": 37,
+        "cityName": "Thettativu"
+      },
+      {
+        "key": 38,
+        "cityName": "Thikkodai"
+      },
+      {
+        "key": 39,
+        "cityName": "Thirupalugamam"
+      },
+      {
+        "key": 40,
+        "cityName": "Thuraineelavanai"
+      },
+      {
+        "key": 41,
+        "cityName": "Unnichchai"
+      },
+      {
+        "key": 42,
+        "cityName": "Vakaneri"
+      },
+      {
+        "key": 43,
+        "cityName": "Vakarai"
+      },
+      {
+        "key": 44,
+        "cityName": "Valaichenai"
+      },
+      {
+        "key": 45,
+        "cityName": "Vantharumoolai"
+      },
+      {
+        "key": 46,
+        "cityName": "Vellavely"
+      }
+    ]
+  },
+  {
+    "key": 5,
+    "districts": "Colombo",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Colombo 01"
+      },
+      {
+        "key": 2,
+        "cityName": "Colombo 02"
+      },
+      {
+        "key": 3,
+        "cityName": "Colombo 03"
+      },
+      {
+        "key": 4,
+        "cityName": "Colombo 04"
+      },
+      {
+        "key": 5,
+        "cityName": "Colombo 05"
+      },
+      {
+        "key": 6,
+        "cityName": "Colombo 06"
+      },
+      {
+        "key": 7,
+        "cityName": "Colombo 07"
+      },
+      {
+        "key": 8,
+        "cityName": "Colombo 08"
+      },
+      {
+        "key": 9,
+        "cityName": "Colombo 09"
+      },
+      {
+        "key": 10,
+        "cityName": "Colombo 10"
+      },
+      {
+        "key": 11,
+        "cityName": "Colombo 11"
+      },
+      {
+        "key": 12,
+        "cityName": "Colombo 12"
+      },
+      {
+        "key": 13,
+        "cityName": "Colombo 13"
+      },
+      {
+        "key": 14,
+        "cityName": "Colombo 14"
+      },
+      {
+        "key": 15,
+        "cityName": "Colombo 15"
+      },
+      {
+        "key": 16,
+        "cityName": "Akarawita"
+      },
+      {
+        "key": 17,
+        "cityName": "Angoda"
+      },
+      {
+        "key": 18,
+        "cityName": "Arangala"
+      },
+      {
+        "key": 19,
+        "cityName": "Athurugiriya"
+      },
+      {
+        "key": 20,
+        "cityName": "Avissawella"
+      },
+      {
+        "key": 21,
+        "cityName": "Bambalapitiya"
+      },
+      {
+        "key": 22,
+        "cityName": "Batawala"
+      },
+      {
+        "key": 23,
+        "cityName": "Battaramulla"
+      },
+      {
+        "key": 24,
+        "cityName": "Batugampola"
+      },
+      {
+        "key": 25,
+        "cityName": "Bope"
+      },
+      {
+        "key": 26,
+        "cityName": "Boralesgamuwa"
+      },
+      {
+        "key": 27,
+        "cityName": "Borella"
+      },
+      {
+        "key": 28,
+        "cityName": "Dedigamuwa"
+      },
+      {
+        "key": 29,
+        "cityName": "Dehiwala"
+      },
+      {
+        "key": 30,
+        "cityName": "Deltara"
+      },
+      {
+        "key": 31,
+        "cityName": "Embuldeniya"
+      },
+      {
+        "key": 32,
+        "cityName": "Gongodawila"
+      },
+      {
+        "key": 33,
+        "cityName": "Habarakada"
+      },
+      {
+        "key": 34,
+        "cityName": "Handapangoda"
+      },
+      {
+        "key": 35,
+        "cityName": "Hanwella"
+      },
+      {
+        "key": 36,
+        "cityName": "Hewainna"
+      },
+      {
+        "key": 37,
+        "cityName": "Hiripitya"
+      },
+      {
+        "key": 38,
+        "cityName": "Hokandara"
+      },
+      {
+        "key": 39,
+        "cityName": "Homagama"
+      },
+      {
+        "key": 40,
+        "cityName": "Horagala"
+      },
+      {
+        "key": 41,
+        "cityName": "Kaduwela"
+      },
+      {
+        "key": 42,
+        "cityName": "Kahawala"
+      },
+      {
+        "key": 43,
+        "cityName": "Kalatuwawa"
+      },
+      {
+        "key": 44,
+        "cityName": "Kalubowila"
+      },
+      {
+        "key": 45,
+        "cityName": "Kiriwattuduwa"
+      },
+      {
+        "key": 46,
+        "cityName": "Kohuwala"
+      },
+      {
+        "key": 47,
+        "cityName": "Kolonnawa"
+      },
+      {
+        "key": 48,
+        "cityName": "Kosgama"
+      },
+      {
+        "key": 49,
+        "cityName": "Kotahena"
+      },
+      {
+        "key": 50,
+        "cityName": "Kotikawatta"
+      },
+      {
+        "key": 51,
+        "cityName": "Kottawa"
+      },
+      {
+        "key": 52,
+        "cityName": "Madapatha"
+      },
+      {
+        "key": 53,
+        "cityName": "Maharagama"
+      },
+      {
+        "key": 54,
+        "cityName": "Malabe"
+      },
+      {
+        "key": 55,
+        "cityName": "Meegoda"
+      },
+      {
+        "key": 56,
+        "cityName": "Moratuwa"
+      },
+      {
+        "key": 57,
+        "cityName": "Mount Lavinia"
+      },
+      {
+        "key": 58,
+        "cityName": "Mullegama"
+      },
+      {
+        "key": 59,
+        "cityName": "Mulleriyawa"
+      },
+      {
+        "key": 60,
+        "cityName": "Mutwal"
+      },
+      {
+        "key": 61,
+        "cityName": "Napawela"
+      },
+      {
+        "key": 62,
+        "cityName": "Narahenpita"
+      },
+      {
+        "key": 63,
+        "cityName": "Nugegoda"
+      },
+      {
+        "key": 64,
+        "cityName": "Padukka"
+      },
+      {
+        "key": 65,
+        "cityName": "Pannipitiya"
+      },
+      {
+        "key": 66,
+        "cityName": "Piliyandala"
+      },
+      {
+        "key": 67,
+        "cityName": "Pita Kotte"
+      },
+      {
+        "key": 68,
+        "cityName": "Pitipana Homagama"
+      },
+      {
+        "key": 69,
+        "cityName": "Polgasowita"
+      },
+      {
+        "key": 70,
+        "cityName": "Puwakpitiya"
+      },
+      {
+        "key": 71,
+        "cityName": "Rajagiriya"
+      },
+      {
+        "key": 72,
+        "cityName": "Ranala"
+      },
+      {
+        "key": 73,
+        "cityName": "Ratmalana"
+      },
+      {
+        "key": 74,
+        "cityName": "Siddamulla"
+      },
+      {
+        "key": 75,
+        "cityName": "Sri Jayewardenepura"
+      },
+      {
+        "key": 76,
+        "cityName": "Talawatugoda"
+      },
+      {
+        "key": 77,
+        "cityName": "Tummodara"
+      },
+      {
+        "key": 78,
+        "cityName": "Waga"
+      },
+      {
+        "key": 79,
+        "cityName": "Watareka"
+      },
+      {
+        "key": 80,
+        "cityName": "Wijerama"
+      }
+    ]
+  },
+  {
+    "key": 6,
+    "districts": "Galle",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Agaliya"
+      },
+      {
+        "key": 2,
+        "cityName": "Ahangama"
+      },
+      {
+        "key": 3,
+        "cityName": "Ahungalla"
+      },
+      {
+        "key": 4,
+        "cityName": "Akmeemana"
+      },
+      {
+        "key": 5,
+        "cityName": "Aluthwala"
+      },
+      {
+        "key": 6,
+        "cityName": "Ambalangoda"
+      },
+      {
+        "key": 7,
+        "cityName": "Ampegama"
+      },
+      {
+        "key": 8,
+        "cityName": "Amugoda"
+      },
+      {
+        "key": 9,
+        "cityName": "Anangoda"
+      },
+      {
+        "key": 10,
+        "cityName": "Angulugaha"
+      },
+      {
+        "key": 11,
+        "cityName": "Ankokkawala"
+      },
+      {
+        "key": 12,
+        "cityName": "Baddegama"
+      },
+      {
+        "key": 13,
+        "cityName": "Balapitiya"
+      },
+      {
+        "key": 14,
+        "cityName": "Banagala"
+      },
+      {
+        "key": 15,
+        "cityName": "Batapola"
+      },
+      {
+        "key": 16,
+        "cityName": "Bentota"
+      },
+      {
+        "key": 17,
+        "cityName": "Boossa"
+      },
+      {
+        "key": 18,
+        "cityName": "Dikkumbura"
+      },
+      {
+        "key": 19,
+        "cityName": "Dodanduwa"
+      },
+      {
+        "key": 20,
+        "cityName": "Ella"
+      },
+      {
+        "key": 21,
+        "cityName": "Tanabaddegama"
+      },
+      {
+        "key": 22,
+        "cityName": "Elpitiya"
+      },
+      {
+        "key": 23,
+        "cityName": "Ethkandura"
+      },
+      {
+        "key": 24,
+        "cityName": "Galle"
+      },
+      {
+        "key": 25,
+        "cityName": "Ganegoda"
+      },
+      {
+        "key": 26,
+        "cityName": "Ginimellagaha"
+      },
+      {
+        "key": 27,
+        "cityName": "Gintota"
+      },
+      {
+        "key": 28,
+        "cityName": "Godahena"
+      },
+      {
+        "key": 29,
+        "cityName": "Gonagalpura"
+      },
+      {
+        "key": 30,
+        "cityName": "Gonamulla Junction"
+      },
+      {
+        "key": 31,
+        "cityName": "Gonapinuwala"
+      },
+      {
+        "key": 32,
+        "cityName": "Habaraduwa"
+      },
+      {
+        "key": 33,
+        "cityName": "Haburugala"
+      },
+      {
+        "key": 34,
+        "cityName": "Halvitigala Colony"
+      },
+      {
+        "key": 35,
+        "cityName": "Hawpe"
+      },
+      {
+        "key": 36,
+        "cityName": "Hikkaduwa"
+      },
+      {
+        "key": 37,
+        "cityName": "Hiniduma"
+      },
+      {
+        "key": 38,
+        "cityName": "Hiyare"
+      },
+      {
+        "key": 39,
+        "cityName": "Ihala"
+      },
+      {
+        "key": 40,
+        "cityName": "Walpola"
+      },
+      {
+        "key": 41,
+        "cityName": "Kahaduwa"
+      },
+      {
+        "key": 42,
+        "cityName": "Kahawa"
+      },
+      {
+        "key": 43,
+        "cityName": "Kananke Bazaar"
+      },
+      {
+        "key": 44,
+        "cityName": "Karagoda"
+      },
+      {
+        "key": 45,
+        "cityName": "Karandeniya"
+      },
+      {
+        "key": 46,
+        "cityName": "Kosgoda"
+      },
+      {
+        "key": 47,
+        "cityName": "Kottawagama"
+      },
+      {
+        "key": 48,
+        "cityName": "Kuleegoda"
+      },
+      {
+        "key": 49,
+        "cityName": "lhalahewessa"
+      },
+      {
+        "key": 50,
+        "cityName": "lmaduwa"
+      },
+      {
+        "key": 51,
+        "cityName": "lnduruwa"
+      },
+      {
+        "key": 52,
+        "cityName": "Magedara"
+      },
+      {
+        "key": 53,
+        "cityName": "Malgalla Talangalla"
+      },
+      {
+        "key": 54,
+        "cityName": "Mapalagama"
+      },
+      {
+        "key": 55,
+        "cityName": "Mapalagama Central"
+      },
+      {
+        "key": 56,
+        "cityName": "Mattaka"
+      },
+      {
+        "key": 57,
+        "cityName": "Meda-Keembiya"
+      },
+      {
+        "key": 58,
+        "cityName": "Meetiyagoda"
+      },
+      {
+        "key": 59,
+        "cityName": "Miriswatta"
+      },
+      {
+        "key": 60,
+        "cityName": "Nagoda"
+      },
+      {
+        "key": 61,
+        "cityName": "Nakiyadeniya"
+      },
+      {
+        "key": 62,
+        "cityName": "Nawadagala"
+      },
+      {
+        "key": 63,
+        "cityName": "Neluwa"
+      },
+      {
+        "key": 64,
+        "cityName": "Nindana"
+      },
+      {
+        "key": 65,
+        "cityName": "Opatha"
+      },
+      {
+        "key": 66,
+        "cityName": "Panangala"
+      },
+      {
+        "key": 67,
+        "cityName": "Pannimulla Panagoda"
+      },
+      {
+        "key": 68,
+        "cityName": "Parana ThanaYamgoda"
+      },
+      {
+        "key": 69,
+        "cityName": "Pitigala"
+      },
+      {
+        "key": 70,
+        "cityName": "Poddala"
+      },
+      {
+        "key": 71,
+        "cityName": "Porawagama"
+      },
+      {
+        "key": 72,
+        "cityName": "Rantotuwila"
+      },
+      {
+        "key": 73,
+        "cityName": "Ratgama"
+      },
+      {
+        "key": 74,
+        "cityName": "Talagampola"
+      },
+      {
+        "key": 75,
+        "cityName": "Talgaspe"
+      },
+      {
+        "key": 76,
+        "cityName": "Talgaswela"
+      },
+      {
+        "key": 77,
+        "cityName": "Talpe"
+      },
+      {
+        "key": 78,
+        "cityName": "Tawalama"
+      },
+      {
+        "key": 79,
+        "cityName": "Tiranagama"
+      },
+      {
+        "key": 80,
+        "cityName": "Udalamatta"
+      },
+      {
+        "key": 81,
+        "cityName": "Udugama"
+      },
+      {
+        "key": 82,
+        "cityName": "Uluvitike"
+      },
+      {
+        "key": 83,
+        "cityName": "Unawatuna"
+      },
+      {
+        "key": 84,
+        "cityName": "Unenwitiya"
+      },
+      {
+        "key": 85,
+        "cityName": "Uragaha"
+      },
+      {
+        "key": 86,
+        "cityName": "Uragasmanhandiya"
+      },
+      {
+        "key": 87,
+        "cityName": "Wakwella"
+      },
+      {
+        "key": 88,
+        "cityName": "Walahanduwa"
+      },
+      {
+        "key": 89,
+        "cityName": "Wanchawela"
+      },
+      {
+        "key": 90,
+        "cityName": "Wanduramba"
+      },
+      {
+        "key": 91,
+        "cityName": "Warukandeniya"
+      },
+      {
+        "key": 92,
+        "cityName": "Watugedara"
+      },
+      {
+        "key": 93,
+        "cityName": "Weihena"
+      },
+      {
+        "key": 94,
+        "cityName": "Yakkalamulla"
+      },
+      {
+        "key": 95,
+        "cityName": "Yatalamatta"
+      }
+    ]
+  },
+  {
+    "key": 7,
+    "districts": "Gampaha",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Akaragama"
+      },
+      {
+        "key": 2,
+        "cityName": "Alawala"
+      },
+      {
+        "key": 3,
+        "cityName": "Ambagaspitiya"
+      },
+      {
+        "key": 4,
+        "cityName": "Ambepussa"
+      },
+      {
+        "key": 5,
+        "cityName": "Andiambalama"
+      },
+      {
+        "key": 6,
+        "cityName": "Attanagalla"
+      },
+      {
+        "key": 7,
+        "cityName": "Badalgama"
+      },
+      {
+        "key": 8,
+        "cityName": "Banduragoda"
+      },
+      {
+        "key": 9,
+        "cityName": "Batuwatta"
+      },
+      {
+        "key": 10,
+        "cityName": "Bemmulla"
+      },
+      {
+        "key": 11,
+        "cityName": "Biyagama"
+      },
+      {
+        "key": 12,
+        "cityName": "Biyagama IPZ"
+      },
+      {
+        "key": 13,
+        "cityName": "Bokalagama"
+      },
+      {
+        "key": 14,
+        "cityName": "Bopagama"
+      },
+      {
+        "key": 15,
+        "cityName": "Buthpitiya"
+      },
+      {
+        "key": 16,
+        "cityName": "Dagonna"
+      },
+      {
+        "key": 17,
+        "cityName": "Danowita"
+      },
+      {
+        "key": 18,
+        "cityName": "Debahera"
+      },
+      {
+        "key": 19,
+        "cityName": "Dekatana"
+      },
+      {
+        "key": 20,
+        "cityName": "Delgoda"
+      },
+      {
+        "key": 21,
+        "cityName": "Delwagura"
+      },
+      {
+        "key": 22,
+        "cityName": "Demalagama"
+      },
+      {
+        "key": 23,
+        "cityName": "Demanhandiya"
+      },
+      {
+        "key": 24,
+        "cityName": "Dewalapola"
+      },
+      {
+        "key": 25,
+        "cityName": "Divulapitiya"
+      },
+      {
+        "key": 26,
+        "cityName": "Divuldeniya"
+      },
+      {
+        "key": 27,
+        "cityName": "Dompe"
+      },
+      {
+        "key": 28,
+        "cityName": "Dunagaha"
+      },
+      {
+        "key": 29,
+        "cityName": "Ekala"
+      },
+      {
+        "key": 30,
+        "cityName": "Ellakkala"
+      },
+      {
+        "key": 31,
+        "cityName": "Essella"
+      },
+      {
+        "key": 32,
+        "cityName": "Gampaha"
+      },
+      {
+        "key": 33,
+        "cityName": "Ganemulla"
+      },
+      {
+        "key": 34,
+        "cityName": "GonawalaWP"
+      },
+      {
+        "key": 35,
+        "cityName": "Heiyanthuduwa"
+      },
+      {
+        "key": 36,
+        "cityName": "Hendala"
+      },
+      {
+        "key": 37,
+        "cityName": "Henegama"
+      },
+      {
+        "key": 38,
+        "cityName": "Hinatiyana Madawala"
+      },
+      {
+        "key": 39,
+        "cityName": "Hiswella"
+      },
+      {
+        "key": 40,
+        "cityName": "Horampella"
+      },
+      {
+        "key": 41,
+        "cityName": "Hunumulla"
+      },
+      {
+        "key": 42,
+        "cityName": "Ihala Madampella"
+      },
+      {
+        "key": 43,
+        "cityName": "Imbulgoda"
+      },
+      {
+        "key": 44,
+        "cityName": "Ja-Ela"
+      },
+      {
+        "key": 45,
+        "cityName": "Kadawatha"
+      },
+      {
+        "key": 46,
+        "cityName": "Kahatowita"
+      },
+      {
+        "key": 47,
+        "cityName": "Kalagedihena"
+      },
+      {
+        "key": 48,
+        "cityName": "Kaleliya"
+      },
+      {
+        "key": 49,
+        "cityName": "Kaluaggala"
+      },
+      {
+        "key": 50,
+        "cityName": "Kandana"
+      },
+      {
+        "key": 51,
+        "cityName": "Kapugoda"
+      },
+      {
+        "key": 52,
+        "cityName": "Kapuwatta"
+      },
+      {
+        "key": 53,
+        "cityName": "Katana"
+      },
+      {
+        "key": 54,
+        "cityName": "Katunayake"
+      },
+      {
+        "key": 55,
+        "cityName": "Katunayake Air Force Camp"
+      },
+      {
+        "key": 56,
+        "cityName": "Katuwellegama"
+      },
+      {
+        "key": 57,
+        "cityName": "Kelaniya"
+      },
+      {
+        "key": 58,
+        "cityName": "Kimbulapitiya"
+      },
+      {
+        "key": 59,
+        "cityName": "Kiribathgoda"
+      },
+      {
+        "key": 60,
+        "cityName": "Kirindiwela"
+      },
+      {
+        "key": 61,
+        "cityName": "Kitalawalana"
+      },
+      {
+        "key": 62,
+        "cityName": "Kitulwala"
+      },
+      {
+        "key": 63,
+        "cityName": "Kochchikade"
+      },
+      {
+        "key": 64,
+        "cityName": "Kotadeniyawa"
+      },
+      {
+        "key": 65,
+        "cityName": "Kotugoda"
+      },
+      {
+        "key": 66,
+        "cityName": "Kumbaloluwa"
+      },
+      {
+        "key": 67,
+        "cityName": "Loluwagoda"
+      },
+      {
+        "key": 68,
+        "cityName": "Lunugama"
+      },
+      {
+        "key": 69,
+        "cityName": "Mabodale"
+      },
+      {
+        "key": 70,
+        "cityName": "Madelgamuwa"
+      },
+      {
+        "key": 71,
+        "cityName": "Makewita"
+      },
+      {
+        "key": 72,
+        "cityName": "Makola"
+      },
+      {
+        "key": 73,
+        "cityName": "Malwana"
+      },
+      {
+        "key": 74,
+        "cityName": "Mandawala"
+      },
+      {
+        "key": 75,
+        "cityName": "Marandagahamula"
+      },
+      {
+        "key": 76,
+        "cityName": "Mellawagedara"
+      },
+      {
+        "key": 77,
+        "cityName": "Minuwangoda"
+      },
+      {
+        "key": 78,
+        "cityName": "Mirigama"
+      },
+      {
+        "key": 79,
+        "cityName": "Mithirigala"
+      },
+      {
+        "key": 80,
+        "cityName": "Muddaragama"
+      },
+      {
+        "key": 81,
+        "cityName": "Mudungoda"
+      },
+      {
+        "key": 82,
+        "cityName": "Naranwala"
+      },
+      {
+        "key": 83,
+        "cityName": "Nawana"
+      },
+      {
+        "key": 84,
+        "cityName": "Nedungamuwa"
+      },
+      {
+        "key": 85,
+        "cityName": "Negombo"
+      },
+      {
+        "key": 86,
+        "cityName": "Nikahetikanda"
+      },
+      {
+        "key": 87,
+        "cityName": "Nittambuwa"
+      },
+      {
+        "key": 88,
+        "cityName": "Niwandama"
+      },
+      {
+        "key": 89,
+        "cityName": "Pallewela"
+      },
+      {
+        "key": 90,
+        "cityName": "Pamunugama"
+      },
+      {
+        "key": 91,
+        "cityName": "Pamunuwatta"
+      },
+      {
+        "key": 92,
+        "cityName": "Pasyala"
+      },
+      {
+        "key": 93,
+        "cityName": "Peliyagoda"
+      },
+      {
+        "key": 94,
+        "cityName": "Pepiliyawala"
+      },
+      {
+        "key": 95,
+        "cityName": "Pethiyagoda"
+      },
+      {
+        "key": 96,
+        "cityName": "Polpithimukulana"
+      },
+      {
+        "key": 97,
+        "cityName": "Pugoda"
+      },
+      {
+        "key": 98,
+        "cityName": "Radawadunna"
+      },
+      {
+        "key": 99,
+        "cityName": "Radawana"
+      },
+      {
+        "key": 100,
+        "cityName": "Raddolugama"
+      },
+      {
+        "key": 101,
+        "cityName": "Ragama"
+      },
+      {
+        "key": 102,
+        "cityName": "Ruggahawila"
+      },
+      {
+        "key": 103,
+        "cityName": "Rukmale"
+      },
+      {
+        "key": 104,
+        "cityName": "Seeduwa"
+      },
+      {
+        "key": 105,
+        "cityName": "Siyambalape"
+      },
+      {
+        "key": 106,
+        "cityName": "Talahena"
+      },
+      {
+        "key": 107,
+        "cityName": "Thimbirigaskatuwa"
+      },
+      {
+        "key": 108,
+        "cityName": "Tittapattara"
+      },
+      {
+        "key": 109,
+        "cityName": "Udathuthiripitiya"
+      },
+      {
+        "key": 110,
+        "cityName": "Udugampola"
+      },
+      {
+        "key": 111,
+        "cityName": "Uggalboda"
+      },
+      {
+        "key": 112,
+        "cityName": "Urapola"
+      },
+      {
+        "key": 113,
+        "cityName": "Uswetakeiyawa"
+      },
+      {
+        "key": 114,
+        "cityName": "Veyangoda"
+      },
+      {
+        "key": 115,
+        "cityName": "Walgammulla"
+      },
+      {
+        "key": 116,
+        "cityName": "Walpita"
+      },
+      {
+        "key": 117,
+        "cityName": "Wanaluwewa"
+      },
+      {
+        "key": 118,
+        "cityName": "Wathurugama"
+      },
+      {
+        "key": 119,
+        "cityName": "Watinapaha"
+      },
+      {
+        "key": 120,
+        "cityName": "Wattala"
+      },
+      {
+        "key": 121,
+        "cityName": "Weboda"
+      },
+      {
+        "key": 122,
+        "cityName": "Wegowwa"
+      },
+      {
+        "key": 123,
+        "cityName": "Weliveriya"
+      },
+      {
+        "key": 124,
+        "cityName": "Weweldeniya"
+      },
+      {
+        "key": 125,
+        "cityName": "Yakkala"
+      }
+    ]
+  },
+  {
+    "key": 8,
+    "districts": "Hambantota",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Ambalantota"
+      },
+      {
+        "key": 2,
+        "cityName": "Angunakolapelessa"
+      },
+      {
+        "key": 3,
+        "cityName": "Bandagiriya Colony"
+      },
+      {
+        "key": 4,
+        "cityName": "Barawakumbuka"
+      },
+      {
+        "key": 5,
+        "cityName": "Beliatta"
+      },
+      {
+        "key": 6,
+        "cityName": "Beragama"
+      },
+      {
+        "key": 7,
+        "cityName": "Beralihela"
+      },
+      {
+        "key": 8,
+        "cityName": "Bowalagama"
+      },
+      {
+        "key": 9,
+        "cityName": "Bundala"
+      },
+      {
+        "key": 10,
+        "cityName": "Ellagala"
+      },
+      {
+        "key": 11,
+        "cityName": "Gangulandeniya"
+      },
+      {
+        "key": 12,
+        "cityName": "Getamanna"
+      },
+      {
+        "key": 13,
+        "cityName": "Goda Koggalla"
+      },
+      {
+        "key": 14,
+        "cityName": "Gonagamuwa Uduwila"
+      },
+      {
+        "key": 15,
+        "cityName": "Gonnoruwa"
+      },
+      {
+        "key": 16,
+        "cityName": "Hakuruwela"
+      },
+      {
+        "key": 17,
+        "cityName": "Hambantota"
+      },
+      {
+        "key": 18,
+        "cityName": "Horewelagoda"
+      },
+      {
+        "key": 19,
+        "cityName": "Hungama"
+      },
+      {
+        "key": 20,
+        "cityName": "Ihala Beligalla"
+      },
+      {
+        "key": 21,
+        "cityName": "Ittademaliya"
+      },
+      {
+        "key": 22,
+        "cityName": "Julampitiya"
+      },
+      {
+        "key": 23,
+        "cityName": "Kahandamodara"
+      },
+      {
+        "key": 24,
+        "cityName": "Kariyamaditta"
+      },
+      {
+        "key": 25,
+        "cityName": "Katuwana"
+      },
+      {
+        "key": 26,
+        "cityName": "Kawantissapura"
+      },
+      {
+        "key": 27,
+        "cityName": "Kirama"
+      },
+      {
+        "key": 28,
+        "cityName": "Kirinda"
+      },
+      {
+        "key": 29,
+        "cityName": "Lunama"
+      },
+      {
+        "key": 30,
+        "cityName": "Lunugamwehera"
+      },
+      {
+        "key": 31,
+        "cityName": "Magama"
+      },
+      {
+        "key": 32,
+        "cityName": "Mahagalwewa"
+      },
+      {
+        "key": 33,
+        "cityName": "Mamadala"
+      },
+      {
+        "key": 34,
+        "cityName": "Medamulana"
+      },
+      {
+        "key": 35,
+        "cityName": "Middeniya"
+      },
+      {
+        "key": 36,
+        "cityName": "Migahajandur"
+      },
+      {
+        "key": 37,
+        "cityName": "Modarawana"
+      },
+      {
+        "key": 38,
+        "cityName": "Mulkirigala"
+      },
+      {
+        "key": 39,
+        "cityName": "Nakulugamuwa"
+      },
+      {
+        "key": 40,
+        "cityName": "Netolpitiya"
+      },
+      {
+        "key": 41,
+        "cityName": "Nihiluwa"
+      },
+      {
+        "key": 42,
+        "cityName": "Padawkema"
+      },
+      {
+        "key": 43,
+        "cityName": "Pahala Andarawewa"
+      },
+      {
+        "key": 44,
+        "cityName": "Pallekanda"
+      },
+      {
+        "key": 45,
+        "cityName": "Rammalawarapitiya"
+      },
+      {
+        "key": 46,
+        "cityName": "Ranakeliya"
+      },
+      {
+        "key": 47,
+        "cityName": "Ranmuduwewa"
+      },
+      {
+        "key": 48,
+        "cityName": "Ranna"
+      },
+      {
+        "key": 49,
+        "cityName": "Ratmalwala"
+      },
+      {
+        "key": 50,
+        "cityName": "RU/Ridiyagama"
+      },
+      {
+        "key": 51,
+        "cityName": "Sooriyawewa Town"
+      },
+      {
+        "key": 52,
+        "cityName": "Tangalla"
+      },
+      {
+        "key": 53,
+        "cityName": "Tissamaharama"
+      },
+      {
+        "key": 54,
+        "cityName": "Uda Gomadiya"
+      },
+      {
+        "key": 55,
+        "cityName": "Udamattala"
+      },
+      {
+        "key": 56,
+        "cityName": "Uswewa"
+      },
+      {
+        "key": 57,
+        "cityName": "Vitharandeniya"
+      },
+      {
+        "key": 58,
+        "cityName": "Walasmulla"
+      },
+      {
+        "key": 59,
+        "cityName": "Weeraketiya"
+      },
+      {
+        "key": 60,
+        "cityName": "Weerawila"
+      },
+      {
+        "key": 61,
+        "cityName": "Weerawila NewTown"
+      },
+      {
+        "key": 62,
+        "cityName": "Wekandawela"
+      },
+      {
+        "key": 63,
+        "cityName": "Weligatta"
+      },
+      {
+        "key": 64,
+        "cityName": "Yatigala"
+      }
+    ]
+  },
+  {
+    "key": 9,
+    "districts": "Jaffna",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Allaipiddi"
+      },
+      {
+        "key": 2,
+        "cityName": "Allaveddi"
+      },
+      {
+        "key": 3,
+        "cityName": "Alvai"
+      },
+      {
+        "key": 4,
+        "cityName": "Anaicoddai"
+      },
+      {
+        "key": 5,
+        "cityName": "Analaitivu"
+      },
+      {
+        "key": 6,
+        "cityName": "Atchuveli"
+      },
+      {
+        "key": 7,
+        "cityName": "Chankanai"
+      },
+      {
+        "key": 8,
+        "cityName": "Chavakachcheri"
+      },
+      {
+        "key": 9,
+        "cityName": "Chullipuram"
+      },
+      {
+        "key": 10,
+        "cityName": "Chundikuli"
+      },
+      {
+        "key": 11,
+        "cityName": "Chunnakam"
+      },
+      {
+        "key": 12,
+        "cityName": "Delft"
+      },
+      {
+        "key": 13,
+        "cityName": "DelftWest"
+      },
+      {
+        "key": 14,
+        "cityName": "Eluvaitivu"
+      },
+      {
+        "key": 15,
+        "cityName": "Erlalai"
+      },
+      {
+        "key": 16,
+        "cityName": "Jaffna"
+      },
+      {
+        "key": 17,
+        "cityName": "Kaitadi"
+      },
+      {
+        "key": 18,
+        "cityName": "Kankesanthurai"
+      },
+      {
+        "key": 19,
+        "cityName": "Karainagar"
+      },
+      {
+        "key": 20,
+        "cityName": "Karaveddi"
+      },
+      {
+        "key": 21,
+        "cityName": "Kayts"
+      },
+      {
+        "key": 22,
+        "cityName": "Kodikamam"
+      },
+      {
+        "key": 23,
+        "cityName": "Kokuvil"
+      },
+      {
+        "key": 24,
+        "cityName": "Kondavil"
+      },
+      {
+        "key": 25,
+        "cityName": "Kopay"
+      },
+      {
+        "key": 26,
+        "cityName": "Kudatanai"
+      },
+      {
+        "key": 27,
+        "cityName": "llavalai"
+      },
+      {
+        "key": 28,
+        "cityName": "Mallakam"
+      },
+      {
+        "key": 29,
+        "cityName": "Manipay"
+      },
+      {
+        "key": 30,
+        "cityName": "Mathagal"
+      },
+      {
+        "key": 31,
+        "cityName": "Meesalai"
+      },
+      {
+        "key": 32,
+        "cityName": "Mirusuvil"
+      },
+      {
+        "key": 33,
+        "cityName": "Nagar Kovil"
+      },
+      {
+        "key": 34,
+        "cityName": "Nainathivu"
+      },
+      {
+        "key": 35,
+        "cityName": "Neervely"
+      },
+      {
+        "key": 36,
+        "cityName": "Pandaterippu"
+      },
+      {
+        "key": 37,
+        "cityName": "Point Pedro"
+      },
+      {
+        "key": 38,
+        "cityName": "Pungudutivu"
+      },
+      {
+        "key": 39,
+        "cityName": "Putur"
+      },
+      {
+        "key": 40,
+        "cityName": "Sandilipay"
+      },
+      {
+        "key": 41,
+        "cityName": "Sithankemy"
+      },
+      {
+        "key": 42,
+        "cityName": "Tellippallai"
+      },
+      {
+        "key": 43,
+        "cityName": "Thondamanaru"
+      },
+      {
+        "key": 44,
+        "cityName": "Urumpirai"
+      },
+      {
+        "key": 45,
+        "cityName": "Vaddukoddai"
+      },
+      {
+        "key": 46,
+        "cityName": "Valvettithurai"
+      },
+      {
+        "key": 47,
+        "cityName": "Vannarponnai"
+      },
+      {
+        "key": 48,
+        "cityName": "Varany"
+      },
+      {
+        "key": 49,
+        "cityName": "Vasavilan"
+      },
+      {
+        "key": 50,
+        "cityName": "Velanai"
+      }
+    ]
+  },
+  {
+    "key": 10,
+    "districts": "Kalutara",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Agalawatta"
+      },
+      {
+        "key": 2,
+        "cityName": "Alubomulla"
+      },
+      {
+        "key": 3,
+        "cityName": "Alutgama"
+      },
+      {
+        "key": 4,
+        "cityName": "Anguruwatota"
+      },
+      {
+        "key": 5,
+        "cityName": "Baduraliya"
+      },
+      {
+        "key": 6,
+        "cityName": "Bandaragama"
+      },
+      {
+        "key": 7,
+        "cityName": "Bellana"
+      },
+      {
+        "key": 8,
+        "cityName": "Beruwala"
+      },
+      {
+        "key": 9,
+        "cityName": "Bolossagama"
+      },
+      {
+        "key": 10,
+        "cityName": "Bombuwala"
+      },
+      {
+        "key": 11,
+        "cityName": "Boralugoda"
+      },
+      {
+        "key": 12,
+        "cityName": "Bulathsinhala"
+      },
+      {
+        "key": 13,
+        "cityName": "Danawala Thiniyawala"
+      },
+      {
+        "key": 14,
+        "cityName": "Delmella"
+      },
+      {
+        "key": 15,
+        "cityName": "Dharga Town"
+      },
+      {
+        "key": 16,
+        "cityName": "Diwalakada"
+      },
+      {
+        "key": 17,
+        "cityName": "Dodangoda"
+      },
+      {
+        "key": 18,
+        "cityName": "Dombagoda"
+      },
+      {
+        "key": 19,
+        "cityName": "Galpatha"
+      },
+      {
+        "key": 20,
+        "cityName": "Gamagoda"
+      },
+      {
+        "key": 21,
+        "cityName": "Gonapola Junction"
+      },
+      {
+        "key": 22,
+        "cityName": "Govinna"
+      },
+      {
+        "key": 23,
+        "cityName": "Gurulubadda"
+      },
+      {
+        "key": 24,
+        "cityName": "Halkandawila"
+      },
+      {
+        "key": 25,
+        "cityName": "Haltota"
+      },
+      {
+        "key": 26,
+        "cityName": "Halwala"
+      },
+      {
+        "key": 27,
+        "cityName": "Halwatura"
+      },
+      {
+        "key": 28,
+        "cityName": "Hedigalla Colony"
+      },
+      {
+        "key": 29,
+        "cityName": "Horana"
+      },
+      {
+        "key": 30,
+        "cityName": "Ittapana"
+      },
+      {
+        "key": 31,
+        "cityName": "Kalawila Kiranthidiya"
+      },
+      {
+        "key": 32,
+        "cityName": "Kalutara"
+      },
+      {
+        "key": 33,
+        "cityName": "Kananwila"
+      },
+      {
+        "key": 34,
+        "cityName": "Kandanagama"
+      },
+      {
+        "key": 35,
+        "cityName": "Kehelwatta"
+      },
+      {
+        "key": 36,
+        "cityName": "Kelinkanda"
+      },
+      {
+        "key": 37,
+        "cityName": "Kitulgoda"
+      },
+      {
+        "key": 38,
+        "cityName": "Koholana"
+      },
+      {
+        "key": 39,
+        "cityName": "Kuda Uduwa"
+      },
+      {
+        "key": 40,
+        "cityName": "lngiriya"
+      },
+      {
+        "key": 41,
+        "cityName": "Maggona"
+      },
+      {
+        "key": 42,
+        "cityName": "Mahagama"
+      },
+      {
+        "key": 43,
+        "cityName": "Mahakalupahana"
+      },
+      {
+        "key": 44,
+        "cityName": "Matugama"
+      },
+      {
+        "key": 45,
+        "cityName": "Meegahatenna"
+      },
+      {
+        "key": 46,
+        "cityName": "Meegama"
+      },
+      {
+        "key": 47,
+        "cityName": "Millaniya"
+      },
+      {
+        "key": 48,
+        "cityName": "Millewa"
+      },
+      {
+        "key": 49,
+        "cityName": "Miwanapalana"
+      },
+      {
+        "key": 50,
+        "cityName": "Molkawa"
+      },
+      {
+        "key": 51,
+        "cityName": "Morapitiya"
+      },
+      {
+        "key": 52,
+        "cityName": "Morontuduwa"
+      },
+      {
+        "key": 53,
+        "cityName": "Nawattuduwa"
+      },
+      {
+        "key": 54,
+        "cityName": "Neboda"
+      },
+      {
+        "key": 55,
+        "cityName": "Padagoda"
+      },
+      {
+        "key": 56,
+        "cityName": "Pahalahewessa"
+      },
+      {
+        "key": 57,
+        "cityName": "Paiyagala"
+      },
+      {
+        "key": 58,
+        "cityName": "Panadura"
+      },
+      {
+        "key": 59,
+        "cityName": "Pannila"
+      },
+      {
+        "key": 60,
+        "cityName": "Paragastota"
+      },
+      {
+        "key": 61,
+        "cityName": "Paragoda"
+      },
+      {
+        "key": 62,
+        "cityName": "Paraigama"
+      },
+      {
+        "key": 63,
+        "cityName": "Pelanda"
+      },
+      {
+        "key": 64,
+        "cityName": "Pelawatta"
+      },
+      {
+        "key": 65,
+        "cityName": "Pokunuwita"
+      },
+      {
+        "key": 66,
+        "cityName": "Polgampola"
+      },
+      {
+        "key": 67,
+        "cityName": "Poruwedanda"
+      },
+      {
+        "key": 68,
+        "cityName": "Remunagoda"
+      },
+      {
+        "key": 69,
+        "cityName": "Tebuwana"
+      },
+      {
+        "key": 70,
+        "cityName": "Uduwara"
+      },
+      {
+        "key": 71,
+        "cityName": "Utumgama"
+      },
+      {
+        "key": 72,
+        "cityName": "Veyangalla"
+      },
+      {
+        "key": 73,
+        "cityName": "Wadduwa"
+      },
+      {
+        "key": 74,
+        "cityName": "Walagedara"
+      },
+      {
+        "key": 75,
+        "cityName": "Walallawita"
+      },
+      {
+        "key": 76,
+        "cityName": "Waskaduwa"
+      },
+      {
+        "key": 77,
+        "cityName": "Welipenna"
+      },
+      {
+        "key": 78,
+        "cityName": "Welmilla Junction"
+      },
+      {
+        "key": 79,
+        "cityName": "Yagirala"
+      },
+      {
+        "key": 80,
+        "cityName": "Yatadolawatta"
+      },
+      {
+        "key": 81,
+        "cityName": "Yatawara Junction"
+      }
+    ]
+  },
+  {
+    "key": 11,
+    "districts": "Kandy",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Akurana"
+      },
+      {
+        "key": 2,
+        "cityName": "Alawatugoda"
+      },
+      {
+        "key": 3,
+        "cityName": "Aludeniya"
+      },
+      {
+        "key": 4,
+        "cityName": "Ambagahapelessa"
+      },
+      {
+        "key": 5,
+        "cityName": "Ambatenna"
+      },
+      {
+        "key": 6,
+        "cityName": "Ampitiya"
+      },
+      {
+        "key": 7,
+        "cityName": "Ankumbura"
+      },
+      {
+        "key": 8,
+        "cityName": "Atabage"
+      },
+      {
+        "key": 9,
+        "cityName": "Balana"
+      },
+      {
+        "key": 10,
+        "cityName": "Bambaragahaela"
+      },
+      {
+        "key": 11,
+        "cityName": "Barawardhana Oya"
+      },
+      {
+        "key": 12,
+        "cityName": "Batagolladeniya"
+      },
+      {
+        "key": 13,
+        "cityName": "Batugoda"
+      },
+      {
+        "key": 14,
+        "cityName": "Batumulla"
+      },
+      {
+        "key": 15,
+        "cityName": "Bawlana"
+      },
+      {
+        "key": 16,
+        "cityName": "Bopana"
+      },
+      {
+        "key": 17,
+        "cityName": "Danture"
+      },
+      {
+        "key": 18,
+        "cityName": "Dedunupitiya"
+      },
+      {
+        "key": 19,
+        "cityName": "Dekinda"
+      },
+      {
+        "key": 20,
+        "cityName": "Deltota"
+      },
+      {
+        "key": 21,
+        "cityName": "Dolapihilla"
+      },
+      {
+        "key": 22,
+        "cityName": "Dolosbage"
+      },
+      {
+        "key": 23,
+        "cityName": "Doluwa"
+      },
+      {
+        "key": 24,
+        "cityName": "Doragamuwa"
+      },
+      {
+        "key": 25,
+        "cityName": "Dunuwila"
+      },
+      {
+        "key": 26,
+        "cityName": "Ekiriya"
+      },
+      {
+        "key": 27,
+        "cityName": "Elamulla"
+      },
+      {
+        "key": 28,
+        "cityName": "Etulgama"
+      },
+      {
+        "key": 29,
+        "cityName": "Galaboda"
+      },
+      {
+        "key": 30,
+        "cityName": "Galagedara"
+      },
+      {
+        "key": 31,
+        "cityName": "Galaha"
+      },
+      {
+        "key": 32,
+        "cityName": "Galhinna"
+      },
+      {
+        "key": 33,
+        "cityName": "Gallellagama"
+      },
+      {
+        "key": 34,
+        "cityName": "Gampola"
+      },
+      {
+        "key": 35,
+        "cityName": "Gelioya"
+      },
+      {
+        "key": 36,
+        "cityName": "Godamunna"
+      },
+      {
+        "key": 37,
+        "cityName": "Gomagoda"
+      },
+      {
+        "key": 38,
+        "cityName": "Gonagantenna"
+      },
+      {
+        "key": 39,
+        "cityName": "Gonawalapatana"
+      },
+      {
+        "key": 40,
+        "cityName": "Gunnepana"
+      },
+      {
+        "key": 41,
+        "cityName": "Gurudeniya"
+      },
+      {
+        "key": 42,
+        "cityName": "Halloluwa"
+      },
+      {
+        "key": 43,
+        "cityName": "Handaganawa"
+      },
+      {
+        "key": 44,
+        "cityName": "Handawalapitiya"
+      },
+      {
+        "key": 45,
+        "cityName": "Handessa"
+      },
+      {
+        "key": 46,
+        "cityName": "Hanguranketha"
+      },
+      {
+        "key": 47,
+        "cityName": "Harankahawa"
+      },
+      {
+        "key": 48,
+        "cityName": "Hasalaka"
+      },
+      {
+        "key": 49,
+        "cityName": "Hataraliyadda"
+      },
+      {
+        "key": 50,
+        "cityName": "Hewaheta"
+      },
+      {
+        "key": 51,
+        "cityName": "Hindagala"
+      },
+      {
+        "key": 52,
+        "cityName": "Hondiyadeniya"
+      },
+      {
+        "key": 53,
+        "cityName": "Hunnasgiriya"
+      },
+      {
+        "key": 54,
+        "cityName": "Jambugahapitiya"
+      },
+      {
+        "key": 55,
+        "cityName": "Kadugannawa"
+      },
+      {
+        "key": 56,
+        "cityName": "Kahataliyadda"
+      },
+      {
+        "key": 57,
+        "cityName": "Kalugala"
+      },
+      {
+        "key": 58,
+        "cityName": "Kandy"
+      },
+      {
+        "key": 59,
+        "cityName": "Kapuliyadde"
+      },
+      {
+        "key": 60,
+        "cityName": "Karandagolla"
+      },
+      {
+        "key": 61,
+        "cityName": "Katugastota"
+      },
+      {
+        "key": 62,
+        "cityName": "Kengalla"
+      },
+      {
+        "key": 63,
+        "cityName": "Ketakumbura"
+      },
+      {
+        "key": 64,
+        "cityName": "Ketawala Leula"
+      },
+      {
+        "key": 65,
+        "cityName": "Kiribathkumbura"
+      },
+      {
+        "key": 66,
+        "cityName": "Kobonila"
+      },
+      {
+        "key": 67,
+        "cityName": "Kolabissa"
+      },
+      {
+        "key": 68,
+        "cityName": "Kolongoda"
+      },
+      {
+        "key": 69,
+        "cityName": "Kulugammana"
+      },
+      {
+        "key": 70,
+        "cityName": "Kumbukkandura"
+      },
+      {
+        "key": 71,
+        "cityName": "Kumburegama"
+      },
+      {
+        "key": 72,
+        "cityName": "Kundasale"
+      },
+      {
+        "key": 73,
+        "cityName": "Leemagahakotuwa"
+      },
+      {
+        "key": 74,
+        "cityName": "lhala Kobbekaduwa"
+      },
+      {
+        "key": 75,
+        "cityName": "lllagolla"
+      },
+      {
+        "key": 76,
+        "cityName": "Lunuketiya Maditta"
+      },
+      {
+        "key": 77,
+        "cityName": "Madawala Bazaar"
+      },
+      {
+        "key": 78,
+        "cityName": "Madugalla"
+      },
+      {
+        "key": 79,
+        "cityName": "Madulkele"
+      },
+      {
+        "key": 80,
+        "cityName": "Mahadoraliyadda"
+      },
+      {
+        "key": 81,
+        "cityName": "Mahamedagama"
+      },
+      {
+        "key": 82,
+        "cityName": "Mailapitiya"
+      },
+      {
+        "key": 83,
+        "cityName": "Makkanigama"
+      },
+      {
+        "key": 84,
+        "cityName": "Makuldeniya"
+      },
+      {
+        "key": 85,
+        "cityName": "Mandaram Nuwara"
+      },
+      {
+        "key": 86,
+        "cityName": "Mapakanda"
+      },
+      {
+        "key": 87,
+        "cityName": "Marassana"
+      },
+      {
+        "key": 88,
+        "cityName": "Marymount Colony"
+      },
+      {
+        "key": 89,
+        "cityName": "Maturata"
+      },
+      {
+        "key": 90,
+        "cityName": "Mawatura"
+      },
+      {
+        "key": 91,
+        "cityName": "Medamahanuwara"
+      },
+      {
+        "key": 92,
+        "cityName": "Medawala Harispattuwa"
+      },
+      {
+        "key": 93,
+        "cityName": "Meetalawa"
+      },
+      {
+        "key": 94,
+        "cityName": "Megoda Kalugamuwa"
+      },
+      {
+        "key": 95,
+        "cityName": "Menikdiwela"
+      },
+      {
+        "key": 96,
+        "cityName": "Menikhinna"
+      },
+      {
+        "key": 97,
+        "cityName": "Mimure"
+      },
+      {
+        "key": 98,
+        "cityName": "Minigamuwa"
+      },
+      {
+        "key": 99,
+        "cityName": "Minipe"
+      },
+      {
+        "key": 100,
+        "cityName": "Murutalawa"
+      },
+      {
+        "key": 101,
+        "cityName": "Muruthagahamulla"
+      },
+      {
+        "key": 102,
+        "cityName": "Naranpanawa"
+      },
+      {
+        "key": 103,
+        "cityName": "Nattarampotha"
+      },
+      {
+        "key": 104,
+        "cityName": "Nawalapitiya"
+      },
+      {
+        "key": 105,
+        "cityName": "Nillambe"
+      },
+      {
+        "key": 106,
+        "cityName": "Nugaliyadda"
+      },
+      {
+        "key": 107,
+        "cityName": "Nugawela"
+      },
+      {
+        "key": 108,
+        "cityName": "Pallebowala"
+      },
+      {
+        "key": 109,
+        "cityName": "Pallekotuwa"
+      },
+      {
+        "key": 110,
+        "cityName": "Panvila"
+      },
+      {
+        "key": 111,
+        "cityName": "Panwilatenna"
+      },
+      {
+        "key": 112,
+        "cityName": "Paradeka"
+      },
+      {
+        "key": 113,
+        "cityName": "Pasbage"
+      },
+      {
+        "key": 114,
+        "cityName": "Pattitalawa"
+      },
+      {
+        "key": 115,
+        "cityName": "Pattiya Watta"
+      },
+      {
+        "key": 116,
+        "cityName": "Penideniya"
+      },
+      {
+        "key": 117,
+        "cityName": "Peradeniya"
+      },
+      {
+        "key": 118,
+        "cityName": "Pilawala"
+      },
+      {
+        "key": 119,
+        "cityName": "Pilimatalawa"
+      },
+      {
+        "key": 120,
+        "cityName": "Poholiyadda"
+      },
+      {
+        "key": 121,
+        "cityName": "Polgolla"
+      },
+      {
+        "key": 122,
+        "cityName": "Pujapitiya"
+      },
+      {
+        "key": 123,
+        "cityName": "Pupuressa"
+      },
+      {
+        "key": 124,
+        "cityName": "Pussellawa"
+      },
+      {
+        "key": 125,
+        "cityName": "Putuhapuwa"
+      },
+      {
+        "key": 126,
+        "cityName": "Rajawella"
+      },
+      {
+        "key": 127,
+        "cityName": "Rambukpitiya"
+      },
+      {
+        "key": 128,
+        "cityName": "Rambukwella"
+      },
+      {
+        "key": 129,
+        "cityName": "Rangala"
+      },
+      {
+        "key": 130,
+        "cityName": "Rantembe"
+      },
+      {
+        "key": 131,
+        "cityName": "Rathukohodigala"
+      },
+      {
+        "key": 132,
+        "cityName": "Rikillagaskada"
+      },
+      {
+        "key": 133,
+        "cityName": "Sangarajapura"
+      },
+      {
+        "key": 134,
+        "cityName": "Senarathwela"
+      },
+      {
+        "key": 135,
+        "cityName": "Talatuoya"
+      },
+      {
+        "key": 136,
+        "cityName": "Tawalantenna"
+      },
+      {
+        "key": 137,
+        "cityName": "Teldeniya"
+      },
+      {
+        "key": 138,
+        "cityName": "Tennekumbura"
+      },
+      {
+        "key": 139,
+        "cityName": "Uda Peradeniya"
+      },
+      {
+        "key": 140,
+        "cityName": "Udahentenna"
+      },
+      {
+        "key": 141,
+        "cityName": "Udahingulwala"
+      },
+      {
+        "key": 142,
+        "cityName": "Udatalawinna"
+      },
+      {
+        "key": 143,
+        "cityName": "Udawatta"
+      },
+      {
+        "key": 144,
+        "cityName": "Udispattuwa"
+      },
+      {
+        "key": 145,
+        "cityName": "Ududumbara"
+      },
+      {
+        "key": 146,
+        "cityName": "Uduwa"
+      },
+      {
+        "key": 147,
+        "cityName": "Uduwahinna"
+      },
+      {
+        "key": 148,
+        "cityName": "Uduwela"
+      },
+      {
+        "key": 149,
+        "cityName": "Ulapane"
+      },
+      {
+        "key": 150,
+        "cityName": "Ulpothagama"
+      },
+      {
+        "key": 151,
+        "cityName": "Unuwinna"
+      },
+      {
+        "key": 152,
+        "cityName": "Velamboda"
+      },
+      {
+        "key": 153,
+        "cityName": "Watagoda Harispattuwa"
+      },
+      {
+        "key": 154,
+        "cityName": "Wattappola"
+      },
+      {
+        "key": 155,
+        "cityName": "Wattegama"
+      },
+      {
+        "key": 156,
+        "cityName": "Weligalla"
+      },
+      {
+        "key": 157,
+        "cityName": "Weligampola"
+      },
+      {
+        "key": 158,
+        "cityName": "Wendaruwa"
+      },
+      {
+        "key": 159,
+        "cityName": "Weragantota"
+      },
+      {
+        "key": 160,
+        "cityName": "Werapitya"
+      },
+      {
+        "key": 161,
+        "cityName": "Werellagama"
+      },
+      {
+        "key": 162,
+        "cityName": "Wettawa"
+      },
+      {
+        "key": 163,
+        "cityName": "Wilanagama"
+      },
+      {
+        "key": 164,
+        "cityName": "Yahalatenna"
+      },
+      {
+        "key": 165,
+        "cityName": "Yatihalagala"
+      }
+    ]
+  },
+  {
+    "key": 12,
+    "districts": "Kegalle",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Alawatura"
+      },
+      {
+        "key": 2,
+        "cityName": "Algama"
+      },
+      {
+        "key": 3,
+        "cityName": "Alutnuwara"
+      },
+      {
+        "key": 4,
+        "cityName": "Ambalakanda"
+      },
+      {
+        "key": 5,
+        "cityName": "Ambulugala"
+      },
+      {
+        "key": 6,
+        "cityName": "Amitirigala"
+      },
+      {
+        "key": 7,
+        "cityName": "Ampagala"
+      },
+      {
+        "key": 8,
+        "cityName": "Anhettigama"
+      },
+      {
+        "key": 9,
+        "cityName": "Aranayaka"
+      },
+      {
+        "key": 10,
+        "cityName": "Aruggammana"
+      },
+      {
+        "key": 11,
+        "cityName": "Atale"
+      },
+      {
+        "key": 12,
+        "cityName": "Batuwita"
+      },
+      {
+        "key": 13,
+        "cityName": "Berannawa"
+      },
+      {
+        "key": 14,
+        "cityName": "Boralankada"
+      },
+      {
+        "key": 15,
+        "cityName": "Bossella"
+      },
+      {
+        "key": 16,
+        "cityName": "Bulathkohupitiya"
+      },
+      {
+        "key": 17,
+        "cityName": "Damunupola"
+      },
+      {
+        "key": 18,
+        "cityName": "Debathgama"
+      },
+      {
+        "key": 19,
+        "cityName": "Dedugala"
+      },
+      {
+        "key": 20,
+        "cityName": "Deewala Pallegama"
+      },
+      {
+        "key": 21,
+        "cityName": "Dehiowita"
+      },
+      {
+        "key": 22,
+        "cityName": "Deldeniya"
+      },
+      {
+        "key": 23,
+        "cityName": "Deloluwa"
+      },
+      {
+        "key": 24,
+        "cityName": "Deraniyagala"
+      },
+      {
+        "key": 25,
+        "cityName": "Dewalegama"
+      },
+      {
+        "key": 26,
+        "cityName": "Dewanagala"
+      },
+      {
+        "key": 27,
+        "cityName": "Dombemada"
+      },
+      {
+        "key": 28,
+        "cityName": "Dorawaka"
+      },
+      {
+        "key": 29,
+        "cityName": "Dunumala"
+      },
+      {
+        "key": 30,
+        "cityName": "Galapitamada"
+      },
+      {
+        "key": 31,
+        "cityName": "Galatara"
+      },
+      {
+        "key": 32,
+        "cityName": "Galigamuwa Town"
+      },
+      {
+        "key": 33,
+        "cityName": "Gantuna"
+      },
+      {
+        "key": 34,
+        "cityName": "Gonagala"
+      },
+      {
+        "key": 35,
+        "cityName": "Hakahinna"
+      },
+      {
+        "key": 36,
+        "cityName": "Hakbellawaka"
+      },
+      {
+        "key": 37,
+        "cityName": "Helamada"
+      },
+      {
+        "key": 38,
+        "cityName": "Hemmatagama"
+      },
+      {
+        "key": 39,
+        "cityName": "Hettimulla"
+      },
+      {
+        "key": 40,
+        "cityName": "Hewadiwela"
+      },
+      {
+        "key": 41,
+        "cityName": "Hingula"
+      },
+      {
+        "key": 42,
+        "cityName": "Hinguralakanda"
+      },
+      {
+        "key": 43,
+        "cityName": "Hiriwadunna"
+      },
+      {
+        "key": 44,
+        "cityName": "Imbulana"
+      },
+      {
+        "key": 45,
+        "cityName": "Imbulgasdeniya"
+      },
+      {
+        "key": 46,
+        "cityName": "Kabagamuwa"
+      },
+      {
+        "key": 47,
+        "cityName": "Kannattota"
+      },
+      {
+        "key": 48,
+        "cityName": "Kegalle"
+      },
+      {
+        "key": 49,
+        "cityName": "Kehelpannala"
+      },
+      {
+        "key": 50,
+        "cityName": "Kitulgala"
+      },
+      {
+        "key": 51,
+        "cityName": "Kondeniya"
+      },
+      {
+        "key": 52,
+        "cityName": "Kotiyakumbura"
+      },
+      {
+        "key": 53,
+        "cityName": "Lewangama"
+      },
+      {
+        "key": 54,
+        "cityName": "Mahabage"
+      },
+      {
+        "key": 55,
+        "cityName": "Mahapallegama"
+      },
+      {
+        "key": 56,
+        "cityName": "Maharangalla"
+      },
+      {
+        "key": 57,
+        "cityName": "Makehelwala"
+      },
+      {
+        "key": 58,
+        "cityName": "Malalpola"
+      },
+      {
+        "key": 59,
+        "cityName": "Maliboda"
+      },
+      {
+        "key": 60,
+        "cityName": "Malmaduwa"
+      },
+      {
+        "key": 61,
+        "cityName": "Mawanella"
+      },
+      {
+        "key": 62,
+        "cityName": "Migastenna Sabara"
+      },
+      {
+        "key": 63,
+        "cityName": "Miyanawita"
+      },
+      {
+        "key": 64,
+        "cityName": "Molagoda"
+      },
+      {
+        "key": 65,
+        "cityName": "Morontota"
+      },
+      {
+        "key": 66,
+        "cityName": "Nelundeniya"
+      },
+      {
+        "key": 67,
+        "cityName": "Niyadurupola"
+      },
+      {
+        "key": 68,
+        "cityName": "Noori"
+      },
+      {
+        "key": 69,
+        "cityName": "Parape"
+      },
+      {
+        "key": 70,
+        "cityName": "Pattampitiya"
+      },
+      {
+        "key": 71,
+        "cityName": "Pitagaldeniya"
+      },
+      {
+        "key": 72,
+        "cityName": "Pothukoladeniya"
+      },
+      {
+        "key": 73,
+        "cityName": "Rambukkana"
+      },
+      {
+        "key": 74,
+        "cityName": "Ruwanwella"
+      },
+      {
+        "key": 75,
+        "cityName": "Seaforth Colony"
+      },
+      {
+        "key": 76,
+        "cityName": "Talgaspitiya"
+      },
+      {
+        "key": 77,
+        "cityName": "Teligama"
+      },
+      {
+        "key": 78,
+        "cityName": "Tholangamuwa"
+      },
+      {
+        "key": 79,
+        "cityName": "Thotawella"
+      },
+      {
+        "key": 80,
+        "cityName": "Tulhiriya"
+      },
+      {
+        "key": 81,
+        "cityName": "Tuntota"
+      },
+      {
+        "key": 82,
+        "cityName": "Udagaldeniya"
+      },
+      {
+        "key": 83,
+        "cityName": "Udapotha"
+      },
+      {
+        "key": 84,
+        "cityName": "Udumulla"
+      },
+      {
+        "key": 85,
+        "cityName": "Undugoda"
+      },
+      {
+        "key": 86,
+        "cityName": "Ussapitiya"
+      },
+      {
+        "key": 87,
+        "cityName": "Wahakula"
+      },
+      {
+        "key": 88,
+        "cityName": "Waharaka"
+      },
+      {
+        "key": 89,
+        "cityName": "Warakapola"
+      },
+      {
+        "key": 90,
+        "cityName": "Watura"
+      },
+      {
+        "key": 91,
+        "cityName": "Weeoya"
+      },
+      {
+        "key": 92,
+        "cityName": "Wegalla"
+      },
+      {
+        "key": 93,
+        "cityName": "Welihelatenna"
+      },
+      {
+        "key": 94,
+        "cityName": "Weragala"
+      },
+      {
+        "key": 95,
+        "cityName": "Yatagama"
+      },
+      {
+        "key": 96,
+        "cityName": "Yatapana"
+      },
+      {
+        "key": 97,
+        "cityName": "Yatiyantota"
+      },
+      {
+        "key": 98,
+        "cityName": "Yattogoda"
+      }
+    ]
+  },
+  {
+    "key": 13,
+    "districts": "Kilinochchi",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Kilinochchi"
+      }
+    ]
+  },
+  {
+    "key": 14,
+    "districts": "Kurunegala",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Alahengama"
+      },
+      {
+        "key": 2,
+        "cityName": "Alahitiyawa"
+      },
+      {
+        "key": 3,
+        "cityName": "Alawatuwala"
+      },
+      {
+        "key": 4,
+        "cityName": "Alawwa"
+      },
+      {
+        "key": 5,
+        "cityName": "Ambakote"
+      },
+      {
+        "key": 6,
+        "cityName": "Ambanpola"
+      },
+      {
+        "key": 7,
+        "cityName": "Anhandiya"
+      },
+      {
+        "key": 8,
+        "cityName": "Anukkane"
+      },
+      {
+        "key": 9,
+        "cityName": "Aragoda"
+      },
+      {
+        "key": 10,
+        "cityName": "Ataragalla"
+      },
+      {
+        "key": 11,
+        "cityName": "Awulegama"
+      },
+      {
+        "key": 12,
+        "cityName": "Balalla"
+      },
+      {
+        "key": 13,
+        "cityName": "Bamunukotuwa"
+      },
+      {
+        "key": 14,
+        "cityName": "Bandara Koswatta"
+      },
+      {
+        "key": 15,
+        "cityName": "Bingiriya"
+      },
+      {
+        "key": 16,
+        "cityName": "Bogamulla"
+      },
+      {
+        "key": 17,
+        "cityName": "Bopitiya"
+      },
+      {
+        "key": 18,
+        "cityName": "Boraluwewa"
+      },
+      {
+        "key": 19,
+        "cityName": "Boyagane"
+      },
+      {
+        "key": 20,
+        "cityName": "Bujjomuwa"
+      },
+      {
+        "key": 21,
+        "cityName": "Buluwala"
+      },
+      {
+        "key": 22,
+        "cityName": "Dambadeniya"
+      },
+      {
+        "key": 23,
+        "cityName": "Daraluwa"
+      },
+      {
+        "key": 24,
+        "cityName": "Deegalla"
+      },
+      {
+        "key": 25,
+        "cityName": "Delwite"
+      },
+      {
+        "key": 26,
+        "cityName": "Demataluwa"
+      },
+      {
+        "key": 27,
+        "cityName": "Diddeniya"
+      },
+      {
+        "key": 28,
+        "cityName": "Digannewa"
+      },
+      {
+        "key": 29,
+        "cityName": "Divullegoda"
+      },
+      {
+        "key": 30,
+        "cityName": "Dodangaslanda"
+      },
+      {
+        "key": 31,
+        "cityName": "Doratiyawa"
+      },
+      {
+        "key": 32,
+        "cityName": "Dummalasuriya"
+      },
+      {
+        "key": 33,
+        "cityName": "Ehetuwewa"
+      },
+      {
+        "key": 34,
+        "cityName": "Elibichchiya"
+      },
+      {
+        "key": 35,
+        "cityName": "Embogama"
+      },
+      {
+        "key": 36,
+        "cityName": "Etungahakotuwa"
+      },
+      {
+        "key": 37,
+        "cityName": "Galgamuwa"
+      },
+      {
+        "key": 38,
+        "cityName": "Gallewa"
+      },
+      {
+        "key": 39,
+        "cityName": "Girathalana"
+      },
+      {
+        "key": 40,
+        "cityName": "Giriulla"
+      },
+      {
+        "key": 41,
+        "cityName": "Gokaralla"
+      },
+      {
+        "key": 42,
+        "cityName": "Gonawila"
+      },
+      {
+        "key": 43,
+        "cityName": "Halmillawewa"
+      },
+      {
+        "key": 44,
+        "cityName": "Hengamuwa"
+      },
+      {
+        "key": 45,
+        "cityName": "Hettipola"
+      },
+      {
+        "key": 46,
+        "cityName": "Hilogama"
+      },
+      {
+        "key": 47,
+        "cityName": "Hindagolla"
+      },
+      {
+        "key": 48,
+        "cityName": "Hiriyala Lenawa"
+      },
+      {
+        "key": 49,
+        "cityName": "Hiruwalpola"
+      },
+      {
+        "key": 50,
+        "cityName": "Horambawa"
+      },
+      {
+        "key": 51,
+        "cityName": "Hulogedara"
+      },
+      {
+        "key": 52,
+        "cityName": "Hulugalla"
+      },
+      {
+        "key": 53,
+        "cityName": "Hunupola"
+      },
+      {
+        "key": 54,
+        "cityName": "Ihala Gomugomuwa"
+      },
+      {
+        "key": 55,
+        "cityName": "Ihala Katugampala"
+      },
+      {
+        "key": 56,
+        "cityName": "Indulgodakanda"
+      },
+      {
+        "key": 57,
+        "cityName": "Inguruwatta"
+      },
+      {
+        "key": 58,
+        "cityName": "Iriyagolla"
+      },
+      {
+        "key": 59,
+        "cityName": "Ithanawatta"
+      },
+      {
+        "key": 60,
+        "cityName": "Kadigawa"
+      },
+      {
+        "key": 61,
+        "cityName": "Kahapathwala"
+      },
+      {
+        "key": 62,
+        "cityName": "Kalugamuwa"
+      },
+      {
+        "key": 63,
+        "cityName": "Kanadeniyawala"
+      },
+      {
+        "key": 64,
+        "cityName": "Kanattewewa"
+      },
+      {
+        "key": 65,
+        "cityName": "Karagahagedara"
+      },
+      {
+        "key": 66,
+        "cityName": "Karambe"
+      },
+      {
+        "key": 67,
+        "cityName": "Katupota"
+      },
+      {
+        "key": 68,
+        "cityName": "Kekunagolla"
+      },
+      {
+        "key": 69,
+        "cityName": "Keppitiwalana"
+      },
+      {
+        "key": 70,
+        "cityName": "Kimbulwanaoya"
+      },
+      {
+        "key": 71,
+        "cityName": "Kirimetiyawa"
+      },
+      {
+        "key": 72,
+        "cityName": "Kirindawa"
+      },
+      {
+        "key": 73,
+        "cityName": "Kirindigalla"
+      },
+      {
+        "key": 74,
+        "cityName": "Kithalawa"
+      },
+      {
+        "key": 75,
+        "cityName": "Kobeigane"
+      },
+      {
+        "key": 76,
+        "cityName": "Kohilagedara"
+      },
+      {
+        "key": 77,
+        "cityName": "Konwewa"
+      },
+      {
+        "key": 78,
+        "cityName": "Kosdeniya"
+      },
+      {
+        "key": 79,
+        "cityName": "Kosgolla"
+      },
+      {
+        "key": 80,
+        "cityName": "Kotawehera"
+      },
+      {
+        "key": 81,
+        "cityName": "Kudagalgamuwa"
+      },
+      {
+        "key": 82,
+        "cityName": "Kudakatnoruwa"
+      },
+      {
+        "key": 83,
+        "cityName": "Kuliyapitiya"
+      },
+      {
+        "key": 84,
+        "cityName": "Kumbukgeta"
+      },
+      {
+        "key": 85,
+        "cityName": "Kumbukwewa"
+      },
+      {
+        "key": 86,
+        "cityName": "Kuratihena"
+      },
+      {
+        "key": 87,
+        "cityName": "Kurunegala"
+      },
+      {
+        "key": 88,
+        "cityName": "Labbala"
+      },
+      {
+        "key": 89,
+        "cityName": "lbbagamuwa"
+      },
+      {
+        "key": 90,
+        "cityName": "lhala Kadigamuwa"
+      },
+      {
+        "key": 91,
+        "cityName": "llukhena"
+      },
+      {
+        "key": 92,
+        "cityName": "Lonahettiya"
+      },
+      {
+        "key": 93,
+        "cityName": "Madahapola"
+      },
+      {
+        "key": 94,
+        "cityName": "Madakumburumulla"
+      },
+      {
+        "key": 95,
+        "cityName": "Maduragoda"
+      },
+      {
+        "key": 96,
+        "cityName": "Maeliya"
+      },
+      {
+        "key": 97,
+        "cityName": "Magulagama"
+      },
+      {
+        "key": 98,
+        "cityName": "Mahagalkadawala"
+      },
+      {
+        "key": 99,
+        "cityName": "Mahagirilla"
+      },
+      {
+        "key": 100,
+        "cityName": "Mahamukalanyaya"
+      },
+      {
+        "key": 101,
+        "cityName": "Mahananneriya"
+      },
+      {
+        "key": 102,
+        "cityName": "Maharachchimulla"
+      },
+      {
+        "key": 103,
+        "cityName": "Maho"
+      },
+      {
+        "key": 104,
+        "cityName": "Makulewa"
+      },
+      {
+        "key": 105,
+        "cityName": "Makulpotha"
+      },
+      {
+        "key": 106,
+        "cityName": "Makulwewa"
+      },
+      {
+        "key": 107,
+        "cityName": "Malagane"
+      },
+      {
+        "key": 108,
+        "cityName": "Mandapola"
+      },
+      {
+        "key": 109,
+        "cityName": "Maspotha"
+      },
+      {
+        "key": 110,
+        "cityName": "Mawathagama"
+      },
+      {
+        "key": 111,
+        "cityName": "Medivawa"
+      },
+      {
+        "key": 112,
+        "cityName": "Meegalawa"
+      },
+      {
+        "key": 113,
+        "cityName": "Meetanwala"
+      },
+      {
+        "key": 114,
+        "cityName": "Meewellawa"
+      },
+      {
+        "key": 115,
+        "cityName": "Melsiripura"
+      },
+      {
+        "key": 116,
+        "cityName": "Metikumbura"
+      },
+      {
+        "key": 117,
+        "cityName": "Metiyagane"
+      },
+      {
+        "key": 118,
+        "cityName": "Minhettiya"
+      },
+      {
+        "key": 119,
+        "cityName": "Minuwangete"
+      },
+      {
+        "key": 120,
+        "cityName": "Mirihanagama"
+      },
+      {
+        "key": 121,
+        "cityName": "Monnekulama"
+      },
+      {
+        "key": 122,
+        "cityName": "Moragane"
+      },
+      {
+        "key": 123,
+        "cityName": "Moragollagama"
+      },
+      {
+        "key": 124,
+        "cityName": "Morathiha"
+      },
+      {
+        "key": 125,
+        "cityName": "Munamaldeniya"
+      },
+      {
+        "key": 126,
+        "cityName": "Muruthenge"
+      },
+      {
+        "key": 127,
+        "cityName": "Nabadewa"
+      },
+      {
+        "key": 128,
+        "cityName": "Nagollagama"
+      },
+      {
+        "key": 129,
+        "cityName": "Nagollagoda"
+      },
+      {
+        "key": 130,
+        "cityName": "Nakkawatta"
+      },
+      {
+        "key": 131,
+        "cityName": "Narammala"
+      },
+      {
+        "key": 132,
+        "cityName": "Narangoda"
+      },
+      {
+        "key": 133,
+        "cityName": "Nawatalwatta"
+      },
+      {
+        "key": 134,
+        "cityName": "Nelliya"
+      },
+      {
+        "key": 135,
+        "cityName": "Nikadalupotha"
+      },
+      {
+        "key": 136,
+        "cityName": "Nikaweratiya"
+      },
+      {
+        "key": 137,
+        "cityName": "Padeniya"
+      },
+      {
+        "key": 138,
+        "cityName": "Padiwela"
+      },
+      {
+        "key": 139,
+        "cityName": "Pahalagiribawa"
+      },
+      {
+        "key": 140,
+        "cityName": "Pahamune"
+      },
+      {
+        "key": 141,
+        "cityName": "Palukadawala"
+      },
+      {
+        "key": 142,
+        "cityName": "Panadaragama"
+      },
+      {
+        "key": 143,
+        "cityName": "Panagamuwa"
+      },
+      {
+        "key": 144,
+        "cityName": "Panaliya"
+      },
+      {
+        "key": 145,
+        "cityName": "Panliyadda"
+      },
+      {
+        "key": 146,
+        "cityName": "Pannala"
+      },
+      {
+        "key": 147,
+        "cityName": "Pansiyagama"
+      },
+      {
+        "key": 148,
+        "cityName": "Periyakadneluwa"
+      },
+      {
+        "key": 149,
+        "cityName": "Pihimbiya Ratmale"
+      },
+      {
+        "key": 150,
+        "cityName": "Pihimbuwa"
+      },
+      {
+        "key": 151,
+        "cityName": "Pilessa"
+      },
+      {
+        "key": 152,
+        "cityName": "Polgahawela"
+      },
+      {
+        "key": 153,
+        "cityName": "Polpitigama"
+      },
+      {
+        "key": 154,
+        "cityName": "Pothuhera"
+      },
+      {
+        "key": 155,
+        "cityName": "Puswelitenna"
+      },
+      {
+        "key": 156,
+        "cityName": "Ridibendiella"
+      },
+      {
+        "key": 157,
+        "cityName": "Ridigama"
+      },
+      {
+        "key": 158,
+        "cityName": "Saliya Asokapura"
+      },
+      {
+        "key": 159,
+        "cityName": "Sandalankawa"
+      },
+      {
+        "key": 160,
+        "cityName": "Sirisetagama"
+      },
+      {
+        "key": 161,
+        "cityName": "Siyambalangamuwa"
+      },
+      {
+        "key": 162,
+        "cityName": "Solepura"
+      },
+      {
+        "key": 163,
+        "cityName": "Solewewa"
+      },
+      {
+        "key": 164,
+        "cityName": "Sunandapura"
+      },
+      {
+        "key": 165,
+        "cityName": "Talawattegedara"
+      },
+      {
+        "key": 166,
+        "cityName": "Tambutta"
+      },
+      {
+        "key": 167,
+        "cityName": "Thalahitimulla"
+      },
+      {
+        "key": 168,
+        "cityName": "Thalakolawewa"
+      },
+      {
+        "key": 169,
+        "cityName": "Thalwita"
+      },
+      {
+        "key": 170,
+        "cityName": "Thambagalla"
+      },
+      {
+        "key": 171,
+        "cityName": "Tharana Udawela"
+      },
+      {
+        "key": 172,
+        "cityName": "Thimbiriyawa"
+      },
+      {
+        "key": 173,
+        "cityName": "Tisogama"
+      },
+      {
+        "key": 174,
+        "cityName": "Torayaya"
+      },
+      {
+        "key": 175,
+        "cityName": "Tuttiripitigama"
+      },
+      {
+        "key": 176,
+        "cityName": "Udubaddawa"
+      },
+      {
+        "key": 177,
+        "cityName": "Uhumiya"
+      },
+      {
+        "key": 178,
+        "cityName": "Ulpotha Pallekele"
+      },
+      {
+        "key": 179,
+        "cityName": "Usgala Siyabmalangamuwa"
+      },
+      {
+        "key": 180,
+        "cityName": "Wadakada"
+      },
+      {
+        "key": 181,
+        "cityName": "Wadumunnegedara"
+      },
+      {
+        "key": 182,
+        "cityName": "Walakumburumulla"
+      },
+      {
+        "key": 183,
+        "cityName": "Wannigama"
+      },
+      {
+        "key": 184,
+        "cityName": "Wannikudawewa"
+      },
+      {
+        "key": 185,
+        "cityName": "Wannilhalagama"
+      },
+      {
+        "key": 186,
+        "cityName": "Wannirasnayakapura"
+      },
+      {
+        "key": 187,
+        "cityName": "Warawewa"
+      },
+      {
+        "key": 188,
+        "cityName": "Wariyapola"
+      },
+      {
+        "key": 189,
+        "cityName": "Watuwatta"
+      },
+      {
+        "key": 190,
+        "cityName": "Weerapokuna"
+      },
+      {
+        "key": 191,
+        "cityName": "Welawa Juncton"
+      },
+      {
+        "key": 192,
+        "cityName": "Welipennagahamulla"
+      },
+      {
+        "key": 193,
+        "cityName": "Wellagala"
+      },
+      {
+        "key": 194,
+        "cityName": "Wellarawa"
+      },
+      {
+        "key": 195,
+        "cityName": "Wellawa"
+      },
+      {
+        "key": 196,
+        "cityName": "Welpalla"
+      },
+      {
+        "key": 197,
+        "cityName": "Wennoruwa"
+      },
+      {
+        "key": 198,
+        "cityName": "Weuda"
+      },
+      {
+        "key": 199,
+        "cityName": "Wewagama"
+      },
+      {
+        "key": 200,
+        "cityName": "Yakwila"
+      },
+      {
+        "key": 201,
+        "cityName": "Yatigaloluwa"
+      }
+    ]
+  },
+  {
+    "key": 15,
+    "districts": "Mannar",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Adampan"
+      },
+      {
+        "key": 2,
+        "cityName": "Arippu"
+      },
+      {
+        "key": 3,
+        "cityName": "Athimottai"
+      },
+      {
+        "key": 4,
+        "cityName": "Chilavathurai"
+      },
+      {
+        "key": 5,
+        "cityName": "Erukkalampiddy"
+      },
+      {
+        "key": 6,
+        "cityName": "llluppaikadavai"
+      },
+      {
+        "key": 7,
+        "cityName": "Madhu Church"
+      },
+      {
+        "key": 8,
+        "cityName": "Madhu Road"
+      },
+      {
+        "key": 9,
+        "cityName": "Mannar"
+      },
+      {
+        "key": 10,
+        "cityName": "Marichchi Kaddi"
+      },
+      {
+        "key": 11,
+        "cityName": "Murunkan"
+      },
+      {
+        "key": 12,
+        "cityName": "Nanattan"
+      },
+      {
+        "key": 13,
+        "cityName": "P.P.Potkemy"
+      },
+      {
+        "key": 14,
+        "cityName": "Palampiddy"
+      },
+      {
+        "key": 15,
+        "cityName": "Periyakunchikulam"
+      },
+      {
+        "key": 16,
+        "cityName": "Periyamadhu"
+      },
+      {
+        "key": 17,
+        "cityName": "Pesalai"
+      },
+      {
+        "key": 18,
+        "cityName": "Talaimannar"
+      },
+      {
+        "key": 19,
+        "cityName": "Temple"
+      },
+      {
+        "key": 20,
+        "cityName": "Tharapuram"
+      },
+      {
+        "key": 21,
+        "cityName": "Thiruketheeswaram Temple"
+      },
+      {
+        "key": 22,
+        "cityName": "Uyilankulam"
+      },
+      {
+        "key": 23,
+        "cityName": "Vaddakandal"
+      },
+      {
+        "key": 24,
+        "cityName": "Vankalai"
+      },
+      {
+        "key": 25,
+        "cityName": "Vellan Kulam"
+      },
+      {
+        "key": 26,
+        "cityName": "Vidataltivu"
+      }
+    ]
+  },
+  {
+    "key": 16,
+    "districts": "Matale",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Akuramboda"
+      },
+      {
+        "key": 2,
+        "cityName": "Alwatta"
+      },
+      {
+        "key": 3,
+        "cityName": "Ambana"
+      },
+      {
+        "key": 4,
+        "cityName": "Ataragallewa"
+      },
+      {
+        "key": 5,
+        "cityName": "Bambaragaswewa"
+      },
+      {
+        "key": 6,
+        "cityName": "Beligamuwa"
+      },
+      {
+        "key": 7,
+        "cityName": "Dambulla"
+      },
+      {
+        "key": 8,
+        "cityName": "Dankanda"
+      },
+      {
+        "key": 9,
+        "cityName": "Devagiriya"
+      },
+      {
+        "key": 10,
+        "cityName": "Dewahuwa"
+      },
+      {
+        "key": 11,
+        "cityName": "Dullewa"
+      },
+      {
+        "key": 12,
+        "cityName": "Dunkolawatta"
+      },
+      {
+        "key": 13,
+        "cityName": "Dunuwilapitiya"
+      },
+      {
+        "key": 14,
+        "cityName": "Elkaduwa"
+      },
+      {
+        "key": 15,
+        "cityName": "Erawula Junction"
+      },
+      {
+        "key": 16,
+        "cityName": "Etanawala"
+      },
+      {
+        "key": 17,
+        "cityName": "Galewela"
+      },
+      {
+        "key": 18,
+        "cityName": "Gammaduwa"
+      },
+      {
+        "key": 19,
+        "cityName": "Gangala Puwakpitiya"
+      },
+      {
+        "key": 20,
+        "cityName": "Handungamuwa"
+      },
+      {
+        "key": 21,
+        "cityName": "Hattota Amuna"
+      },
+      {
+        "key": 22,
+        "cityName": "Imbulgolla"
+      },
+      {
+        "key": 23,
+        "cityName": "Inamaluwa"
+      },
+      {
+        "key": 24,
+        "cityName": "Kaikawala"
+      },
+      {
+        "key": 25,
+        "cityName": "Kalundawa"
+      },
+      {
+        "key": 26,
+        "cityName": "Kandalama"
+      },
+      {
+        "key": 27,
+        "cityName": "Karagahinna"
+      },
+      {
+        "key": 28,
+        "cityName": "Katudeniya"
+      },
+      {
+        "key": 29,
+        "cityName": "Kavudupelella"
+      },
+      {
+        "key": 30,
+        "cityName": "Kibissa"
+      },
+      {
+        "key": 31,
+        "cityName": "Kiwula"
+      },
+      {
+        "key": 32,
+        "cityName": "Kongahawela"
+      },
+      {
+        "key": 33,
+        "cityName": "Laggala Pallegama"
+      },
+      {
+        "key": 34,
+        "cityName": "Leliambe"
+      },
+      {
+        "key": 35,
+        "cityName": "Lenadora"
+      },
+      {
+        "key": 36,
+        "cityName": "lllukkumbura"
+      },
+      {
+        "key": 37,
+        "cityName": "Madawala Ulpotha"
+      },
+      {
+        "key": 38,
+        "cityName": "Madipola"
+      },
+      {
+        "key": 39,
+        "cityName": "Mahawela"
+      },
+      {
+        "key": 40,
+        "cityName": "Mananwatta"
+      },
+      {
+        "key": 41,
+        "cityName": "Maraka"
+      },
+      {
+        "key": 42,
+        "cityName": "Matale"
+      },
+      {
+        "key": 43,
+        "cityName": "Melipitiya"
+      },
+      {
+        "key": 44,
+        "cityName": "Metihakka"
+      },
+      {
+        "key": 45,
+        "cityName": "Millawana"
+      },
+      {
+        "key": 46,
+        "cityName": "Muwandeniya"
+      },
+      {
+        "key": 47,
+        "cityName": "Nalanda"
+      },
+      {
+        "key": 48,
+        "cityName": "Naula"
+      },
+      {
+        "key": 49,
+        "cityName": "Nugagolla"
+      },
+      {
+        "key": 50,
+        "cityName": "Opalgala"
+      },
+      {
+        "key": 51,
+        "cityName": "Ovilikanda"
+      },
+      {
+        "key": 52,
+        "cityName": "Palapathwela"
+      },
+      {
+        "key": 53,
+        "cityName": "Pallepola"
+      },
+      {
+        "key": 54,
+        "cityName": "Perakanatta"
+      },
+      {
+        "key": 55,
+        "cityName": "Pubbiliya"
+      },
+      {
+        "key": 56,
+        "cityName": "Ranamuregama"
+      },
+      {
+        "key": 57,
+        "cityName": "Rattota"
+      },
+      {
+        "key": 58,
+        "cityName": "Selagama"
+      },
+      {
+        "key": 59,
+        "cityName": "Sigiriya"
+      },
+      {
+        "key": 60,
+        "cityName": "Talagoda Junction"
+      },
+      {
+        "key": 61,
+        "cityName": "Talakiriyagama"
+      },
+      {
+        "key": 62,
+        "cityName": "Udasgiriya"
+      },
+      {
+        "key": 63,
+        "cityName": "Udatenna"
+      },
+      {
+        "key": 64,
+        "cityName": "Ukuwela"
+      },
+      {
+        "key": 65,
+        "cityName": "Wahacotte"
+      },
+      {
+        "key": 66,
+        "cityName": "Walawela"
+      },
+      {
+        "key": 67,
+        "cityName": "Wehigala"
+      },
+      {
+        "key": 68,
+        "cityName": "Welangahawatte"
+      },
+      {
+        "key": 69,
+        "cityName": "Wewalawewa"
+      },
+      {
+        "key": 70,
+        "cityName": "Wilgamuwa"
+      },
+      {
+        "key": 71,
+        "cityName": "Yatawatta"
+      }
+    ]
+  },
+  {
+    "key": 17,
+    "districts": "Matara",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Akuressa"
+      },
+      {
+        "key": 2,
+        "cityName": "Alapaladeniya"
+      },
+      {
+        "key": 3,
+        "cityName": "Aparekka"
+      },
+      {
+        "key": 4,
+        "cityName": "Athuraliya"
+      },
+      {
+        "key": 5,
+        "cityName": "Bengamuwa"
+      },
+      {
+        "key": 6,
+        "cityName": "Beralapanathara"
+      },
+      {
+        "key": 7,
+        "cityName": "Bopagoda"
+      },
+      {
+        "key": 8,
+        "cityName": "Dampahala"
+      },
+      {
+        "key": 9,
+        "cityName": "Deegala Lenama"
+      },
+      {
+        "key": 10,
+        "cityName": "Deiyandara"
+      },
+      {
+        "key": 11,
+        "cityName": "Dellawa"
+      },
+      {
+        "key": 12,
+        "cityName": "Denagama"
+      },
+      {
+        "key": 13,
+        "cityName": "Denipitiya"
+      },
+      {
+        "key": 14,
+        "cityName": "Deniyaya"
+      },
+      {
+        "key": 15,
+        "cityName": "Derangala"
+      },
+      {
+        "key": 16,
+        "cityName": "Dikwella"
+      },
+      {
+        "key": 17,
+        "cityName": "Diyagaha"
+      },
+      {
+        "key": 18,
+        "cityName": "Diyalape"
+      },
+      {
+        "key": 19,
+        "cityName": "Gandara"
+      },
+      {
+        "key": 20,
+        "cityName": "Godapitiya"
+      },
+      {
+        "key": 21,
+        "cityName": "Gomilamawarala"
+      },
+      {
+        "key": 22,
+        "cityName": "Hakmana"
+      },
+      {
+        "key": 23,
+        "cityName": "Handugala"
+      },
+      {
+        "key": 24,
+        "cityName": "Horapawita"
+      },
+      {
+        "key": 25,
+        "cityName": "Kalubowitiyana"
+      },
+      {
+        "key": 26,
+        "cityName": "Kamburugamuwa"
+      },
+      {
+        "key": 27,
+        "cityName": "Kamburupitiya"
+      },
+      {
+        "key": 28,
+        "cityName": "Karagoda Uyangoda"
+      },
+      {
+        "key": 29,
+        "cityName": "Karaputugala"
+      },
+      {
+        "key": 30,
+        "cityName": "Karatota"
+      },
+      {
+        "key": 31,
+        "cityName": "Kekanadurra"
+      },
+      {
+        "key": 32,
+        "cityName": "Kiriweldola"
+      },
+      {
+        "key": 33,
+        "cityName": "Kiriwelkele"
+      },
+      {
+        "key": 34,
+        "cityName": "Kolawenigama"
+      },
+      {
+        "key": 35,
+        "cityName": "Kotapola"
+      },
+      {
+        "key": 36,
+        "cityName": "Kottegoda"
+      },
+      {
+        "key": 37,
+        "cityName": "Lankagama"
+      },
+      {
+        "key": 38,
+        "cityName": "Makandura"
+      },
+      {
+        "key": 39,
+        "cityName": "Maliduwa"
+      },
+      {
+        "key": 40,
+        "cityName": "Maramba"
+      },
+      {
+        "key": 41,
+        "cityName": "Matara"
+      },
+      {
+        "key": 42,
+        "cityName": "Mediripitiya"
+      },
+      {
+        "key": 43,
+        "cityName": "Miella"
+      },
+      {
+        "key": 44,
+        "cityName": "Mirissa"
+      },
+      {
+        "key": 45,
+        "cityName": "Moragala Kirillapone"
+      },
+      {
+        "key": 46,
+        "cityName": "Morawaka"
+      },
+      {
+        "key": 47,
+        "cityName": "Mulatiyana Junction"
+      },
+      {
+        "key": 48,
+        "cityName": "Nadugala"
+      },
+      {
+        "key": 49,
+        "cityName": "Naimana"
+      },
+      {
+        "key": 50,
+        "cityName": "Narawelpita"
+      },
+      {
+        "key": 51,
+        "cityName": "Pahala Millawa"
+      },
+      {
+        "key": 52,
+        "cityName": "Palatuwa"
+      },
+      {
+        "key": 53,
+        "cityName": "Paragala"
+      },
+      {
+        "key": 54,
+        "cityName": "Parapamulla"
+      },
+      {
+        "key": 55,
+        "cityName": "Pasgoda"
+      },
+      {
+        "key": 56,
+        "cityName": "Penetiyana"
+      },
+      {
+        "key": 57,
+        "cityName": "Pitabeddara"
+      },
+      {
+        "key": 58,
+        "cityName": "Pothdeniya"
+      },
+      {
+        "key": 59,
+        "cityName": "Puhulwella"
+      },
+      {
+        "key": 60,
+        "cityName": "Radawela"
+      },
+      {
+        "key": 61,
+        "cityName": "Ransegoda"
+      },
+      {
+        "key": 62,
+        "cityName": "Ratmale"
+      },
+      {
+        "key": 63,
+        "cityName": "Rotumba"
+      },
+      {
+        "key": 64,
+        "cityName": "Siyambalagoda"
+      },
+      {
+        "key": 65,
+        "cityName": "Sultanagoda"
+      },
+      {
+        "key": 66,
+        "cityName": "Telijjawila"
+      },
+      {
+        "key": 67,
+        "cityName": "Thihagoda"
+      },
+      {
+        "key": 68,
+        "cityName": "Urubokka"
+      },
+      {
+        "key": 69,
+        "cityName": "Urugamuwa"
+      },
+      {
+        "key": 70,
+        "cityName": "Urumutta"
+      },
+      {
+        "key": 71,
+        "cityName": "Viharahena"
+      },
+      {
+        "key": 72,
+        "cityName": "Walakanda"
+      },
+      {
+        "key": 73,
+        "cityName": "Walasgala"
+      },
+      {
+        "key": 74,
+        "cityName": "Waralla"
+      },
+      {
+        "key": 75,
+        "cityName": "Weligama"
+      },
+      {
+        "key": 76,
+        "cityName": "Wilpita"
+      },
+      {
+        "key": 77,
+        "cityName": "Yatiyana"
+      }
+    ]
+  },
+  {
+    "key": 18,
+    "districts": "Monaragala",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Angunakolawewa"
+      },
+      {
+        "key": 2,
+        "cityName": "Ayiwela"
+      },
+      {
+        "key": 3,
+        "cityName": "Badalkumbura"
+      },
+      {
+        "key": 4,
+        "cityName": "Baduluwela"
+      },
+      {
+        "key": 5,
+        "cityName": "Bakinigahawela"
+      },
+      {
+        "key": 6,
+        "cityName": "Balaharuwa"
+      },
+      {
+        "key": 7,
+        "cityName": "Bibile"
+      },
+      {
+        "key": 8,
+        "cityName": "Buddama"
+      },
+      {
+        "key": 9,
+        "cityName": "Buttala"
+      },
+      {
+        "key": 10,
+        "cityName": "Dambagalla"
+      },
+      {
+        "key": 11,
+        "cityName": "Diyakobala"
+      },
+      {
+        "key": 12,
+        "cityName": "Dombagahawela"
+      },
+      {
+        "key": 13,
+        "cityName": "Ekamutugama"
+      },
+      {
+        "key": 14,
+        "cityName": "Ekiriyankumbura"
+      },
+      {
+        "key": 15,
+        "cityName": "Ethimalewewa"
+      },
+      {
+        "key": 16,
+        "cityName": "Ettiliwewa"
+      },
+      {
+        "key": 17,
+        "cityName": "Galabedda"
+      },
+      {
+        "key": 18,
+        "cityName": "Hambegamuwa"
+      },
+      {
+        "key": 19,
+        "cityName": "Hulandawa"
+      },
+      {
+        "key": 20,
+        "cityName": "Inginiyagala"
+      },
+      {
+        "key": 21,
+        "cityName": "Kandaudapanguwa"
+      },
+      {
+        "key": 22,
+        "cityName": "Kandawinna"
+      },
+      {
+        "key": 23,
+        "cityName": "Kataragama"
+      },
+      {
+        "key": 24,
+        "cityName": "Kiriibbanwewa"
+      },
+      {
+        "key": 25,
+        "cityName": "Kotagama"
+      },
+      {
+        "key": 26,
+        "cityName": "Kotawehera Mankada"
+      },
+      {
+        "key": 27,
+        "cityName": "Kotiyagala"
+      },
+      {
+        "key": 28,
+        "cityName": "Kumbukkana"
+      },
+      {
+        "key": 29,
+        "cityName": "Mahagama Colony"
+      },
+      {
+        "key": 30,
+        "cityName": "Marawa"
+      },
+      {
+        "key": 31,
+        "cityName": "Mariarawa"
+      },
+      {
+        "key": 32,
+        "cityName": "Medagana"
+      },
+      {
+        "key": 33,
+        "cityName": "Monaragala"
+      },
+      {
+        "key": 34,
+        "cityName": "Moretuwegama"
+      },
+      {
+        "key": 35,
+        "cityName": "Nakkala"
+      },
+      {
+        "key": 36,
+        "cityName": "Nannapurawa"
+      },
+      {
+        "key": 37,
+        "cityName": "Nelliyadda"
+      },
+      {
+        "key": 38,
+        "cityName": "Nilgala"
+      },
+      {
+        "key": 39,
+        "cityName": "Obbegoda"
+      },
+      {
+        "key": 40,
+        "cityName": "Okkampitiya"
+      },
+      {
+        "key": 41,
+        "cityName": "Pangura"
+      },
+      {
+        "key": 42,
+        "cityName": "Pitakumbura"
+      },
+      {
+        "key": 43,
+        "cityName": "Randeniya"
+      },
+      {
+        "key": 44,
+        "cityName": "Ruwalwela"
+      },
+      {
+        "key": 45,
+        "cityName": "Sella Kataragama"
+      },
+      {
+        "key": 46,
+        "cityName": "Sewanagala"
+      },
+      {
+        "key": 47,
+        "cityName": "Siyambalagune"
+      },
+      {
+        "key": 48,
+        "cityName": "Siyambalanduwa"
+      },
+      {
+        "key": 49,
+        "cityName": "Suriara"
+      },
+      {
+        "key": 50,
+        "cityName": "Tanamalwila"
+      },
+      {
+        "key": 51,
+        "cityName": "Uva Gangodagama"
+      },
+      {
+        "key": 52,
+        "cityName": "Uva Kudaoya"
+      },
+      {
+        "key": 53,
+        "cityName": "Uva Pelwatta"
+      },
+      {
+        "key": 54,
+        "cityName": "Warunagama"
+      },
+      {
+        "key": 55,
+        "cityName": "Wedikumbura"
+      },
+      {
+        "key": 56,
+        "cityName": "Weherayaya Handapanagala"
+      },
+      {
+        "key": 57,
+        "cityName": "Wellawaya"
+      },
+      {
+        "key": 58,
+        "cityName": "Wilaoya"
+      }
+    ]
+  },
+  {
+    "key": 19,
+    "districts": "Mullativu",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Mullativu"
+      },
+      {
+        "key": 2,
+        "cityName": "Alampil"
+      },
+      {
+        "key": 3,
+        "cityName": "Karuppaddamurippu"
+      },
+      {
+        "key": 4,
+        "cityName": "Kokkilai"
+      },
+      {
+        "key": 5,
+        "cityName": "Kokkuthuoduvai"
+      },
+      {
+        "key": 6,
+        "cityName": "Mankulam"
+      },
+      {
+        "key": 7,
+        "cityName": "Mullivaikkal"
+      },
+      {
+        "key": 8,
+        "cityName": "Mulliyawalai"
+      },
+      {
+        "key": 9,
+        "cityName": "Muthauyan Kaddakulam"
+      },
+      {
+        "key": 10,
+        "cityName": "Naddan Kandal"
+      },
+      {
+        "key": 11,
+        "cityName": "Odduchudan"
+      },
+      {
+        "key": 12,
+        "cityName": "Puthuvedduvan"
+      },
+      {
+        "key": 13,
+        "cityName": "Thunukkai"
+      },
+      {
+        "key": 14,
+        "cityName": "Udayarkaddu"
+      },
+      {
+        "key": 15,
+        "cityName": "Vavunakkulam"
+      },
+      {
+        "key": 16,
+        "cityName": "Visvamadukulam"
+      },
+      {
+        "key": 17,
+        "cityName": "Yogapuram"
+      }
+    ]
+  },
+  {
+    "key": 20,
+    "districts": "Nuwara Eliya",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Agarapathana"
+      },
+      {
+        "key": 2,
+        "cityName": "Ambagamuwa Udabulathgama"
+      },
+      {
+        "key": 3,
+        "cityName": "Ambatalawa"
+      },
+      {
+        "key": 4,
+        "cityName": "Ambewela"
+      },
+      {
+        "key": 5,
+        "cityName": "Bogawantalawa"
+      },
+      {
+        "key": 6,
+        "cityName": "Bopattalawa"
+      },
+      {
+        "key": 7,
+        "cityName": "Dagampitiya"
+      },
+      {
+        "key": 8,
+        "cityName": "Dayagama Bazaar"
+      },
+      {
+        "key": 9,
+        "cityName": "Dikoya"
+      },
+      {
+        "key": 10,
+        "cityName": "Doragala"
+      },
+      {
+        "key": 11,
+        "cityName": "Dunukedeniya"
+      },
+      {
+        "key": 12,
+        "cityName": "Ginigathena"
+      },
+      {
+        "key": 13,
+        "cityName": "Gonakele"
+      },
+      {
+        "key": 14,
+        "cityName": "Haggala"
+      },
+      {
+        "key": 15,
+        "cityName": "Halgranoya"
+      },
+      {
+        "key": 16,
+        "cityName": "Hangarapitiya"
+      },
+      {
+        "key": 17,
+        "cityName": "Hapugastalawa"
+      },
+      {
+        "key": 18,
+        "cityName": "Harangalagama"
+      },
+      {
+        "key": 19,
+        "cityName": "Harasbedda"
+      },
+      {
+        "key": 20,
+        "cityName": "Hatton"
+      },
+      {
+        "key": 21,
+        "cityName": "Hedunuwewa"
+      },
+      {
+        "key": 22,
+        "cityName": "Hitigegama"
+      },
+      {
+        "key": 23,
+        "cityName": "Kalaganwatta"
+      },
+      {
+        "key": 24,
+        "cityName": "Kandapola"
+      },
+      {
+        "key": 25,
+        "cityName": "Katukitula"
+      },
+      {
+        "key": 26,
+        "cityName": "Keerthi Bandarapura"
+      },
+      {
+        "key": 27,
+        "cityName": "Kelanigama"
+      },
+      {
+        "key": 28,
+        "cityName": "Ketaboola"
+      },
+      {
+        "key": 29,
+        "cityName": "Kotagala"
+      },
+      {
+        "key": 30,
+        "cityName": "Kotmale"
+      },
+      {
+        "key": 31,
+        "cityName": "Kottellena"
+      },
+      {
+        "key": 32,
+        "cityName": "Kumbalgamuwa"
+      },
+      {
+        "key": 33,
+        "cityName": "Kumbukwela"
+      },
+      {
+        "key": 34,
+        "cityName": "Kurupanawela"
+      },
+      {
+        "key": 35,
+        "cityName": "Labukele"
+      },
+      {
+        "key": 36,
+        "cityName": "Laxapana"
+      },
+      {
+        "key": 37,
+        "cityName": "Lindula"
+      },
+      {
+        "key": 38,
+        "cityName": "Madulla"
+      },
+      {
+        "key": 39,
+        "cityName": "Maldeniya"
+      },
+      {
+        "key": 40,
+        "cityName": "Maskeliya"
+      },
+      {
+        "key": 41,
+        "cityName": "Maswela"
+      },
+      {
+        "key": 42,
+        "cityName": "Mipanawa"
+      },
+      {
+        "key": 43,
+        "cityName": "Mipilimana"
+      },
+      {
+        "key": 44,
+        "cityName": "Morahenagama"
+      },
+      {
+        "key": 45,
+        "cityName": "Munwatta"
+      },
+      {
+        "key": 46,
+        "cityName": "Nanuoya"
+      },
+      {
+        "key": 47,
+        "cityName": "Nawathispane"
+      },
+      {
+        "key": 48,
+        "cityName": "Nayapana Janapadaya"
+      },
+      {
+        "key": 49,
+        "cityName": "Nildandahinna"
+      },
+      {
+        "key": 50,
+        "cityName": "Nissanka Uyana"
+      },
+      {
+        "key": 51,
+        "cityName": "Norwood"
+      },
+      {
+        "key": 52,
+        "cityName": "Nuwara Eliya"
+      },
+      {
+        "key": 53,
+        "cityName": "Padiyapelella"
+      },
+      {
+        "key": 54,
+        "cityName": "Patana"
+      },
+      {
+        "key": 55,
+        "cityName": "Pitawala"
+      },
+      {
+        "key": 56,
+        "cityName": "Pundaluoya"
+      },
+      {
+        "key": 57,
+        "cityName": "Ramboda"
+      },
+      {
+        "key": 58,
+        "cityName": "Rozella"
+      },
+      {
+        "key": 59,
+        "cityName": "Rupaha"
+      },
+      {
+        "key": 60,
+        "cityName": "Ruwaneliya"
+      },
+      {
+        "key": 61,
+        "cityName": "Santhipura"
+      },
+      {
+        "key": 62,
+        "cityName": "Talawakele"
+      },
+      {
+        "key": 63,
+        "cityName": "Teripeha"
+      },
+      {
+        "key": 64,
+        "cityName": "Udamadura"
+      },
+      {
+        "key": 65,
+        "cityName": "Udapussallawa"
+      },
+      {
+        "key": 66,
+        "cityName": "Walapane"
+      },
+      {
+        "key": 67,
+        "cityName": "Watagoda"
+      },
+      {
+        "key": 68,
+        "cityName": "Watawala"
+      },
+      {
+        "key": 69,
+        "cityName": "Widulipura"
+      },
+      {
+        "key": 70,
+        "cityName": "Wijebahukanda"
+      }
+    ]
+  },
+  {
+    "key": 21,
+    "districts": "Polonnaruwa",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Alutwewa"
+      },
+      {
+        "key": 2,
+        "cityName": "Aralaganwila"
+      },
+      {
+        "key": 3,
+        "cityName": "Aselapura"
+      },
+      {
+        "key": 4,
+        "cityName": "Attanakadawala"
+      },
+      {
+        "key": 5,
+        "cityName": "Bakamuna"
+      },
+      {
+        "key": 6,
+        "cityName": "Dalukana"
+      },
+      {
+        "key": 7,
+        "cityName": "Damminna"
+      },
+      {
+        "key": 8,
+        "cityName": "Dewagala"
+      },
+      {
+        "key": 9,
+        "cityName": "Dimbulagala"
+      },
+      {
+        "key": 10,
+        "cityName": "Divulankadawala"
+      },
+      {
+        "key": 11,
+        "cityName": "Divuldamana"
+      },
+      {
+        "key": 12,
+        "cityName": "Diyabeduma"
+      },
+      {
+        "key": 13,
+        "cityName": "Diyasenpura"
+      },
+      {
+        "key": 14,
+        "cityName": "Elahera"
+      },
+      {
+        "key": 15,
+        "cityName": "Ellewewa"
+      },
+      {
+        "key": 16,
+        "cityName": "Galamuna"
+      },
+      {
+        "key": 17,
+        "cityName": "Galoya Junction"
+      },
+      {
+        "key": 18,
+        "cityName": "Giritale"
+      },
+      {
+        "key": 19,
+        "cityName": "Hansayapalama"
+      },
+      {
+        "key": 20,
+        "cityName": "Hingurakdamana"
+      },
+      {
+        "key": 21,
+        "cityName": "Hingurakgoda"
+      },
+      {
+        "key": 22,
+        "cityName": "Jayanthipura"
+      },
+      {
+        "key": 23,
+        "cityName": "Jayasiripura"
+      },
+      {
+        "key": 24,
+        "cityName": "Kalingaela"
+      },
+      {
+        "key": 25,
+        "cityName": "Kalukele Badanagala"
+      },
+      {
+        "key": 26,
+        "cityName": "Kashyapapura"
+      },
+      {
+        "key": 27,
+        "cityName": "Kawudulla"
+      },
+      {
+        "key": 28,
+        "cityName": "Kawuduluwewa Stagell"
+      },
+      {
+        "key": 29,
+        "cityName": "Kottapitiya"
+      },
+      {
+        "key": 30,
+        "cityName": "Kumaragama"
+      },
+      {
+        "key": 31,
+        "cityName": "Lakshauyana"
+      },
+      {
+        "key": 32,
+        "cityName": "Maduruoya"
+      },
+      {
+        "key": 33,
+        "cityName": "Maha Ambagaswewa"
+      },
+      {
+        "key": 34,
+        "cityName": "Mahatalakolawewa"
+      },
+      {
+        "key": 35,
+        "cityName": "Mahawela Sinhapura"
+      },
+      {
+        "key": 36,
+        "cityName": "Mampitiya"
+      },
+      {
+        "key": 37,
+        "cityName": "Medirigiriya"
+      },
+      {
+        "key": 38,
+        "cityName": "Meegaswewa"
+      },
+      {
+        "key": 39,
+        "cityName": "Minneriya"
+      },
+      {
+        "key": 40,
+        "cityName": "Mutugala"
+      },
+      {
+        "key": 41,
+        "cityName": "Nawasenapura"
+      },
+      {
+        "key": 42,
+        "cityName": "Nelumwewa"
+      },
+      {
+        "key": 43,
+        "cityName": "Nuwaragala"
+      },
+      {
+        "key": 44,
+        "cityName": "Onegama"
+      },
+      {
+        "key": 45,
+        "cityName": "OrubendiSiyambalawa"
+      },
+      {
+        "key": 46,
+        "cityName": "Palugasdamana"
+      },
+      {
+        "key": 47,
+        "cityName": "Parakramasamudraya"
+      },
+      {
+        "key": 48,
+        "cityName": "Pelatiyawa"
+      },
+      {
+        "key": 49,
+        "cityName": "Pimburattewa"
+      },
+      {
+        "key": 50,
+        "cityName": "Polonnaruwa"
+      },
+      {
+        "key": 51,
+        "cityName": "Pulastigama"
+      },
+      {
+        "key": 52,
+        "cityName": "Sevanapitiya"
+      },
+      {
+        "key": 53,
+        "cityName": "Sinhagama"
+      },
+      {
+        "key": 54,
+        "cityName": "Sungavila"
+      },
+      {
+        "key": 55,
+        "cityName": "Talpotha"
+      },
+      {
+        "key": 56,
+        "cityName": "Tamankaduwa"
+      },
+      {
+        "key": 57,
+        "cityName": "Tambala"
+      },
+      {
+        "key": 58,
+        "cityName": "Unagalavehera"
+      },
+      {
+        "key": 59,
+        "cityName": "Welikanda"
+      },
+      {
+        "key": 60,
+        "cityName": "Wijayabapura"
+      },
+      {
+        "key": 61,
+        "cityName": "Yodaela"
+      },
+      {
+        "key": 62,
+        "cityName": "Yudaganawa"
+      }
+    ]
+  },
+  {
+    "key": 22,
+    "districts": "Puttalam",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Adippala"
+      },
+      {
+        "key": 2,
+        "cityName": "Ambakandawila"
+      },
+      {
+        "key": 3,
+        "cityName": "Anamaduwa"
+      },
+      {
+        "key": 4,
+        "cityName": "Andigama"
+      },
+      {
+        "key": 5,
+        "cityName": "Angunawila"
+      },
+      {
+        "key": 6,
+        "cityName": "Attawilluwa"
+      },
+      {
+        "key": 7,
+        "cityName": "Bangadeniya"
+      },
+      {
+        "key": 8,
+        "cityName": "Baranankattuwa"
+      },
+      {
+        "key": 9,
+        "cityName": "Battuluoya"
+      },
+      {
+        "key": 10,
+        "cityName": "Bujjampola"
+      },
+      {
+        "key": 11,
+        "cityName": "Chilaw"
+      },
+      {
+        "key": 12,
+        "cityName": "Dankotuwa"
+      },
+      {
+        "key": 13,
+        "cityName": "Dunkannawa"
+      },
+      {
+        "key": 14,
+        "cityName": "Eluwankulama"
+      },
+      {
+        "key": 15,
+        "cityName": "Ettale"
+      },
+      {
+        "key": 16,
+        "cityName": "Galmuruwa"
+      },
+      {
+        "key": 17,
+        "cityName": "Ihala Kottaramulla"
+      },
+      {
+        "key": 18,
+        "cityName": "Ihala Puliyankulama"
+      },
+      {
+        "key": 19,
+        "cityName": "Ilippadeniya"
+      },
+      {
+        "key": 20,
+        "cityName": "Inginimitiya"
+      },
+      {
+        "key": 21,
+        "cityName": "Ismailpuram"
+      },
+      {
+        "key": 22,
+        "cityName": "Kakkapalliya"
+      },
+      {
+        "key": 23,
+        "cityName": "Kalladiya"
+      },
+      {
+        "key": 24,
+        "cityName": "Kalpitiya"
+      },
+      {
+        "key": 25,
+        "cityName": "Kandakuliya"
+      },
+      {
+        "key": 26,
+        "cityName": "Karativponparappi"
+      },
+      {
+        "key": 27,
+        "cityName": "Karawitagara"
+      },
+      {
+        "key": 28,
+        "cityName": "Karuwalagaswewa"
+      },
+      {
+        "key": 29,
+        "cityName": "Katuneriya"
+      },
+      {
+        "key": 30,
+        "cityName": "Kirimundalama"
+      },
+      {
+        "key": 31,
+        "cityName": "Koswatta"
+      },
+      {
+        "key": 32,
+        "cityName": "Kottantivu"
+      },
+      {
+        "key": 33,
+        "cityName": "Kottukachchiya"
+      },
+      {
+        "key": 34,
+        "cityName": "Kudawewa"
+      },
+      {
+        "key": 35,
+        "cityName": "Kumarakattuwa"
+      },
+      {
+        "key": 36,
+        "cityName": "Kurinjanpitiya"
+      },
+      {
+        "key": 37,
+        "cityName": "Kuruketiyawa"
+      },
+      {
+        "key": 38,
+        "cityName": "Lihiriyagama"
+      },
+      {
+        "key": 39,
+        "cityName": "Lunuwila"
+      },
+      {
+        "key": 40,
+        "cityName": "Madampe"
+      },
+      {
+        "key": 41,
+        "cityName": "Madurankuliya"
+      },
+      {
+        "key": 42,
+        "cityName": "Mahakumbukkadawala"
+      },
+      {
+        "key": 43,
+        "cityName": "Mahauswewa"
+      },
+      {
+        "key": 44,
+        "cityName": "Mahawewa"
+      },
+      {
+        "key": 45,
+        "cityName": "Mampuri"
+      },
+      {
+        "key": 46,
+        "cityName": "Mangalaeliya"
+      },
+      {
+        "key": 47,
+        "cityName": "Marawila"
+      },
+      {
+        "key": 48,
+        "cityName": "Mudalakkuliya"
+      },
+      {
+        "key": 49,
+        "cityName": "Mugunuwatawana"
+      },
+      {
+        "key": 50,
+        "cityName": "Mukkutoduwawa"
+      },
+      {
+        "key": 51,
+        "cityName": "Mundel"
+      },
+      {
+        "key": 52,
+        "cityName": "Muttibendiwila"
+      },
+      {
+        "key": 53,
+        "cityName": "Nainamadama"
+      },
+      {
+        "key": 54,
+        "cityName": "Nalladarankattuwa"
+      },
+      {
+        "key": 55,
+        "cityName": "Nattandiya"
+      },
+      {
+        "key": 56,
+        "cityName": "Nawagattegama"
+      },
+      {
+        "key": 57,
+        "cityName": "Norachcholai"
+      },
+      {
+        "key": 58,
+        "cityName": "Palaviya"
+      },
+      {
+        "key": 59,
+        "cityName": "Pallama"
+      },
+      {
+        "key": 60,
+        "cityName": "Palliwasalturai"
+      },
+      {
+        "key": 61,
+        "cityName": "Panirendawa"
+      },
+      {
+        "key": 62,
+        "cityName": "Pothuwatawana"
+      },
+      {
+        "key": 63,
+        "cityName": "Puttalam"
+      },
+      {
+        "key": 64,
+        "cityName": "Puttalam Cement Factory"
+      },
+      {
+        "key": 65,
+        "cityName": "Rajakadaluwa"
+      },
+      {
+        "key": 66,
+        "cityName": "Saliyawewa Junction"
+      },
+      {
+        "key": 67,
+        "cityName": "Serukele"
+      },
+      {
+        "key": 68,
+        "cityName": "Sirambiadiya"
+      },
+      {
+        "key": 69,
+        "cityName": "Siyambalagashene"
+      },
+      {
+        "key": 70,
+        "cityName": "Tabbowa"
+      },
+      {
+        "key": 71,
+        "cityName": "Talawila Church"
+      },
+      {
+        "key": 72,
+        "cityName": "Toduwawa"
+      },
+      {
+        "key": 73,
+        "cityName": "Udappuwa"
+      },
+      {
+        "key": 74,
+        "cityName": "Uridyawa"
+      },
+      {
+        "key": 75,
+        "cityName": "Vanathawilluwa"
+      },
+      {
+        "key": 76,
+        "cityName": "Waikkal"
+      },
+      {
+        "key": 77,
+        "cityName": "Watugahamulla"
+      },
+      {
+        "key": 78,
+        "cityName": "Wennappuwa"
+      },
+      {
+        "key": 79,
+        "cityName": "Wijeyakatupotha"
+      },
+      {
+        "key": 80,
+        "cityName": "Wilpotha"
+      },
+      {
+        "key": 81,
+        "cityName": "Yogiyana"
+      }
+    ]
+  },
+  {
+    "key": 23,
+    "districts": "Ratnapura",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Akarella"
+      },
+      {
+        "key": 2,
+        "cityName": "Atakalanpanna"
+      },
+      {
+        "key": 3,
+        "cityName": "Ayagama"
+      },
+      {
+        "key": 4,
+        "cityName": "Balangoda"
+      },
+      {
+        "key": 5,
+        "cityName": "Batatota"
+      },
+      {
+        "key": 6,
+        "cityName": "Belihuloya"
+      },
+      {
+        "key": 7,
+        "cityName": "Bolthumbe"
+      },
+      {
+        "key": 8,
+        "cityName": "Bomluwageaina"
+      },
+      {
+        "key": 9,
+        "cityName": "Bulutota"
+      },
+      {
+        "key": 10,
+        "cityName": "Dambuluwana"
+      },
+      {
+        "key": 11,
+        "cityName": "Daugala"
+      },
+      {
+        "key": 12,
+        "cityName": "Dela"
+      },
+      {
+        "key": 13,
+        "cityName": "Delwala"
+      },
+      {
+        "key": 14,
+        "cityName": "Demuwatha"
+      },
+      {
+        "key": 15,
+        "cityName": "Dodampe"
+      },
+      {
+        "key": 16,
+        "cityName": "Doloswalakanda"
+      },
+      {
+        "key": 17,
+        "cityName": "Dumbara Manana"
+      },
+      {
+        "key": 18,
+        "cityName": "Eheliyagoda"
+      },
+      {
+        "key": 19,
+        "cityName": "Elapatha"
+      },
+      {
+        "key": 20,
+        "cityName": "Ellagawa"
+      },
+      {
+        "key": 21,
+        "cityName": "Ellaulla"
+      },
+      {
+        "key": 22,
+        "cityName": "Ellawala"
+      },
+      {
+        "key": 23,
+        "cityName": "Embilipitiya"
+      },
+      {
+        "key": 24,
+        "cityName": "Eratna"
+      },
+      {
+        "key": 25,
+        "cityName": "Erepola"
+      },
+      {
+        "key": 26,
+        "cityName": "Gabbela"
+      },
+      {
+        "key": 27,
+        "cityName": "Gallella"
+      },
+      {
+        "key": 28,
+        "cityName": "Gangeyaya"
+      },
+      {
+        "key": 29,
+        "cityName": "Gawaragiriya"
+      },
+      {
+        "key": 30,
+        "cityName": "Getahetta"
+      },
+      {
+        "key": 31,
+        "cityName": "Gillimale"
+      },
+      {
+        "key": 32,
+        "cityName": "Godagampola"
+      },
+      {
+        "key": 33,
+        "cityName": "Godakawela"
+      },
+      {
+        "key": 34,
+        "cityName": "Gurubewilagama"
+      },
+      {
+        "key": 35,
+        "cityName": "Halpe"
+      },
+      {
+        "key": 36,
+        "cityName": "Halwinna"
+      },
+      {
+        "key": 37,
+        "cityName": "Handagiriya"
+      },
+      {
+        "key": 38,
+        "cityName": "Hapugastenna"
+      },
+      {
+        "key": 39,
+        "cityName": "Hatangala"
+      },
+      {
+        "key": 40,
+        "cityName": "Hatarabage"
+      },
+      {
+        "key": 41,
+        "cityName": "Hidellana"
+      },
+      {
+        "key": 42,
+        "cityName": "Hiramadagama"
+      },
+      {
+        "key": 43,
+        "cityName": "Ihalagama"
+      },
+      {
+        "key": 44,
+        "cityName": "Ittakanda"
+      },
+      {
+        "key": 45,
+        "cityName": "Kahangama"
+      },
+      {
+        "key": 46,
+        "cityName": "Kahawatta"
+      },
+      {
+        "key": 47,
+        "cityName": "Kalawana"
+      },
+      {
+        "key": 48,
+        "cityName": "Kaltota"
+      },
+      {
+        "key": 49,
+        "cityName": "Karandana"
+      },
+      {
+        "key": 50,
+        "cityName": "Karangoda"
+      },
+      {
+        "key": 51,
+        "cityName": "Kella Junction"
+      },
+      {
+        "key": 52,
+        "cityName": "Kiriella"
+      },
+      {
+        "key": 53,
+        "cityName": "Kolambageara"
+      },
+      {
+        "key": 54,
+        "cityName": "Kolombugama"
+      },
+      {
+        "key": 55,
+        "cityName": "Kolonna"
+      },
+      {
+        "key": 56,
+        "cityName": "Kudawa"
+      },
+      {
+        "key": 57,
+        "cityName": "Kuruwita"
+      },
+      {
+        "key": 58,
+        "cityName": "Lellopitiya"
+      },
+      {
+        "key": 59,
+        "cityName": "lmbulpe"
+      },
+      {
+        "key": 60,
+        "cityName": "Madalagama"
+      },
+      {
+        "key": 61,
+        "cityName": "Mahawalatenna"
+      },
+      {
+        "key": 62,
+        "cityName": "Makandura Sabara"
+      },
+      {
+        "key": 63,
+        "cityName": "Malwala Junction"
+      },
+      {
+        "key": 64,
+        "cityName": "Marapana"
+      },
+      {
+        "key": 65,
+        "cityName": "Matuwagalagama"
+      },
+      {
+        "key": 66,
+        "cityName": "Medagalatur"
+      },
+      {
+        "key": 67,
+        "cityName": "Meddekanda"
+      },
+      {
+        "key": 68,
+        "cityName": "Minipura Dumbara"
+      },
+      {
+        "key": 69,
+        "cityName": "Mitipola"
+      },
+      {
+        "key": 70,
+        "cityName": "Morahela"
+      },
+      {
+        "key": 71,
+        "cityName": "Mulendiyawala"
+      },
+      {
+        "key": 72,
+        "cityName": "Mulgama"
+      },
+      {
+        "key": 73,
+        "cityName": "Nawalakanda"
+      },
+      {
+        "key": 74,
+        "cityName": "NawinnaPinnakanda"
+      },
+      {
+        "key": 75,
+        "cityName": "Niralagama"
+      },
+      {
+        "key": 76,
+        "cityName": "Nivitigala"
+      },
+      {
+        "key": 77,
+        "cityName": "Omalpe"
+      },
+      {
+        "key": 78,
+        "cityName": "Opanayaka"
+      },
+      {
+        "key": 79,
+        "cityName": "Padalangala"
+      },
+      {
+        "key": 80,
+        "cityName": "Pallebedda"
+      },
+      {
+        "key": 81,
+        "cityName": "Pambagolla"
+      },
+      {
+        "key": 82,
+        "cityName": "Panamura"
+      },
+      {
+        "key": 83,
+        "cityName": "Panapitiya"
+      },
+      {
+        "key": 84,
+        "cityName": "Panapola"
+      },
+      {
+        "key": 85,
+        "cityName": "Panawala"
+      },
+      {
+        "key": 86,
+        "cityName": "Parakaduwa"
+      },
+      {
+        "key": 87,
+        "cityName": "Pebotuwa"
+      },
+      {
+        "key": 88,
+        "cityName": "Pelmadulla"
+      },
+      {
+        "key": 89,
+        "cityName": "Pimbura"
+      },
+      {
+        "key": 90,
+        "cityName": "Pinnawala"
+      },
+      {
+        "key": 91,
+        "cityName": "Pothupitiya"
+      },
+      {
+        "key": 92,
+        "cityName": "Rajawaka"
+      },
+      {
+        "key": 93,
+        "cityName": "Rakwana"
+      },
+      {
+        "key": 94,
+        "cityName": "Ranwala"
+      },
+      {
+        "key": 95,
+        "cityName": "Rassagala"
+      },
+      {
+        "key": 96,
+        "cityName": "Ratna Hangamuwa"
+      },
+      {
+        "key": 97,
+        "cityName": "Ratnapura"
+      },
+      {
+        "key": 98,
+        "cityName": "Samanalawewa"
+      },
+      {
+        "key": 99,
+        "cityName": "Sri Palabaddala"
+      },
+      {
+        "key": 100,
+        "cityName": "Sudagala"
+      },
+      {
+        "key": 101,
+        "cityName": "Talakolahinna"
+      },
+      {
+        "key": 102,
+        "cityName": "Tanjantenna"
+      },
+      {
+        "key": 103,
+        "cityName": "Teppanawa"
+      },
+      {
+        "key": 104,
+        "cityName": "Tunkama"
+      },
+      {
+        "key": 105,
+        "cityName": "Udaha Hawupe"
+      },
+      {
+        "key": 106,
+        "cityName": "Udakarawita"
+      },
+      {
+        "key": 107,
+        "cityName": "Udaniriella"
+      },
+      {
+        "key": 108,
+        "cityName": "Udawalawe"
+      },
+      {
+        "key": 109,
+        "cityName": "Ullinduwawa"
+      },
+      {
+        "key": 110,
+        "cityName": "Veddagala"
+      },
+      {
+        "key": 111,
+        "cityName": "Vijeriya"
+      },
+      {
+        "key": 112,
+        "cityName": "Waleboda"
+      },
+      {
+        "key": 113,
+        "cityName": "Watapotha"
+      },
+      {
+        "key": 114,
+        "cityName": "Waturawa"
+      },
+      {
+        "key": 115,
+        "cityName": "Weligepola"
+      },
+      {
+        "key": 116,
+        "cityName": "Welipathayaya"
+      },
+      {
+        "key": 117,
+        "cityName": "Wewelwatta"
+      },
+      {
+        "key": 118,
+        "cityName": "Wikiliya"
+      }
+    ]
+  },
+  {
+    "key": 24,
+    "districts": "Trincomalee",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Agbopura"
+      },
+      {
+        "key": 2,
+        "cityName": "Buckmigama"
+      },
+      {
+        "key": 3,
+        "cityName": "Chinabay"
+      },
+      {
+        "key": 4,
+        "cityName": "Dehiwatte"
+      },
+      {
+        "key": 5,
+        "cityName": "Echchilampattai"
+      },
+      {
+        "key": 6,
+        "cityName": "Galmetiyawa"
+      },
+      {
+        "key": 7,
+        "cityName": "Gomarankadawala"
+      },
+      {
+        "key": 8,
+        "cityName": "Kaddaiparichchan"
+      },
+      {
+        "key": 9,
+        "cityName": "Kanniya"
+      },
+      {
+        "key": 10,
+        "cityName": "Kantalai"
+      },
+      {
+        "key": 11,
+        "cityName": "Kantalai Sugar Factory"
+      },
+      {
+        "key": 12,
+        "cityName": "Kiliveddy"
+      },
+      {
+        "key": 13,
+        "cityName": "Kinniya"
+      },
+      {
+        "key": 14,
+        "cityName": "Kuchchaveli"
+      },
+      {
+        "key": 15,
+        "cityName": "Kumburupiddy"
+      },
+      {
+        "key": 16,
+        "cityName": "Kurinchakemy"
+      },
+      {
+        "key": 17,
+        "cityName": "Lankapatuna"
+      },
+      {
+        "key": 18,
+        "cityName": "Mahadivulwewa"
+      },
+      {
+        "key": 19,
+        "cityName": "Maharugiramam"
+      },
+      {
+        "key": 20,
+        "cityName": "Mallikativu"
+      },
+      {
+        "key": 21,
+        "cityName": "Mawadichenai"
+      },
+      {
+        "key": 22,
+        "cityName": "Mullipothana"
+      },
+      {
+        "key": 23,
+        "cityName": "Mutur"
+      },
+      {
+        "key": 24,
+        "cityName": "Neelapola"
+      },
+      {
+        "key": 25,
+        "cityName": "Nilaveli"
+      },
+      {
+        "key": 26,
+        "cityName": "Pankulam"
+      },
+      {
+        "key": 27,
+        "cityName": "Rottawewa"
+      },
+      {
+        "key": 28,
+        "cityName": "Sampaltivu"
+      },
+      {
+        "key": 29,
+        "cityName": "Sampur"
+      },
+      {
+        "key": 30,
+        "cityName": "Serunuwara"
+      },
+      {
+        "key": 31,
+        "cityName": "Seruwila"
+      },
+      {
+        "key": 32,
+        "cityName": "Sirajnagar"
+      },
+      {
+        "key": 33,
+        "cityName": "Somapura"
+      },
+      {
+        "key": 34,
+        "cityName": "Tampalakamam"
+      },
+      {
+        "key": 35,
+        "cityName": "Tiriyayi"
+      },
+      {
+        "key": 36,
+        "cityName": "Toppur"
+      },
+      {
+        "key": 37,
+        "cityName": "Trincomalee"
+      },
+      {
+        "key": 38,
+        "cityName": "Vellamanal"
+      },
+      {
+        "key": 39,
+        "cityName": "Wanela"
+      }
+    ]
+  },
+  {
+    "key": 25,
+    "districts": "Vavuniya",
+    "city": [
+      {
+        "key": 1,
+        "cityName": "Vavuniya"
+      },
+      {
+        "key": 2,
+        "cityName": "Akkarayankulam"
+      },
+      {
+        "key": 3,
+        "cityName": "Cheddikulam"
+      },
+      {
+        "key": 4,
+        "cityName": "Chemamadukkulam"
+      },
+      {
+        "key": 5,
+        "cityName": "Elephant Pass"
+      },
+      {
+        "key": 6,
+        "cityName": "Eluthumadduval"
+      },
+      {
+        "key": 7,
+        "cityName": "Iranai lluppaikulam"
+      },
+      {
+        "key": 8,
+        "cityName": "Iranaitiv"
+      },
+      {
+        "key": 9,
+        "cityName": "Kanagarayankulam"
+      },
+      {
+        "key": 10,
+        "cityName": "Kanavil"
+      },
+      {
+        "key": 11,
+        "cityName": "Kandavalai"
+      },
+      {
+        "key": 12,
+        "cityName": "Kavutharimunai"
+      },
+      {
+        "key": 13,
+        "cityName": "Kilinochchi"
+      },
+      {
+        "key": 14,
+        "cityName": "lyakachchi"
+      },
+      {
+        "key": 15,
+        "cityName": "Mahakachchakodiya"
+      },
+      {
+        "key": 16,
+        "cityName": "Mamaduwa"
+      },
+      {
+        "key": 17,
+        "cityName": "Maraiyadithakulam"
+      },
+      {
+        "key": 18,
+        "cityName": "Mulliyan"
+      },
+      {
+        "key": 19,
+        "cityName": "Murasumoddai"
+      },
+      {
+        "key": 20,
+        "cityName": "Nedunkemy"
+      },
+      {
+        "key": 21,
+        "cityName": "Neriyakulam"
+      },
+      {
+        "key": 22,
+        "cityName": "Omanthai"
+      },
+      {
+        "key": 23,
+        "cityName": "Palamoddai"
+      },
+      {
+        "key": 24,
+        "cityName": "Pallai"
+      },
+      {
+        "key": 25,
+        "cityName": "Pallavarayankaddu"
+      },
+      {
+        "key": 26,
+        "cityName": "Pampaimadu"
+      },
+      {
+        "key": 27,
+        "cityName": "Paranthan"
+      },
+      {
+        "key": 28,
+        "cityName": "Pavaikulam"
+      },
+      {
+        "key": 29,
+        "cityName": "Periyathambanai"
+      },
+      {
+        "key": 30,
+        "cityName": "Periyaulukkulam"
+      },
+      {
+        "key": 31,
+        "cityName": "Purakari Nallur"
+      },
+      {
+        "key": 32,
+        "cityName": "Ramanathapuram"
+      },
+      {
+        "key": 33,
+        "cityName": "Sasthrikulankulam"
+      },
+      {
+        "key": 34,
+        "cityName": "Sivapuram"
+      },
+      {
+        "key": 35,
+        "cityName": "Skanthapuram"
+      },
+      {
+        "key": 36,
+        "cityName": "Thalayadi"
+      },
+      {
+        "key": 37,
+        "cityName": "Tharmapuram"
+      },
+      {
+        "key": 38,
+        "cityName": "Uruthirapuram"
+      },
+      {
+        "key": 39,
+        "cityName": "Vaddakachchi"
+      },
+      {
+        "key": 40,
+        "cityName": "Vannerikkulam"
+      },
+      {
+        "key": 41,
+        "cityName": "Varikkuttiyoor"
+      },
+      {
+        "key": 42,
+        "cityName": "Veravil"
+      },
+      {
+        "key": 43,
+        "cityName": "Vinayagapuram"
+      }
+    ]
+  }
+]

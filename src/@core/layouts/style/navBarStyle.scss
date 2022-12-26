@@ -1,0 +1,232 @@
+@import "../../../assets/scss/common/colors";
+@import "../../../assets/scss/common/fonts";
+
+.navBarCusStyle {
+  .brand-logoDetails {
+    position: absolute;
+    top: -12px;
+    width: 200px
+  }
+
+  .navigationElement {
+    color: white !important;
+    font-family: $font-regular;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .nav-active-btn {
+    padding: 10px 0;
+    color: #ffffff;
+    font-weight: 800 !important;
+    text-shadow: rgba(96, 139, 216, 0.25) 0px 54px 55px, rgba(80, 40, 109, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .nav-deactivate-btn {
+    background-image: linear-gradient(
+                    to right,
+                    #e4e3e3,
+                    #717171 50%,
+                    #f4f4f4 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 10px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-deactivate-btn:before {
+    content: '';
+    background: #f6f5f5;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-deactivate-btn:hover {
+    background-position: 0;
+  }
+
+  .nav-deactivate-btn:hover::before {
+    width: 100%;
+  }
+
+  .moreDetailsBar {
+    .more-details-list-show {
+      margin-top: -15px;
+      margin-left: -1rem;
+      display: none;
+      position: absolute;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 5px;
+      top: 5.5rem;
+      padding: 20px;
+      visibility: visible;
+      transition: 2s;
+
+      span {
+        font-family: $font-bold;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        cursor: auto;
+        text-align: left !important;
+      }
+
+      .topic-list {
+        .sub-navigation {
+          list-style-type: none;
+          padding-top: 10px;
+          font-family: $font-regular;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          position: relative;
+          -webkit-transition: right 2s ease-out;
+          -moz-transition: right 2s ease-out;
+          -o-transition: right 2s ease-out;
+        }
+
+        .sub-navigation:hover {
+          color: $main-color-purple !important;
+          font-weight: 800;
+          text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          right: -4px;
+        }
+
+      }
+    }
+  }
+
+  .moreDetailsBar:hover {
+    .more-details-list-show {
+      display: block;
+      position: absolute;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 5px;
+      top: 5.5rem;
+      padding: 10px 20px 20px 20px;
+      visibility: visible;
+      transition: 2s;
+
+    }
+  }
+
+  .userSettingBar {
+    .profile-Icon {
+      margin-right: 25px !important;
+      display: flex;
+    }
+
+    .profile-Icon:hover {
+      svg {
+        color: #9246c4 !important;
+      }
+
+      .Profile-details-list-show {
+        display: block;
+      }
+    }
+
+    .Profile-details-list-show {
+      display: none;
+      position: absolute;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 20px;
+      top: 5.5rem;
+      padding: 20px;
+      visibility: visible;
+      transition: 2s;
+
+      .topic-list {
+        .sub-navigation {
+          list-style-type: none;
+          padding-top: 10px;
+          font-family: $font-regular;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        .sub-navigation:hover {
+          color: $main-color-purple;
+          font-weight: 800;
+          text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+      }
+    }
+  }
+
+  .userSettingBar:hover {
+
+    .Profile-details-list-show {
+      display: block;
+      position: absolute;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 20px;
+      top: 5.5rem;
+      padding: 20px;
+      visibility: visible;
+      transition: 2s;
+
+      .topic-list {
+        .sub-navigation {
+          list-style-type: none;
+          padding-top: 10px;
+          font-family: $font-regular;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        .sub-navigation:hover {
+          color: $main-color-purple;
+          font-weight: 800;
+          text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+      }
+    }
+  }
+
+  .mobileNavBar {
+    background-color: transparent !important;
+  }
+}
+
+
+@media (min-width: 1372px) {
+  .userSettingBar {
+    margin-top: 0px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navBarCusStyle {
+    .navigationElement {
+      font-family: $font-regular;
+      color: white !important;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .userSettingBar {
+      margin-top: 0px !important;
+    }
+  }
+}

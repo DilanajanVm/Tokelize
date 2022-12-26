@@ -1,0 +1,105 @@
+$colors: #2f4b26, #3e885b, #85bda6, #bedcfe, #c0d7bb;
+.mainSliderWrapper {
+  overflow: hidden;
+
+  .carousel {
+    position: absolute;
+    left: calc(50% - 150px);
+    top: calc((100vh - 620px) / 2);
+    transform-origin: 150px 2500px;
+    will-change: transform;
+
+    .wrapper {
+      position: absolute;
+      transform-origin: 150px 2500px;
+      @for $i from 0 through 36 {
+        &:nth-child(#{$i}) {
+          transform: rotate(#{$i * 10}deg);
+
+          .content-holder {
+            background-image: radial-gradient(#08C164 0, #053b1d 100%);
+          }
+        }
+      }
+
+      &:active {
+        cursor: grabbing;
+      }
+
+      .content-holder {
+        width: 300px;
+        height: 400px;
+        border-radius: 15px;
+        background-image: radial-gradient(#08C164 0, #053b1d 100%);
+
+        .img-details {
+          width: 300px;
+          height: 400px;
+          border-radius: 15px;
+          object-fit: cover;
+        }
+      }
+
+    }
+  }
+
+  .loader {
+    width: 400px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: 80%;
+    left: 50%;
+    margin: 40px -200px 50px -200px;
+    position: absolute;
+    border-radius: 100px;
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, .05);
+
+    span{
+      padding-top: 15px;
+      letter-spacing: 20.35px;
+    }
+
+  }
+
+  .loader:after {
+    border-radius: 100px;
+    height: 5px;
+    content: '';
+    position: absolute;
+    background-color: #08C164;
+    box-shadow: rgba(8, 193, 100, 0.5) 0px 5px 15px;
+    left: 2px;
+    top: 0;
+    margin-bottom: 20px;
+    bottom: 0;
+    right: 360px;
+    animation-name: slide;
+    animation-duration: 8s;
+    animation-easing-function: linear;
+    animation-iteration-count: infinite;;
+  }
+
+  @keyframes slide {
+    0% {
+      right: 360px;
+      left: 2px;
+    }
+    5% {
+      left: 2px;
+    }
+
+    50% {
+      right: 2px;
+      left: 360px;
+    }
+    55% {
+      right: 2px;
+    }
+    100% {
+      right: 360px;
+      left: 2px;
+    }
+  }
+}
+
+

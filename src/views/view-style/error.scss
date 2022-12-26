@@ -1,0 +1,75 @@
+@import "src/@core/scss/base/colors";
+@import "../../assets/scss/common/fonts";
+
+.error {
+  padding-top: 8rem;
+
+  .details-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    .topic {
+      font-family: $font-bold;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 45px;
+      text-align: center;
+
+      color: #111111;
+    }
+
+    .para-details-not-found {
+      padding-top: 20px;
+      font-family: $font-bold;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 35px;
+      text-align: center;
+      color: #111111;
+      text-decoration: none;
+    }
+
+    .img-holder {
+      margin-left: auto;
+      margin-right: auto;
+      width: 600px;
+    }
+
+
+    .btn-back-to-home {
+      font-family: $font-regular;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      background: #50286D !important;
+      border-radius: 5px;
+      height: 48px;
+      width: 250px;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .error {
+    padding-top: 12rem;
+
+    .details-holder {
+
+      .img-holder {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+      }
+    }
+  }
+}

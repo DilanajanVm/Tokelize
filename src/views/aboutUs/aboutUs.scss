@@ -1,0 +1,890 @@
+@import "../../assets/scss/common/colors";
+
+
+.aboutUs-main {
+  .btn-nav-view {
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: underline !important;
+    background-image: linear-gradient(
+                    to right,
+                    #e4e3e3,
+                    #08c164 50%,
+                    #ffffff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 10px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-nav-view:before {
+    content: '';
+    background: #f6f5f5;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-nav-view:hover {
+    letter-spacing: 3px;
+    transition: 0.2s ease-in-out;
+    background-position: 0;
+  }
+
+  .btn-nav-view:hover::before {
+    width: 100%;
+  }
+
+
+  .aboutUs-hero {
+    position: relative;
+    height: 100vh;
+
+    .bg-image {
+      img {
+        width: 1000px !important;
+        opacity: 1;
+        position: absolute;
+        right: -100px;
+        top: 120px;
+      }
+    }
+
+    .about_us_topic {
+      margin-top: 16rem;
+      font-size: 180px;
+      font-weight: 800;
+      color: black;
+      font-family: "Roboto Medium";
+      margin-bottom: 0 !important;
+      padding-bottom: 0 !important;
+    }
+
+    .fullLogo-wrapper {
+      display: flex;
+      justify-content: end;
+
+      .fullLogo {
+
+        width: 350px;
+      }
+    }
+  }
+
+  .aboutus-contentArea {
+    margin-top: 5rem;
+    background-color: $main-color-dark;
+    width: 100%;
+    height: auto;
+    padding: 5rem 0 0 0;
+
+    .bg-rotateName {
+      position: relative;
+
+      .side-text {
+        font-family: "Roboto";
+        font-size: 150px;
+        position: absolute;
+        top: 18rem;
+        letter-spacing: 1rem;
+        background: -webkit-linear-gradient(#101010, #08C164);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 50px;
+      }
+
+      .left-text {
+
+        left: 0;
+        transform: rotate(90deg);
+      }
+
+      .right-text {
+        right: 0;
+        transform: rotate(-90deg);
+      }
+    }
+
+
+    .textContent {
+      height: 800px;
+      width: 1000px;
+      background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
+      padding: 5rem;
+
+      .textContent-wrapper {
+        color: white;
+        text-align: center;
+
+        h1 {
+          color: white !important;
+          font-size: 42px !important;
+        }
+
+        p {
+          line-height: 26px;
+          font-family: "Roboto Light" !important;
+          font-weight: 100 !important;
+          font-size: 22px;
+        }
+      }
+
+      .KolaImg {
+        display: flex;
+        margin: auto;
+        width: 815px;
+      }
+    }
+  }
+
+  .missionView {
+    color: white !important;
+    padding: 10rem 5rem;
+
+
+    p {
+      padding: 2rem 0;
+      text-align: center;
+      line-height: 32px;
+      font-family: "Roboto Light" !important;
+      font-weight: 100 !important;
+      font-size: 26px;
+    }
+
+    .contact-Us_para {
+      padding: 7rem 0 1rem 0;
+      text-align: center;
+      line-height: 32px;
+      font-family: "Roboto Light" !important;
+      font-weight: 100 !important;
+      font-size: 26px;
+    }
+
+    .nav-btn-bold {
+      text-decoration: underline !important;
+      font-weight: bolder !important;
+      font-size: 26px !important;
+    }
+
+    .hr-divider {
+      margin: 0 10rem;
+    }
+  }
+
+  .sliderView {
+    padding: 2rem;
+    margin-bottom: 2rem;
+
+    .slider-logos {
+
+      height: 50px;
+      width: 200px;
+      object-fit: contain;
+    }
+  }
+}
+
+@media (max-width: 1441px) {
+  .aboutUs-main {
+    .btn-nav-view {
+      font-size: 22px;
+      font-weight: 600;
+      text-decoration: underline !important;
+      background-image: linear-gradient(
+                      to right,
+                      #e4e3e3,
+                      #08c164 50%,
+                      #ffffff 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      display: inline-block;
+      padding: 10px 0;
+      position: relative;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .btn-nav-view:before {
+      content: '';
+      background: #f6f5f5;
+      display: block;
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 3px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .btn-nav-view:hover {
+      letter-spacing: 3px;
+      transition: 0.2s ease-in-out;
+      background-position: 0;
+    }
+    .aboutUs-hero {
+      position: relative;
+      height: 100vh;
+
+      .bg-image {
+        img {
+          width: 850px !important;
+          opacity: 1;
+          position: absolute;
+          right: -100px;
+          top: 100px;
+        }
+      }
+
+      .about_us_topic {
+        margin-top: 16rem;
+        font-size: 180px;
+        font-weight: 800;
+        color: black;
+        font-family: "Roboto Medium";
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+      }
+
+      .fullLogo-wrapper {
+        display: flex;
+        justify-content: end;
+
+        .fullLogo {
+
+          width: 350px;
+        }
+      }
+    }
+
+    .aboutus-contentArea {
+      margin-top: 5rem;
+      background-color: $main-color-dark;
+      width: 100%;
+      height: auto;
+      padding: 5rem 0 0 0;
+
+      .bg-rotateName {
+        position: relative;
+
+        .left-text {
+          left: -15rem;
+          transform: rotate(90deg);
+        }
+
+        .right-text {
+          right: -15rem;
+          transform: rotate(-90deg);
+        }
+      }
+      .textContent {
+        height: 800px;
+        width: 1200px;
+        background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
+        padding: 5rem;
+
+        .textContent-wrapper {
+          color: white;
+          text-align: center;
+
+          h1 {
+            color: white !important;
+            font-size: 42px !important;
+          }
+
+          p {
+            line-height: 26px;
+            font-family: "Roboto Light" !important;
+            font-weight: 100 !important;
+            font-size: 22px;
+          }
+        }
+
+        .KolaImg {
+          display: flex;
+          margin: auto;
+          width: 925px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .aboutUs-main {
+
+    .aboutUs-hero {
+      position: relative;
+      height: 100vh;
+
+      .bg-image {
+        img {
+          width: 750px !important;
+          opacity: 1;
+          position: absolute;
+          right: -100px;
+          top: 120px;
+        }
+      }
+
+      .about_us_topic {
+        margin-top: 16rem;
+        font-size: 180px;
+        font-weight: 800;
+        color: black;
+        font-family: "Roboto Medium";
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+      }
+
+      .fullLogo-wrapper {
+        display: flex;
+        justify-content: end;
+
+        .fullLogo {
+
+          width: 350px;
+        }
+      }
+    }
+
+    .aboutus-contentArea {
+      margin-top: 5rem;
+      background-color: $main-color-dark;
+      width: 100%;
+      height: auto;
+      padding: 5rem 0 0 0;
+
+      .bg-rotateName {
+        position: relative;
+
+        .left-text {
+          left: -22rem;
+          transform: rotate(90deg);
+        }
+
+        .right-text {
+          right: -22rem;
+          transform: rotate(-90deg);
+        }
+      }
+      .textContent {
+        height: 800px;
+        width: 1000px;
+        background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
+        padding: 5rem;
+
+        .textContent-wrapper {
+          color: white;
+          text-align: center;
+
+          h1 {
+            color: white !important;
+            font-size: 42px !important;
+          }
+
+          p {
+            line-height: 26px;
+            font-family: "Roboto Light" !important;
+            font-weight: 100 !important;
+            font-size: 22px;
+          }
+        }
+
+        .KolaImg {
+          display: flex;
+          margin: auto;
+          width: 815px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .aboutUs-main {
+    .aboutUs-hero {
+      position: relative;
+      height: 105vh;
+
+      .bg-image {
+        img {
+          width: 600px !important;
+          opacity: 1;
+          position: absolute;
+          right: -150px;
+
+          top: 350px;
+        }
+      }
+
+      .about_us_topic {
+        margin-top: 12rem;
+        margin-left: 3rem;
+        font-size: 150px;
+        font-weight: 800;
+        color: black;
+        font-family: "Roboto Medium";
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+      }
+
+      .fullLogo-wrapper {
+        display: flex;
+        justify-content: end;
+
+        .fullLogo {
+          width: 350px;
+        }
+      }
+    }
+
+    .aboutus-contentArea {
+      margin-top: 2rem;
+      background-color: $main-color-dark;
+      width: 100%;
+      height: auto;
+      padding: 5rem 0 0 0;
+
+      .bg-rotateName {
+        position: relative;
+
+        .side-text {
+          font-family: "Roboto";
+          font-size: 150px;
+          position: absolute;
+          top: 18rem;
+          letter-spacing: 1rem;
+          background: -webkit-linear-gradient(#101010, #08C164);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          margin-top: 50px;
+        }
+
+        .left-text {
+          left: -22rem;
+          transform: rotate(90deg);
+        }
+
+        .right-text {
+          right: -22rem;
+          transform: rotate(-90deg);
+        }
+      }
+
+
+      .textContent {
+        height: 800px;
+        width: 650px;
+        background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
+        padding: 5rem;
+
+        .textContent-wrapper {
+          color: white;
+          text-align: center;
+
+          h1 {
+            color: white !important;
+            font-size: 42px !important;
+          }
+
+          p {
+            line-height: 26px;
+            font-family: "Roboto Light" !important;
+            font-weight: 100 !important;
+            font-size: 22px;
+          }
+        }
+
+        .KolaImg {
+          display: flex;
+          margin: auto;
+          width: 545px;
+        }
+      }
+    }
+
+    .missionView {
+      color: white !important;
+      padding: 10rem 5rem;
+
+
+      p {
+        padding: 2rem 0;
+        text-align: center;
+        line-height: 32px;
+        font-family: "Roboto Light" !important;
+        font-weight: 100 !important;
+        font-size: 26px;
+      }
+
+      .contact-Us_para {
+        padding: 7rem 0 1rem 0;
+        text-align: center;
+        line-height: 32px;
+        font-family: "Roboto Light" !important;
+        font-weight: 100 !important;
+        font-size: 26px;
+      }
+
+      .nav-btn-bold {
+        text-decoration: underline !important;
+        font-weight: bolder !important;
+        font-size: 26px !important;
+      }
+
+      .hr-divider {
+        margin: 0 10rem;
+      }
+    }
+
+    .sliderView {
+      padding: 2rem;
+      margin-bottom: 2rem;
+
+      .slider-logos {
+
+        height: 50px;
+        width: 200px;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+@media (max-width: 426px) {
+
+  .aboutUs-main {
+    .aboutUs-hero {
+      position: relative;
+      height: 100vh;
+
+      .bg-image {
+        img {
+          width: 500px !important;
+          opacity: 1;
+          position: absolute;
+          right: -100px;
+          top: 380px;
+        }
+      }
+
+      .about_us_topic {
+        margin-top: 8rem;
+        font-size: 120px;
+        font-weight: 800;
+        color: black;
+        font-family: "Roboto Medium";
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+      }
+
+    }
+
+    .aboutus-contentArea {
+      margin-top: 5rem;
+      background-color: $main-color-dark;
+      width: 100%;
+      height: auto;
+      padding: 5rem 0 0 0;
+
+      .bg-rotateName {
+        position: relative;
+
+        .side-text {
+          font-family: "Roboto";
+          font-size: 102px;
+          position: absolute;
+          letter-spacing: 1rem;
+          background: -webkit-linear-gradient(#101010, #08C164);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          margin-top: 50px;
+          text-align: center;
+        }
+
+        .left-text {
+          top: -120px;
+          transform: rotate(0deg);
+        }
+
+        .right-text {
+          top: 650px;
+          transform: rotate(0deg);
+        }
+      }
+
+
+      .textContent {
+        height: 622px;
+        width: 100%;
+        background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
+        padding: 2rem 5rem;
+        margin: 5rem 0;
+
+        .KolaImg {
+          display: flex;
+          margin: auto;
+          width: 100%;
+        }
+      }
+    }
+
+    .sliderView {
+      padding: 2rem;
+      margin-bottom: 2rem;
+
+      .slider-logos {
+
+        height: 80px;
+        width: 200px;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+
+  .aboutUs-main {
+    .aboutUs-hero {
+      position: relative;
+      height: 100vh;
+
+      .bg-image {
+        img {
+          width: 450px !important;
+          opacity: 1;
+          position: absolute;
+          right: -100px;
+          top: 400px;
+        }
+      }
+
+      .about_us_topic {
+        margin-top: 8rem;
+        font-size: 110px;
+        font-weight: 800;
+        color: black;
+        font-family: "Roboto Medium";
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+      }
+
+    }
+
+    .aboutus-contentArea {
+      margin-top: 5rem;
+      background-color: $main-color-dark;
+      width: 100%;
+      height: auto;
+      padding: 5rem 0 0 0;
+
+      .bg-rotateName {
+        .side-text {
+          font-family: "Roboto";
+          font-size: 86px;
+          padding: 0 10px;
+          position: absolute;
+          letter-spacing: 1rem;
+          background: -webkit-linear-gradient(#101010, #08C164);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          margin-top: 50px;
+          text-align: center;
+        }
+
+        .left-text {
+          top: -120px;
+          transform: rotate(0deg);
+        }
+
+        .right-text {
+          font-size: 86px;
+          padding: 10px 0 0 10px;
+          top: 690px;
+          transform: rotate(0deg);
+        }
+      }
+
+      .textContent {
+        height: 669px;
+        width: 100%;
+        background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
+        padding: 2rem 5rem;
+        margin: 5rem 0;
+
+        .KolaImg {
+          display: flex;
+          margin: auto;
+          width: 100%;
+        }
+      }
+    }
+
+    .missionView {
+      color: white !important;
+      padding: 8rem 5rem;
+
+
+      p {
+        padding: 2rem 0;
+        text-align: center;
+        line-height: 32px;
+        font-family: "Roboto Light" !important;
+        font-weight: 100 !important;
+        font-size: 26px;
+      }
+
+      .contact-Us_para {
+        padding: 7rem 0 1rem 0;
+        text-align: center;
+        line-height: 32px;
+        font-family: "Roboto Light" !important;
+        font-weight: 100 !important;
+        font-size: 26px;
+      }
+
+      .nav-btn-bold {
+        text-decoration: underline !important;
+        font-weight: bolder !important;
+        font-size: 26px !important;
+      }
+
+      .hr-divider {
+        margin: 0 10rem;
+      }
+    }
+
+    .sliderView {
+      padding: 2rem;
+      margin-bottom: 2rem;
+
+      .slider-logos {
+
+        height: 80px;
+        width: 200px;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+@media (max-width: 321px) {
+
+  .aboutUs-main {
+    .aboutUs-hero {
+      position: relative;
+      height: 100vh;
+
+      .bg-image {
+        img {
+          width: 420px !important;
+          opacity: 1;
+          position: absolute;
+          right: -100px;
+          top: 420px;
+        }
+      }
+
+      .about_us_topic {
+        margin-top: 11rem;
+        font-size: 90px;
+      }
+
+    }
+
+    .aboutus-contentArea {
+
+      .bg-rotateName {
+        .side-text {
+          font-size: 80px;
+          position: absolute;
+        }
+
+        .left-text {
+          top: -120px;
+          transform: rotate(0deg);
+        }
+
+        .right-text {
+          font-size: 80px !important;
+          padding: 10px 0 0 10px;
+          top: 690px;
+          letter-spacing: 0.5rem;
+          transform: rotate(0deg);
+        }
+      }
+
+      .textContent {
+        height: 686px;
+        width: 100%;
+        background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
+        padding: 2rem 5rem;
+        margin: 5rem 0;
+
+        .KolaImg {
+          display: flex;
+          margin: auto;
+          width: 100%;
+        }
+      }
+    }
+
+    .missionView {
+      color: white !important;
+      padding: 4rem 5rem;
+
+
+      p {
+        padding: 2rem 0;
+        text-align: center;
+        line-height: 32px;
+        font-family: "Roboto Light" !important;
+        font-weight: 100 !important;
+        font-size: 22px;
+      }
+
+      .contact-Us_para {
+        padding: 5rem 0 1rem 0;
+        text-align: center;
+        line-height: 32px;
+        font-family: "Roboto Light" !important;
+        font-weight: 100 !important;
+        font-size: 22px;
+      }
+
+      .nav-btn-bold {
+        text-decoration: underline !important;
+        font-weight: bolder !important;
+        font-size: 26px !important;
+      }
+
+      .hr-divider {
+        margin: 1rem;
+      }
+    }
+
+    .sliderView {
+      padding: 2rem;
+      margin-bottom: 2rem;
+
+      .slider-logos {
+
+        height: 80px;
+        width: 200px;
+        object-fit: contain;
+      }
+    }
+  }
+}

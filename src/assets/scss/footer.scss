@@ -1,0 +1,247 @@
+@import "../../assets/scss/common/colors";
+@import "../../assets/scss/common/fonts";
+
+.custom-hr {
+  height: 1px;
+  background-color: #272727 !important;
+  border: none;
+}
+
+.footerCustom {
+  height: 250px;
+  color: white !important;
+  position: relative;
+  padding-top: 3.5rem;
+  padding-bottom: 12px;
+  z-index: 999999;
+  background-color: $main-color-dark;
+  border-top: #101010;
+  border-top-width: 1px;
+  border-top-style: solid;
+
+  .companyDetails-wrapper {
+    .footerLogo {
+      width: 250px !important;
+    }
+
+    .footer-desc {
+      margin-top: 10px;
+      font-size: 18px;
+      line-height: 22px;
+      font-family: "Roboto Light" !important;
+    }
+
+  }
+
+  .linkGrp {
+    display: flex;
+    flex-direction: column;
+
+    .communityJoin {
+      padding-top: 20px;
+
+      .community-btn-grp {
+
+        border-radius: 5px;
+
+        input {
+          height: 42px;
+          border-radius: 5px 0 0 5px !important;
+        }
+
+        button {
+          background-color: #08C164 !important;
+          height: 42px;;
+          border: none;
+          border-radius: 0 5px 5px 0 !important;
+        }
+      }
+
+      label {
+        font-size: 18px;
+        color: white;
+        font-family: "Roboto Medium" !important;
+      }
+    }
+
+    span {
+      font-size: 26px;
+      color: white;
+      font-weight: 600 !important;
+      font-family: "Roboto Medium" !important;
+    }
+
+    a {
+      padding-top: 15px;
+      font-size: 16px;
+      color: white;
+      font-family: "Roboto Thin" !important;
+    }
+    a:hover {
+      font-size: 18px;
+      color: white;
+      font-weight: 700;
+      font-family: "Roboto Thin" !important;
+    }
+  }
+
+}
+
+@media(max-width: 769px){
+  .footerCustom {
+    height: 275px;
+    color: white !important;
+    position: relative;
+    padding: 3.5rem 2rem 12rem 2rem;
+
+    .companyDetails-wrapper {
+      .footerLogo {
+        width: 250px !important;
+      }
+
+      .footer-desc {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: "Roboto Light" !important;
+      }
+
+    }
+
+    .linkGrp {
+      display: flex;
+      flex-direction: column;
+
+      .communityJoin {
+        padding-top: 20px;
+
+        .community-btn-grp {
+
+          border-radius: 5px;
+
+          input {
+            height: 42px;
+            border-radius: 5px 0 0 5px !important;
+          }
+
+          button {
+            background-color: #08C164 !important;
+            height: 42px;;
+            border: none;
+            border-radius: 0 5px 5px 0 !important;
+          }
+        }
+
+        label {
+          font-size: 18px;
+          color: white;
+          font-family: "Roboto Medium" !important;
+        }
+      }
+
+      span {
+        font-size: 22px;
+        color: white;
+        font-weight: 600 !important;
+        font-family: "Roboto Medium" !important;
+      }
+
+      a {
+        padding-top: 15px;
+        font-size: 16px;
+        color: white;
+        font-family: "Roboto Thin" !important;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 426px) {
+  .footerCustom {
+    height: auto;
+    color: white !important;
+    position: relative;
+    padding-top: 3.5rem;
+    padding-bottom: 12px;
+    z-index: 999999;
+    background-color: $main-color-dark;
+    border-top: #101010;
+    border-top-width: 1px;
+    border-top-style: solid;
+
+    .companyDetails-wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      .footerLogo {
+        margin: auto;
+      }
+
+      .footer-desc {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Roboto Light" !important;
+      }
+    }
+
+    .linkGrp {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 20px 0;
+
+      .communityJoin {
+        padding-top: 20px;
+
+        .community-btn-grp {
+          display: flex;
+          border-radius: 5px;
+          margin: auto;
+          justify-content: center;
+
+          input {
+
+            height: 42px;
+            width: 300px;
+            border-radius: 5px 0 0 5px !important;
+          }
+
+          button {
+            background-color: #08C164 !important;
+            height: 42px;;
+            border: none;
+            border-radius: 0 5px 5px 0 !important;
+          }
+        }
+
+        label {
+          font-size: 18px;
+          color: white;
+          font-family: "Roboto Medium" !important;
+        }
+      }
+
+      span {
+        font-size: 26px;
+        color: white;
+        font-weight: 600 !important;
+        font-family: "Roboto Medium" !important;
+      }
+
+      a {
+        padding-top: 15px;
+        font-size: 16px;
+        color: white;
+        font-family: "Roboto Thin" !important;
+      }
+    }
+
+  }
+}
+
+
