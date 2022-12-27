@@ -25,7 +25,8 @@ const CustomSlider = () => {
     }, []);
 
     return (
-        <div className='mainSliderWrapper'>
+        <div className='mainSliderWrapper '>
+
             <div class="carousel">
 
                 <div class="wrapper">
@@ -247,7 +248,7 @@ const CustomSlider = () => {
 
             </div>
 
-            <div className='loader'></div>
+
         </div>
     );
 };

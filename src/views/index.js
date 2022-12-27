@@ -114,7 +114,9 @@ class Home extends React.Component {
                         </Row>
 
                     </div>
-                    <div className="container position-relative">
+                    <div className="container  position-relative">
+
+                        <div className='loader'></div>
                         <CustomSlider/>
                     </div>
                 </div>
