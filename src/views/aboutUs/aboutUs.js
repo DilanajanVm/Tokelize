@@ -10,6 +10,7 @@ import Slider from "react-slick";
 import FooterComponent from "../../@core/layouts/components/footer";
 import Fade from "react-reveal/Fade";
 import {Zoom} from "react-reveal";
+import * as RouteConstant from "../../router/RouteConstant";
 
 class AboutUs extends React.Component {
     render() {
@@ -119,7 +120,9 @@ class AboutUs extends React.Component {
                         first
                     </p></Fade>
                     <div className='d-flex justify-content-center text-center'>
-                        <Fade top>     <a className='nav-btn-bold btn-nav-view ' href="/">Contact Us <Icon.ChevronsRight
+                        <Fade top>     <a className='nav-btn-bold btn-nav-view ' onClick={() => {
+                            localStorage.setItem('location', 2)
+                        }} href={RouteConstant.CONTACT_US_PATH}>Contact Us <Icon.ChevronsRight
                             color={'white'}/></a></Fade>
                     </div>
                 </div>
