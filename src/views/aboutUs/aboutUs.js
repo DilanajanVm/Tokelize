@@ -8,6 +8,8 @@ import {Col, Row} from "reactstrap";
 import * as Icon from "react-feather";
 import Slider from "react-slick";
 import FooterComponent from "../../@core/layouts/components/footer";
+import Fade from "react-reveal/Fade";
+import {Zoom} from "react-reveal";
 
 class AboutUs extends React.Component {
     render() {
@@ -51,16 +53,16 @@ class AboutUs extends React.Component {
         return <div className='aboutUs-main'>
             <div className='aboutUs-hero'>
                 <div className="bg-image">
-                    <img src={bg_AboutUs} alt=""/>
+                    <Fade right> <img src={bg_AboutUs} alt=""/> </Fade>
                 </div>
 
                 <div className="container">
                     <Row>
                         <Col sm={12} md={10} lg={10}>
-                            <h1 className='about_us_topic'>About Us</h1>
+                            <Fade left><h1 className='about_us_topic'>About Us</h1></Fade>
                         </Col>
                         <Col sm={12} md={7} lg={7} className='fullLogo-wrapper'>
-                            <img src={tokelized_logo} className='fullLogo' alt=""/>
+                            <Fade left> <img src={tokelized_logo} className='fullLogo' alt=""/> </Fade>
                         </Col>
                     </Row>
                 </div>
@@ -68,17 +70,21 @@ class AboutUs extends React.Component {
 
 
             <div className="aboutus-contentArea">
-                <div className="bg-rotateName">
-                    <h1 className='side-text left-text'>TOKELIZE</h1>
-                    <h1 className='side-text right-text'>TOKELIZE</h1>
-                </div>
+                <Fade bottom>
+                    <div className="bg-rotateName">
+                        <h1 className='side-text left-text'>TOKELIZE</h1>
+                        <h1 className='side-text right-text'>TOKELIZE</h1>
+                    </div>
+                </Fade>
 
                 <div className="container textContent">
                     <Row className='d-flex justify-content-center'>
                         <Col className='textContent-wrapper' sm={10} md={8} lg={8}>
-                            <hr/>
-                            <h1>About Us</h1>
-                            <p>
+                            <Fade top>
+                                <hr/>
+                            </Fade>
+                            <Fade top><h1>About Us</h1></Fade>
+                            <Fade top><p>
                                 Mission-driven communities empowered by blockchain technology have the potential to
                                 address climate change, biodiversity loss and the underlying social structures that got
                                 us here in the first place.
@@ -88,7 +94,7 @@ class AboutUs extends React.Component {
                                 most promising application of distributed ledger technology—also known as blockchain.
 
 
-                            </p>
+                            </p></Fade>
                         </Col>
                     </Row>
                     <img className='KolaImg' src={kolaView} alt=""/>
@@ -96,25 +102,25 @@ class AboutUs extends React.Component {
 
 
                 <div className="container missionView">
-                    <p>Mission-driven communities empowered by blockchain technology have the potential to address
+                    <Fade top>      <p>Mission-driven communities empowered by blockchain technology have the potential to address
                         climate change, biodiversity loss and the underlying social structures that got us here in the
                         first place.</p>
-
-                    <p>
+                    </Fade>
+                        <Fade top>      <p>
                         In the article below I will unpack this thesis and explain why the ReFi movement is the most
                         promising application of distributed ledger technology—also known as blockchain.
-                    </p>
+                    </p></Fade>
 
-                    <hr class='hr-divider'/>
+                            <Fade top>    <hr class='hr-divider'/></Fade>
 
-                    <p className='contact-Us_para'>
+                                <Fade top>       <p className='contact-Us_para'>
                         Mission-driven communities empowered by blockchain technology have the potential to address
                         climate change, biodiversity loss and the underlying social structures that got us here in the
                         first
-                    </p>
+                    </p></Fade>
                     <div className='d-flex justify-content-center text-center'>
-                        <a className='nav-btn-bold btn-nav-view ' href="/">Contact Us <Icon.ChevronsRight
-                            color={'white'}/></a>
+                        <Fade top>     <a className='nav-btn-bold btn-nav-view ' href="/">Contact Us <Icon.ChevronsRight
+                            color={'white'}/></a></Fade>
                     </div>
                 </div>
             </div>

@@ -180,7 +180,7 @@ const HorizontalLayout = (props) => {
                             <Link to={'/'} className={`navbar-brand  ${languageType}-navElement`}>
                                 <h4
                                     style={localStorage.getItem('location') === '1'? {backgroundImage: 'linear-gradient(to right, rgb(0 0 0), rgb(0 0 0) 100%, rgb(0 0 0 / 100%) 54%)'} : {}}
-                                    className={` mr-1 nav-btn navigationElement  ${activeNav === 0 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}
+                                    className={` mr-1 nav-btn navigationElement  ${localStorage.getItem('location') === '0' ? `nav-active-btn ` : ` nav-deactivate-btn`}`}
                                 >
                                     Home
                                 </h4>
@@ -193,7 +193,7 @@ const HorizontalLayout = (props) => {
                                       routerCheck(1)
                                   }}>
                                 <h4 style={{color:'black'}}
-                                    className={` mr-1 nav-btn navigationElement  ${activeNav === 1 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
+                                    className={` mr-1 nav-btn navigationElement  ${localStorage.getItem('location') === '1' ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
                                     About Us
                                 </h4>
                             </Link>
@@ -206,7 +206,7 @@ const HorizontalLayout = (props) => {
                                   }}>
                                 <h4
                                     style={localStorage.getItem('location') === '1'? {backgroundImage: 'linear-gradient(to right, rgb(0 0 0), rgb(0 0 0) 100%, rgb(0 0 0 / 100%) 54%)'} : {}}
-                                    className={` mr-1 nav-btn navigationElement  ${activeNav === 2 ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
+                                    className={` mr-1 nav-btn navigationElement  ${localStorage.getItem('location') === '2' ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
                                     Contact Us
                                 </h4>
                             </Link>

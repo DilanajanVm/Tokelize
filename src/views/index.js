@@ -17,6 +17,8 @@ import enternelKolaBrandLogo from '../assets/images/logo/eternel_logo_brand.png'
 import CustomSlider from "../component/Slider/CustomSlider";
 import * as Icon from 'react-feather';
 import * as RouteConstant from '../router/RouteConstant'
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 class Home extends React.Component {
 
@@ -29,34 +31,45 @@ class Home extends React.Component {
                     </div>
                     <div className="container details-area">
                         <Row>
+
                             <Col sm={12} md={12} lg={10} xl={10}>
+
                                 <img className='dialog-box-view' src={dialog_box} alt=""/>
-                                <h1 className='txt-mission'>
-                                    <span className='special-text'> Our mission </span> &nbsp;
-                                    is to make positive environmental
-                                    change feasible through Web3</h1>
+                                <Fade bottom>      <h1 className='txt-mission'>
+
+                                    <span className='special-text'> Our mission </span> &nbsp;  is to make positive environmental
+                                    change feasible through Web3
+
+                                    </h1>
+                                </Fade>
                             </Col>
+
                         </Row>
 
 
                         <Row className="vision-desc-holder">
                             <Col sm={12} md={12} lg={6} xl={6}>
                                 <div>
+                                    <Fade bottom>
                                     <p className="vision">
+
                                         Tokelize is a for-profit environmental impact NFT startup <br/> incorporated
                                         with the
                                         purpose of utilizing the power of NFTs to make real-world positive change.
+
                                     </p>
+                                    </Fade>
                                 </div>
                             </Col>
                         </Row>
 
 
-                        <Row className="row glass-card-holder">
+                        <Fade bottom>
+                            <Row className="row glass-card-holder">
                             <Col sm={12} md={12} lg={5} xl={5}>
                                 <div className="row glass-card">
                                     <Col xs={8} sm={8} md={8} lg={10} xl={10}>
-                                        <p className={'eternel_desc'}>
+                                         <p className={'eternel_desc'}>
                                             Explore Our 10K Unique NFT <br/>
                                             <b> Collection </b>
                                             <Icon.ChevronsRight color={'white'}/>
@@ -69,6 +82,8 @@ class Home extends React.Component {
                                 </div>
                             </Col>
                         </Row>
+
+                        </Fade>
                     </div>
 
                 </div>
@@ -82,20 +97,20 @@ class Home extends React.Component {
                     <div className="container">
                         <div className="row">
                             <Col sm={12} md={12} lg={4} xl={4}>
-                                <img className='about-logo' src={tokelize_light} alt=""/>
+                                <Zoom>      <img className='about-logo' src={tokelize_light} alt=""/>   </Zoom>
                             </Col>
                             <Col sm={0} md={0} lg={1} xl={1}> </Col>
                             <Col className="txt-content" sm={12} md={12} lg={7} xl={7}>
-                                <h1 className='topic-txt'>TOKELIZE</h1>
-                                <p className='para-about-txt'>Tokelize was founded in 2022 and incorporated in the city
+                                <Fade top>     <h1 className='topic-txt'>TOKELIZE</h1>        </Fade>
+                                <Fade top>     <p className='para-about-txt'>Tokelize was founded in 2022 and incorporated in the city
                                     of Dubai in the United Arab
                                     Emirates. With the mission of creating NFT projects that have a significant positive
                                     impact on our environment and society, Tokelize started with its first NFT
                                     collection called Eternal Koalas.</p>
+                                </Fade>
 
-
-                                <a className='btn-nav-view' href={RouteConstant.ABOUT_US_PATH}>About
-                                    Us <Icon.ChevronsRight color={'white'}/></a>
+                                <Fade top>     <a className='btn-nav-view' href={RouteConstant.ABOUT_US_PATH}>About
+                                    Us <Icon.ChevronsRight color={'white'}/></a>    </Fade>
                             </Col>
                         </div>
                     </div>
@@ -106,10 +121,10 @@ class Home extends React.Component {
                         <Row className='d-flex justify-content-center'>
                             <Col className='w-100 text-center' sm={12} md={8} lg={8}>
                                 <h1 className='topic-txt'>Latest View</h1>
-                                <p className='smallDesc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                <Zoom>       <p className='smallDesc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Aliquam assumenda
                                     consequatur ducimus excepturi laudantium, optio pariatur quas recusandae unde. Aut
-                                    autem cupiditate in ipsum itaque nesciunt placeat sapiente similique velit.</p>
+                                    autem cupiditate in ipsum itaque nesciunt placeat sapiente similique velit.</p>   </Zoom>
                             </Col>
                         </Row>
 
@@ -143,7 +158,8 @@ class Home extends React.Component {
 
                     <div className="container">
                         <Row>
-                            <Col className='refi-desc border-side' sm={12} md={6} lg={6} xl={6}><p
+                            <Col className='refi-desc border-side' sm={12} md={6} lg={6} xl={6}>
+                                <Zoom>     <p
                                 className='pr-2 test-refi'>Lorem ipsum
                                 dolor sit amet, consectetur adipisicing
                                 elit. Assumenda explicabo harum, illo ipsum minima mollitia necessitatibus omnis quos
@@ -163,10 +179,12 @@ class Home extends React.Component {
                                 tenetur
                                 velit veniam, veritatis voluptates voluptatum. Dolorum, fugit quibusdam. Aperiam
                                 commodi,
-                                tenetur.</p>
+                                tenetur.</p>   </Zoom>
                             </Col>
 
-                            <Col className='refi-desc' sm={12} md={6} lg={6} xl={6}><p className='pl-2'>Lorem ipsum
+                            <Col className='refi-desc' sm={12} md={6} lg={6} xl={6}>
+                                <Zoom>
+                                <p className='pl-2'>Lorem ipsum
                                 dolor sit amet,
                                 consectetur adipisicing
                                 elit. Assumenda explicabo harum,
@@ -187,7 +205,7 @@ class Home extends React.Component {
                                 tenetur
                                 velit veniam, veritatis voluptates voluptatum. Dolorum, fugit quibusdam. Aperiam
                                 commodi,
-                                tenetur.</p>
+                                tenetur.</p>   </Zoom>
                             </Col>
                         </Row>
                     </div>
@@ -201,8 +219,8 @@ class Home extends React.Component {
                                 <img src={enternelKolaBrandLogo} className='enternelLogo' alt=""/>
                             </Col>
                             <Col className='customeBorder' sm={12} md={8} lg={8}>
-                                <h1 className='eternelKola-topic'>Eternal <br/> Koalas</h1>
-                                <p className='eternelKola-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing
+                                <Fade top>      <h1 className='eternelKola-topic'>Eternal <br/> Koalas</h1>      </Fade>
+                                    <Fade top>      <p className='eternelKola-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing
                                     elit. Ad adipisci architecto
                                     autem cupiditate eos illo itaque laudantium, magni maiores minus nam nisi pariatur
                                     perspiciatis placeat quasi ratione, rem sunt voluptatem. Lorem ipsum dolor sit amet,
@@ -215,11 +233,11 @@ class Home extends React.Component {
                                     consectetur adipisicing elit. Aliquam atque est iusto molestiae praesentium qui rem
                                     veniam. Eum facilis nulla pariatur perspiciatis quas. Accusamus aut commodi delectus
                                     hic necessitatibus provident.</p>
-
+                                    </Fade>
                                 <div className="nav-btn-grp d-flex justify-content-end">
-                                    <a className='btn-nav-view' href={RouteConstant.CONTACT_US_PATH}>
+                                    <Fade top>       <a className='btn-nav-view' href={RouteConstant.CONTACT_US_PATH}>
                                         Contact Us <Icon.ChevronsRight color={'white'}/>
-                                    </a>
+                                    </a>      </Fade>
                                 </div>
                             </Col>
 
