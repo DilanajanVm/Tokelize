@@ -1,6 +1,11 @@
 @import "../../../assets/scss/common/colors";
 @import "../../../assets/scss/common/fonts";
 
+.icon-media:hover{
+  color:red !important;
+}
+
+
 .navBarCusStyle {
   .brand-logoDetails {
     position: absolute;

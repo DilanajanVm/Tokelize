@@ -103,24 +103,27 @@ class AboutUs extends React.Component {
 
 
                 <div className="container missionView">
-                    <Fade top>      <p>Mission-driven communities empowered by blockchain technology have the potential to address
+                    <Fade top><p>Mission-driven communities empowered by blockchain technology have the potential to
+                        address
                         climate change, biodiversity loss and the underlying social structures that got us here in the
                         first place.</p>
                     </Fade>
-                        <Fade top>      <p>
+                    <Fade top><p>
                         In the article below I will unpack this thesis and explain why the ReFi movement is the most
                         promising application of distributed ledger technology—also known as blockchain.
                     </p></Fade>
 
-                            <Fade top>    <hr class='hr-divider'/></Fade>
+                    <Fade top>
+                        <hr class='hr-divider'/>
+                    </Fade>
 
-                                <Fade top>       <p className='contact-Us_para'>
+                    <Fade top><p className='contact-Us_para'>
                         Mission-driven communities empowered by blockchain technology have the potential to address
                         climate change, biodiversity loss and the underlying social structures that got us here in the
                         first
                     </p></Fade>
                     <div className='d-flex justify-content-center text-center'>
-                        <Fade top>     <a className='nav-btn-bold btn-nav-view ' onClick={() => {
+                        <Fade top> <a className='nav-btn-bold btn-nav-view ' onClick={() => {
                             localStorage.setItem('location', 2)
                         }} href={RouteConstant.CONTACT_US_PATH}>Contact Us <Icon.ChevronsRight
                             color={'white'}/></a></Fade>

@@ -125,10 +125,9 @@ class Home extends React.Component {
                         <Row className='d-flex justify-content-center'>
                             <Col className='w-100 text-center' sm={12} md={8} lg={8}>
                                 <h1 className='topic-txt'>Latest View</h1>
-                                <Zoom><p className='smallDesc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Aliquam assumenda
-                                    consequatur ducimus excepturi laudantium, optio pariatur quas recusandae unde. Aut
-                                    autem cupiditate in ipsum itaque nesciunt placeat sapiente similique velit.</p>
+                                <Zoom><p className='smallDesc'>In Web3, NFTs act as proof of ownership over digital
+                                    identities and digital assets which ultimately empowers creative communities around
+                                    the world to reach our common goals and achieve our mission.</p>
                                 </Zoom>
                             </Col>
                         </Row>

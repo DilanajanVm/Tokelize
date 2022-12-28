@@ -224,7 +224,7 @@ const HorizontalLayout = (props) => {
                         </Link>
 
                         <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
-                            <Linkedin color={localStorage.getItem('location') === '1' ? '#000' : '#fff'} size={28}/>
+                            <Linkedin className={'icon-media'} color={localStorage.getItem('location') === '1' ? '#000' : '#fff'} size={28}/>
                         </Link>
                         <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
                             <Instagram color={localStorage.getItem('location') === '1' ? '#000' : '#fff'} size={28}/>
