@@ -142,10 +142,9 @@ class ContactUs extends React.Component {
                                     </Fade>
                                     <Fade top>
                                         <div className='d-flex justify-content-between px-5 mt-3'>
-                                            <Icon.Facebook className='social-media'/>
-                                            <Icon.Youtube className='social-media'/>
-                                            <Icon.Instagram className='social-media'/>
+                                            <Icon.Twitter className='social-media'/>
                                             <Icon.Linkedin className='social-media'/>
+                                            <Icon.Instagram className='social-media'/>
                                         </div>
                                     </Fade>
                                 </Col>

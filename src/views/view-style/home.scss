@@ -19,6 +19,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
+  font-family: "Montserrat Medium" !important;
 }
 
 .btn-nav-view:before {
@@ -50,7 +51,7 @@
 }
 
 .topic-txt {
-  font-family: Roboto;
+  font-family: "Montserrat SemiBold" !important;
   font-size: 150px;
   color: white;
   margin-bottom: 0;
@@ -79,21 +80,23 @@
       position: absolute;
       z-index: 99999 !important;
       font-weight: 800;
-      font-size: 68px;
+      font-size: 62px;
+      font-family: "Montserrat" !important;
       color: white;
     }
 
     .dialog-box-view {
       z-index: 1;
       position: absolute;
-      width: 430px;
+      width: 460px;
       left: 5px;
-      top: -3rem;
+      top: -3.5rem;
       transform: rotate(-3deg);
     }
 
     .special-text {
       z-index: 99999 !important;
+      font-family: "Montserrat" !important;
       font-weight: 800;
       color: $main-color-dark;
     }
@@ -105,7 +108,7 @@
         font-size: 18px;
         font-weight: 100 !important;
         color: white;
-        font-family: "Roboto Light";
+        font-family: "Montserrat Light" !important;
       }
     }
 
@@ -142,7 +145,7 @@
           line-height: 30px;
           font-weight: 600 !important;
           color: white;
-          font-family: "Roboto Light" !important;
+          font-family: "Montserrat Light" !important;
 
         }
       }
@@ -209,7 +212,7 @@
 
 
     p {
-      font-family: "Roboto Light" !important;
+      font-family: "Montserrat Light" !important;
       font-size: 20px;
       line-height: 28px;
     }
@@ -291,7 +294,7 @@
   }
 
   .smallDesc {
-    font-family: "Roboto Light" !important;
+    font-family: "Montserrat Light" !important;
     font-size: 20px;
     line-height: 28px;
   }
@@ -323,6 +326,8 @@
     overflow: hidden;
     min-width: 100%;
     height: 100%;
+    font-family: "Montserrat SemiBold" !important;
+
   }
 
   .marquee span {
@@ -369,7 +374,7 @@
     margin-top: 0 !important;
     padding-top: 0 !important;
     color: white;
-    font-family: "Roboto Light";
+    font-family: "Montserrat Light" !important;
     font-size: 18px;
     line-height: 24px !important;
     white-space: pre-wrap;
@@ -398,7 +403,7 @@
     margin-top: 0 !important;
     padding-top: 0 !important;
     color: white;
-    font-family: "Roboto Light";
+    font-family: "Montserrat Light" !important;
     font-size: 18px;
     line-height: 24px;
     white-space: pre-wrap;
@@ -489,7 +494,7 @@
             line-height: 30px;
             font-weight: 600 !important;
             color: white;
-            font-family: "Roboto Light" !important;
+            font-family: "Montserrat Light" !important;
 
           }
         }
@@ -556,7 +561,7 @@
 
 
       p {
-        font-family: "Roboto Light" !important;
+        font-family: "Montserrat Light" !important;
         font-size: 20px;
         line-height: 28px;
       }
@@ -571,7 +576,7 @@
     p {
       font-size: 20px;
       line-height: 24px !important;
-      font-family: "Roboto Light" !important;
+      font-family: "Montserrat Light" !important;
       text-align: left;
       padding: 2rem !important;
 
@@ -598,7 +603,7 @@
       margin-top: 0 !important;
       padding: 2rem;
       color: white;
-      font-family: "Roboto Light";
+      font-family: "Montserrat Light" !important;
       font-size: 18px;
       line-height: 24px;
       white-space: pre-wrap;
@@ -623,7 +628,7 @@
 @media(max-width: 769px) {
   .topic-txt {
     text-align: center;
-    font-family: Roboto;
+    font-family: "Montserrat SemiBold" !important;
     font-size: 100px;
     color: white;
     margin-bottom: 0;
@@ -650,12 +655,13 @@
         position: absolute;
         z-index: 99999 !important;
         font-weight: 800;
-        font-size: 68px;
+        font-size: 60px;
+        line-height: 78px;
         color: white;
       }
 
       .vision-desc-holder {
-        margin-top: 21rem;
+        margin-top: 23rem;
 
         .vision {
           font-size: 20px;
@@ -698,7 +704,7 @@
             line-height: 30px;
             font-weight: 600 !important;
             color: white;
-            font-family: "Roboto Light" !important;
+            font-family: "Montserrat Light" !important;
 
           }
         }
@@ -725,7 +731,7 @@
 
 
       p {
-        font-family: "Roboto Light" !important;
+        font-family: "Montserrat Light" !important;
         font-size: 20px;
         line-height: 28px;
         text-align: center;
@@ -756,7 +762,7 @@
     p {
       font-size: 20px;
       line-height: 24px !important;
-      font-family: "Roboto Light" !important;
+      font-family: "Montserrat Light" !important;
       text-align: left;
       padding: 2rem !important;
 
@@ -783,7 +789,7 @@
       margin-top: 0 !important;
       padding: 2rem;
       color: white;
-      font-family: "Roboto Light";
+      font-family: "Montserrat Light" !important;
       font-size: 18px;
       line-height: 24px;
       white-space: pre-wrap;
@@ -808,7 +814,7 @@
 @media(max-width: 426px) {
   .topic-txt {
     text-align: center;
-    font-family: Roboto;
+    font-family: "Montserrat SemiBold" !important;
     font-size: 100px;
     color: white;
     margin-bottom: 0;
@@ -837,7 +843,7 @@
         position: relative;
         z-index: 99999 !important;
         font-weight: 800;
-        font-size: 68px;
+        font-size: 58px;
         color: white;
       }
 
@@ -846,7 +852,7 @@
         position: absolute;
         width: 430px;
         left: 5px;
-        top: -3rem;
+        top: -3.5rem;
         transform: rotate(-3deg);
       }
 
@@ -864,7 +870,7 @@
           font-weight: 100 !important;
           color: white;
           text-align: center !important;
-          font-family: "Roboto Light" !important;
+          font-family: "Montserrat Light" !important;
         }
       }
 
@@ -903,7 +909,7 @@
             line-height: 30px;
             font-weight: 600 !important;
             color: white;
-            font-family: "Roboto Light" !important;
+            font-family: "Montserrat Light" !important;
 
           }
         }
@@ -930,7 +936,7 @@
 
 
       p {
-        font-family: "Roboto Light" !important;
+        font-family: "Montserrat Light" !important;
         font-size: 20px;
         line-height: 28px;
         text-align: center;
@@ -958,7 +964,7 @@
   .reFiSection {
 
     .marquee span {
-      font-family: "Roboto" !important;
+      font-family: "Montserrat" !important;
     }
 
 
@@ -966,7 +972,7 @@
       margin-top: 0 !important;
       padding-top: 0 !important;
       color: white;
-      font-family: "Roboto Light" !important;
+      font-family: "Montserrat Light" !important;
 
       white-space: pre-wrap;
     }
@@ -974,7 +980,7 @@
     p {
       font-size: 20px;
       line-height: 24px !important;
-      font-family: "Roboto Light" !important;
+      font-family: "Montserrat Light" !important;
       text-align: center;
       padding: 2rem 0 2rem 0 !important;
 
@@ -1001,7 +1007,7 @@
       margin-top: 0 !important;
       padding-top: 0 !important;
       color: white;
-      font-family: "Roboto Light";
+      font-family: "Montserrat Light" !important;
       font-size: 18px;
       line-height: 24px;
       white-space: pre-wrap;
@@ -1043,7 +1049,7 @@
             line-height: 30px;
             font-weight: 600 !important;
             color: white;
-            font-family: "Roboto Light" !important;
+            font-family: "Montserrat Light" !important;
 
           }
         }
@@ -1059,7 +1065,7 @@
 @media(max-width: 321px) {
   .topic-txt {
     text-align: center;
-    font-family: Roboto;
+    font-family: "Montserrat Light" !important;
     font-size: 100px;
     color: white;
     margin-bottom: 0;
@@ -1077,7 +1083,7 @@
         position: relative;
         z-index: 99999 !important;
         font-weight: 800;
-        font-size: 58px !important;
+        font-size: 50px !important;
         line-height: 85px;
         text-align: center !important;
         color: white;
@@ -1107,7 +1113,7 @@
           color: white;
           line-height: 30px;
           text-align: center !important;
-          font-family: "Roboto Light" !important;
+          font-family: "Montserrat Light" !important;
         }
       }
 
@@ -1128,7 +1134,7 @@
             line-height: 30px;
             font-weight: 600 !important;
             color: white;
-            font-family: "Roboto Light" !important;
+            font-family: "Montserrat Light" !important;
 
           }
         }
@@ -1158,7 +1164,7 @@
 
 
       p {
-        font-family: "Roboto Light" !important;
+        font-family: "Montserrat Light" !important;
         font-size: 20px;
         line-height: 28px;
         text-align: center;

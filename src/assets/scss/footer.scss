@@ -8,7 +8,7 @@
 }
 
 .footerCustom {
-  height: 250px;
+  height: 300px;
   color: white !important;
   position: relative;
   padding-top: 3.5rem;
@@ -28,7 +28,7 @@
       margin-top: 10px;
       font-size: 18px;
       line-height: 22px;
-      font-family: "Roboto Light" !important;
+      font-family: "Montserrat Thin" !important;
     }
 
   }
@@ -60,7 +60,7 @@
       label {
         font-size: 18px;
         color: white;
-        font-family: "Roboto Medium" !important;
+        font-family: "Montserrat Medium" !important;
       }
     }
 
@@ -68,20 +68,20 @@
       font-size: 26px;
       color: white;
       font-weight: 600 !important;
-      font-family: "Roboto Medium" !important;
+      font-family: "Montserrat Medium" !important;
     }
 
     a {
       padding-top: 15px;
       font-size: 16px;
       color: white;
-      font-family: "Roboto Thin" !important;
+      font-family: "Montserrat Thin" !important;
     }
     a:hover {
       font-size: 18px;
       color: white;
       font-weight: 700;
-      font-family: "Roboto Thin" !important;
+      font-family: "Montserrat Thin" !important;
     }
   }
 
@@ -89,7 +89,7 @@
 
 @media(max-width: 769px){
   .footerCustom {
-    height: 275px;
+    height: 300px;
     color: white !important;
     position: relative;
     padding: 3.5rem 2rem 12rem 2rem;
@@ -103,7 +103,7 @@
         margin-top: 10px;
         font-size: 16px;
         line-height: 22px;
-        font-family: "Roboto Light" !important;
+        font-family: "Montserrat Light" !important;
       }
 
     }
@@ -135,7 +135,7 @@
         label {
           font-size: 18px;
           color: white;
-          font-family: "Roboto Medium" !important;
+          font-family: "Montserrat Medium" !important;
         }
       }
 
@@ -143,14 +143,14 @@
         font-size: 22px;
         color: white;
         font-weight: 600 !important;
-        font-family: "Roboto Medium" !important;
+        font-family: "Montserrat Medium" !important;
       }
 
       a {
         padding-top: 15px;
         font-size: 16px;
         color: white;
-        font-family: "Roboto Thin" !important;
+        font-family: "Montserrat Thin" !important;
       }
     }
 

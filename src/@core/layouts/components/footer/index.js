@@ -48,11 +48,11 @@ class Footer extends React.Component {
                                     </Label>
                                     <div className='d-flex community-btn-grp'>
                                         <Input
-                                        id="exampleEmail"
-                                        name="email"
-                                        placeholder="Email"
-                                        type="email"
-                                    />
+                                            id="exampleEmail"
+                                            name="email"
+                                            placeholder="Email"
+                                            type="email"
+                                        />
                                         <Button>
                                             Submit
                                         </Button>
@@ -65,6 +65,13 @@ class Footer extends React.Component {
 
                     </Row>
                 </div>
+
+                <div className='w-100'>
+                    <hr className='w-100' style={{borderTopColor:'#08c164'}}/>
+                    <span className='w-100 d-flex justify-content-center'>© 2022 Tokelize FZCO</span>
+                </div>
+
+
             </div>
         )
     }

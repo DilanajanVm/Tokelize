@@ -8,7 +8,7 @@ import {handleMenuHidden, handleContentWidth} from '@store/actions/layout'
 
 // ** Third Party Components
 import classnames from 'classnames'
-import {ArrowUp, Facebook, Twitter, Youtube, Linkedin} from 'react-feather'
+import {ArrowUp, Facebook, Twitter, Youtube, Linkedin,Instagram} from 'react-feather'
 import ScrollToTop from 'react-scroll-up'
 import {Navbar, NavItem, Button} from 'reactstrap'
 
@@ -220,9 +220,6 @@ const HorizontalLayout = (props) => {
 
                     <NavItem className='d-flex' style={{paddingRight: '20px', marginTop: '0px'}}>
                         <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
-                            <Facebook color={localStorage.getItem('location') === '1' ? '#000' : '#fff'} size={28}/>
-                        </Link>
-                        <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
                             <Twitter color={localStorage.getItem('location') === '1' ? '#000' : '#fff'} size={28}/>
                         </Link>
 
@@ -230,7 +227,7 @@ const HorizontalLayout = (props) => {
                             <Linkedin color={localStorage.getItem('location') === '1' ? '#000' : '#fff'} size={28}/>
                         </Link>
                         <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
-                            <Youtube color={localStorage.getItem('location') === '1' ? '#000' : '#fff'} size={28}/>
+                            <Instagram color={localStorage.getItem('location') === '1' ? '#000' : '#fff'} size={28}/>
                         </Link>
 
 

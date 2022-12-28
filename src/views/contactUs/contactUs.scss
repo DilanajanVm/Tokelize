@@ -17,14 +17,16 @@
     margin-top: 18rem;
 
     h1 {
+      font-family: "Montserrat SemiBold" !important;
       color: white;
-      font-size: 150px;
+      font-size: 130px;
       padding-bottom: 0 !important;
       margin-bottom: 0 !important;
       line-height: 120px !important;
     }
 
     h2 {
+      font-family: "Montserrat" !important;
       color: white;
       font-size: 40px !important;
       margin-bottom: 0;
@@ -35,7 +37,7 @@
       margin-top: 0;
       padding-top: 0;
       color: white !important;
-      font-family: "Roboto Light" !important;
+      font-family: "Montserrat Thin" !important;
       font-size: 22px;
       line-height: 30px;
     }
@@ -78,6 +80,8 @@
         padding-bottom: 1rem;
 
         input {
+          color: white;
+          font-family: "Montserrat" !important;
           background-color: transparent !important;
         }
 
@@ -85,17 +89,22 @@
 
 
       textarea {
+        color: white;
+        font-family: "Montserrat" !important;
         height: 150px;
         background-color: transparent !important;
       }
 
       label {
+        font-family: "Montserrat" !important;
         font-size: 18px !important;
         color: white !important;
         padding-bottom: 5px !important;
       }
 
       .btn-contact-us {
+        color: white;
+        font-family: "Montserrat" !important;
         margin: 1rem 0;
         background-color: #0C7938 !important;
         border: none;

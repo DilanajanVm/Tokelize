@@ -64,7 +64,8 @@
       font-size: 180px;
       font-weight: 800;
       color: black;
-      font-family: "Roboto Medium";
+      text-transform:capitalize !important;
+      font-family: "Montserrat Medium" !important;
       margin-bottom: 0 !important;
       padding-bottom: 0 !important;
     }
@@ -91,7 +92,7 @@
       position: relative;
 
       .side-text {
-        font-family: "Roboto";
+        font-family: "Montserrat" !important;
         font-size: 150px;
         position: absolute;
         top: 18rem;
@@ -116,7 +117,7 @@
 
 
     .textContent {
-      height: 800px;
+      height: 825px;
       width: 1000px;
       background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
       padding: 5rem;
@@ -132,7 +133,7 @@
 
         p {
           line-height: 26px;
-          font-family: "Roboto Light" !important;
+          font-family: "Montserrat Thin" !important;
           font-weight: 100 !important;
           font-size: 22px;
         }
@@ -155,7 +156,7 @@
       padding: 2rem 0;
       text-align: center;
       line-height: 32px;
-      font-family: "Roboto Light" !important;
+      font-family: "Montserrat Thin" !important;
       font-weight: 100 !important;
       font-size: 26px;
     }
@@ -164,7 +165,7 @@
       padding: 7rem 0 1rem 0;
       text-align: center;
       line-height: 32px;
-      font-family: "Roboto Light" !important;
+      font-family: "Montserrat Thin" !important;
       font-weight: 100 !important;
       font-size: 26px;
     }
@@ -251,7 +252,7 @@
         font-size: 180px;
         font-weight: 800;
         color: black;
-        font-family: "Roboto Medium";
+        font-family: "Montserrat Medium" !important;
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
       }
@@ -288,7 +289,7 @@
         }
       }
       .textContent {
-        height: 800px;
+        height: 825px;
         width: 1200px;
         background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
         padding: 5rem;
@@ -304,7 +305,7 @@
 
           p {
             line-height: 26px;
-            font-family: "Roboto Light" !important;
+            font-family: "Montserrat Thin" !important;
             font-weight: 100 !important;
             font-size: 22px;
           }
@@ -342,7 +343,7 @@
         font-size: 180px;
         font-weight: 800;
         color: black;
-        font-family: "Roboto Medium";
+        font-family: "Montserrat Medium" !important;
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
       }
@@ -379,7 +380,7 @@
         }
       }
       .textContent {
-        height: 800px;
+        height: 825px;
         width: 1000px;
         background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
         padding: 5rem;
@@ -395,7 +396,7 @@
 
           p {
             line-height: 26px;
-            font-family: "Roboto Light" !important;
+            font-family: "Montserrat Thin" !important;
             font-weight: 100 !important;
             font-size: 22px;
           }
@@ -434,7 +435,7 @@
         font-size: 150px;
         font-weight: 800;
         color: black;
-        font-family: "Roboto Medium";
+        font-family: "Montserrat Medium" !important;
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
       }
@@ -460,7 +461,7 @@
         position: relative;
 
         .side-text {
-          font-family: "Roboto";
+          font-family: "Montserrat" !important;
           font-size: 150px;
           position: absolute;
           top: 18rem;
@@ -472,19 +473,19 @@
         }
 
         .left-text {
-          left: -22rem;
+          left: -25rem;
           transform: rotate(90deg);
         }
 
         .right-text {
-          right: -22rem;
+          right: -25rem;
           transform: rotate(-90deg);
         }
       }
 
 
       .textContent {
-        height: 800px;
+        height: 825px;
         width: 650px;
         background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
         padding: 5rem;
@@ -500,7 +501,7 @@
 
           p {
             line-height: 26px;
-            font-family: "Roboto Light" !important;
+            font-family: "Montserrat Thin" !important;
             font-weight: 100 !important;
             font-size: 22px;
           }
@@ -523,7 +524,7 @@
         padding: 2rem 0;
         text-align: center;
         line-height: 32px;
-        font-family: "Roboto Light" !important;
+        font-family: "Montserrat Thin" !important;
         font-weight: 100 !important;
         font-size: 26px;
       }
@@ -532,7 +533,7 @@
         padding: 7rem 0 1rem 0;
         text-align: center;
         line-height: 32px;
-        font-family: "Roboto Light" !important;
+        font-family: "Montserrat Thin" !important;
         font-weight: 100 !important;
         font-size: 26px;
       }
@@ -584,7 +585,7 @@
         font-size: 120px;
         font-weight: 800;
         color: black;
-        font-family: "Roboto Medium";
+        font-family: "Montserrat Medium" !important;
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
       }
@@ -602,8 +603,8 @@
         position: relative;
 
         .side-text {
-          font-family: "Roboto";
-          font-size: 102px;
+          font-family: "Montserrat" !important;
+          font-size: 85px;
           position: absolute;
           letter-spacing: 1rem;
           background: -webkit-linear-gradient(#101010, #08C164);
@@ -615,18 +616,20 @@
 
         .left-text {
           top: -120px;
+          left: 1rem;
           transform: rotate(0deg);
         }
 
         .right-text {
-          top: 650px;
+          right: 0;
+          top: 680px;
           transform: rotate(0deg);
         }
       }
 
 
       .textContent {
-        height: 622px;
+        height: 650px;
         width: 100%;
         background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
         padding: 2rem 5rem;
@@ -676,7 +679,7 @@
         font-size: 110px;
         font-weight: 800;
         color: black;
-        font-family: "Roboto Medium";
+        font-family: "Montserrat Medium" !important;
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
       }
@@ -692,8 +695,8 @@
 
       .bg-rotateName {
         .side-text {
-          font-family: "Roboto";
-          font-size: 86px;
+          font-family: "Montserrat" !important;
+          font-size: 75px;
           padding: 0 10px;
           position: absolute;
           letter-spacing: 1rem;
@@ -706,11 +709,13 @@
 
         .left-text {
           top: -120px;
+          left: 0;
           transform: rotate(0deg);
         }
 
         .right-text {
-          font-size: 86px;
+          font-size: 75px;
+          right: -0.5rem;
           padding: 10px 0 0 10px;
           top: 690px;
           transform: rotate(0deg);
@@ -718,7 +723,7 @@
       }
 
       .textContent {
-        height: 669px;
+        height: 668px;
         width: 100%;
         background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
         padding: 2rem 5rem;
@@ -741,7 +746,7 @@
         padding: 2rem 0;
         text-align: center;
         line-height: 32px;
-        font-family: "Roboto Light" !important;
+        font-family: "Montserrat Thin" !important;
         font-weight: 100 !important;
         font-size: 26px;
       }
@@ -750,7 +755,7 @@
         padding: 7rem 0 1rem 0;
         text-align: center;
         line-height: 32px;
-        font-family: "Roboto Light" !important;
+        font-family: "Montserrat Thin" !important;
         font-weight: 100 !important;
         font-size: 26px;
       }
@@ -808,26 +813,27 @@
 
       .bg-rotateName {
         .side-text {
-          font-size: 80px;
+          font-size: 60px;
           position: absolute;
         }
 
         .left-text {
-          top: -120px;
+          top: -100px;
           transform: rotate(0deg);
         }
 
         .right-text {
-          font-size: 80px !important;
+          font-size: 60px !important;
           padding: 10px 0 0 10px;
-          top: 690px;
-          letter-spacing: 0.5rem;
+          top: 750px;
+          right: 0;
+          letter-spacing:1rem;
           transform: rotate(0deg);
         }
       }
 
       .textContent {
-        height: 686px;
+        height: 738px;
         width: 100%;
         background: linear-gradient(179.1deg, rgba(8, 193, 100, 0) 0.75%, #08C164 99.23%);
         padding: 2rem 5rem;
@@ -850,7 +856,7 @@
         padding: 2rem 0;
         text-align: center;
         line-height: 32px;
-        font-family: "Roboto Light" !important;
+        font-family: "Montserrat Thin" !important;
         font-weight: 100 !important;
         font-size: 22px;
       }
@@ -859,7 +865,7 @@
         padding: 5rem 0 1rem 0;
         text-align: center;
         line-height: 32px;
-        font-family: "Roboto Light" !important;
+        font-family: "Montserrat Thin" !important;
         font-weight: 100 !important;
         font-size: 22px;
       }
