@@ -8,7 +8,7 @@ import {handleMenuHidden, handleContentWidth} from '@store/actions/layout'
 
 // ** Third Party Components
 import classnames from 'classnames'
-import {ArrowUp} from 'react-feather'
+import {ArrowUp, Facebook, Twitter, Youtube, Linkedin} from 'react-feather'
 import ScrollToTop from 'react-scroll-up'
 import {Navbar, NavItem, Button} from 'reactstrap'
 
@@ -47,6 +47,7 @@ import LogoEng from '../../assets/images/logo/full logo white.png'
 import LogoEngBlack from '../../assets/images/logo/full logo white.png'
 import {StorageStrings} from "../../const/commonConst";
 import {LAN} from "../../router/RouteConstant";
+import Fade from "react-reveal/Fade";
 
 const HorizontalLayout = (props) => {
     let lan = props.languagePicker;
@@ -161,10 +162,11 @@ const HorizontalLayout = (props) => {
                             <div style={{display: 'flex', flexDirection: 'row'}}
                                  onClick={() => props.RefreshNavBard(true)}>
                   <span>
-             {  localStorage.getItem('location') !== '1' ?     <img className='brand-logoDetails' width='200px' style={{margin: '20px 10px 10px 30px'}}
-                         src={LogoEng} alt='logo'/>  :
-                      <img className='brand-logoDetails' width='200px' style={{margin: '20px 10px 10px 30px'}}
-                         src={LogoEngBlack} alt='logo'/>}
+             {localStorage.getItem('location') !== '1' ?
+                 <img className='brand-logoDetails' width='200px' style={{margin: '20px 10px 10px 30px'}}
+                      src={LogoEng} alt='logo'/> :
+                 <img className='brand-logoDetails' width='200px' style={{margin: '20px 10px 10px 30px'}}
+                      src={LogoEngBlack} alt='logo'/>}
                   </span>
                             </div>
                         </Link>
@@ -179,7 +181,7 @@ const HorizontalLayout = (props) => {
                                  }}>
                             <Link to={'/'} className={`navbar-brand  ${languageType}-navElement`}>
                                 <h4
-                                    style={localStorage.getItem('location') === '1'? {backgroundImage: 'linear-gradient(to right, rgb(0 0 0), rgb(0 0 0) 100%, rgb(0 0 0 / 100%) 54%)'} : {}}
+                                    style={localStorage.getItem('location') === '1' ? {backgroundImage: 'linear-gradient(to right, rgb(0 0 0), rgb(0 0 0) 100%, rgb(0 0 0 / 100%) 54%)'} : {}}
                                     className={` mr-1 nav-btn navigationElement  ${localStorage.getItem('location') === '0' ? `nav-active-btn ` : ` nav-deactivate-btn`}`}
                                 >
                                     Home
@@ -192,7 +194,7 @@ const HorizontalLayout = (props) => {
                                   onClick={() => {
                                       routerCheck(1)
                                   }}>
-                                <h4 style={{color:'black'}}
+                                <h4 style={{color: 'black'}}
                                     className={` mr-1 nav-btn navigationElement  ${localStorage.getItem('location') === '1' ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
                                     About Us
                                 </h4>
@@ -205,7 +207,7 @@ const HorizontalLayout = (props) => {
                                       routerCheck(2)
                                   }}>
                                 <h4
-                                    style={localStorage.getItem('location') === '1'? {backgroundImage: 'linear-gradient(to right, rgb(0 0 0), rgb(0 0 0) 100%, rgb(0 0 0 / 100%) 54%)'} : {}}
+                                    style={localStorage.getItem('location') === '1' ? {backgroundImage: 'linear-gradient(to right, rgb(0 0 0), rgb(0 0 0) 100%, rgb(0 0 0 / 100%) 54%)'} : {}}
                                     className={` mr-1 nav-btn navigationElement  ${localStorage.getItem('location') === '2' ? `nav-active-btn ` : ` nav-deactivate-btn`}`}>
                                     Contact Us
                                 </h4>
@@ -214,6 +216,32 @@ const HorizontalLayout = (props) => {
 
 
                     </div>
+
+
+                    <NavItem className='d-flex' style={{paddingRight: '20px', marginTop: '0px'}}>
+                        <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
+                            <Facebook color={localStorage.getItem('location') === '1' ? '#000' : '#fff'} size={28}/>
+                        </Link>
+                        <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
+                            <Twitter color={localStorage.getItem('location') === '1' ? '#000' : '#fff'} size={28}/>
+                        </Link>
+
+                        <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
+                            <Linkedin color={localStorage.getItem('location') === '1' ? '#000' : '#fff'} size={28}/>
+                        </Link>
+                        <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
+                            <Youtube color={localStorage.getItem('location') === '1' ? '#000' : '#fff'} size={28}/>
+                        </Link>
+
+
+                        {/*<div className='d-flex justify-content-between px-5 mt-3'>*/}
+                        {/*    <Icon.Facebook className='social-media'/>*/}
+                        {/*    <Icon.Youtube className='social-media'/>*/}
+                        {/*    <Icon.Instagram className='social-media'/>*/}
+                        {/*    <Icon.Linkedin className='social-media'/>*/}
+                        {/*</div>*/}
+
+                    </NavItem>
                 </div>
 
             </Navbar>

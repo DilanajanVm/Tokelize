@@ -1,7 +1,7 @@
 // ** Dropdowns Imports
 import React, {Fragment, useEffect, useState} from 'react'
 import '../../../../views/view-style/navBarMobile.scss'
-import {Sun, Moon, Menu} from 'react-feather'
+import {Sun, Moon, Menu, Facebook, Twitter, Linkedin, Youtube} from 'react-feather'
 import {Button, NavItem, Row} from 'reactstrap'
 import {Link} from 'react-router-dom'
 import * as constant from '../../../../router/RouteConstant'
@@ -186,6 +186,30 @@ const NavbarUser = props => {
                     </ul>
 
 
+                    <ul className='navbar-nav d-xl-none d-flex justify-content-end align-items-center' style={{paddingRight: '20px', marginTop: '0px'}}>
+                        <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
+                            <Facebook color={'#000'} size={28}/>
+                        </Link>
+                        <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
+                            <Twitter color={'#000'} size={28}/>
+                        </Link>
+
+                        <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
+                            <Linkedin color={'#000'} size={28}/>
+                        </Link>
+                        <Link to={constant.CONTACT_US_PATH} className={`navbar-brand mx-2`} data-replace="like This">
+                            <Youtube color={'#000'} size={28}/>
+                        </Link>
+
+
+                        {/*<div className='d-flex justify-content-between px-5 mt-3'>*/}
+                        {/*    <Icon.Facebook className='social-media'/>*/}
+                        {/*    <Icon.Youtube className='social-media'/>*/}
+                        {/*    <Icon.Instagram className='social-media'/>*/}
+                        {/*    <Icon.Linkedin className='social-media'/>*/}
+                        {/*</div>*/}
+
+                    </ul>
 
                 </div>
             </div>
